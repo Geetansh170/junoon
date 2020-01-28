@@ -7,7 +7,7 @@ const App = () => {
   return (
     <Router>
       <div className='App'>
-        <div className='container'>
+        <div>
           {/* <h1>LETS MAKE THIS BRO</h1> */}
           <Switch>
             <Route exact path='/home' component={Home} />
