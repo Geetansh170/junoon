@@ -4,38 +4,6 @@ const Insta_gal = () => {
   return (
     <Fragment>
       <div>
-        <meta charSet='utf-8' />
-        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-        <link rel='shortcut icon' href='style/images/favicon.png' />
-        <title>Missio</title>
-        <link
-          rel='stylesheet'
-          type='text/css'
-          href='style/css/bootstrap.min.css'
-        />
-        <link rel='stylesheet' type='text/css' href='style/css/plugins.css' />
-        <link
-          rel='stylesheet'
-          type='text/css'
-          href='style/revolution/css/settings.css'
-        />
-        <link
-          rel='stylesheet'
-          type='text/css'
-          href='style/revolution/css/layers.css'
-        />
-        <link
-          rel='stylesheet'
-          type='text/css'
-          href='style/revolution/css/navigation.css'
-        />
-        <link rel='stylesheet' type='text/css' href='style/type/icons.css' />
-        <link rel='stylesheet' type='text/css' href='style.css' />
-        <link
-          rel='stylesheet'
-          type='text/css'
-          href='style/css/color/lavender.css'
-        />
         <div className='content-wrapper'>
           <nav className='navbar center navbar-expand-lg'>
             <div className='container flex-lg-column'>
@@ -44,7 +12,7 @@ const Insta_gal = () => {
                   <a href='index.html'>
                     <img
                       src='#'
-                      srcSet='style/images/logo.png 1x, style/images/logo@2x.png 2x'
+                      srcSet='style/images/junoon-black.png 1x, style/images/junoon-black.png 3x'
                       alt=''
                     />
                   </a>
@@ -1078,9 +1046,9 @@ const Insta_gal = () => {
           </nav>
           <div className='wrapper light-wrapper'>
             <div className='container inner pt-70'>
-              <h1 className='heading text-center'>Hi, This is Missio</h1>
+              <h1 className='heading text-center'>THIS  IS  JUNOON</h1>
               <h2 className='sub-heading2 text-center'>
-                Wedding, Fashion, Event Photographer
+                Our recent Instagram feed
               </h2>
               <div className='space50' />
               <div className='tiles grid'>
@@ -1250,13 +1218,13 @@ const Insta_gal = () => {
             <div className='container inner'>
               <div className='row d-md-flex align-items-md-center'>
                 <div className='col-md-4 text-center text-md-left'>
-                  <p className='mb-0'>© 2019 Missio. All rights reserved.</p>
+                  
                 </div>
                 {/*/column */}
                 <div className='col-md-4 text-center'>
                   <img
                     src='#'
-                    srcSet='style/images/logo-light.png 1x, style/images/logo-light@2x.png 2x'
+                    srcSet='style/images/junoon-white.png 1x, style/images/junoon-white.png 4x'
                     alt=''
                   />
                 </div>

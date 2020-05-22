@@ -43,7 +43,7 @@ const Contact_us = () => {
                 <a href='index.html'>
                   <img
                     src='#'
-                    srcSet='style/images/logo.png 1x, style/images/logo@2x.png 2x'
+                    srcSet='style/images/junoon-black.png 1x, style/images/junoon-black.png 3x'
                     alt=''
                   />
                 </a>
@@ -1002,7 +1002,7 @@ const Contact_us = () => {
                   <div className='col-md-4'>
                     {" "}
                     <span className='icon icon-color color-default fs-48 mb-10'>
-                      <i className='si-camping_map' />
+                      <i className='fa fa-facebook-f' />
                     </span>
                     <p>
                       Moon Street Light Avenue
@@ -1013,7 +1013,7 @@ const Contact_us = () => {
                   <div className='col-md-4'>
                     {" "}
                     <span className='icon icon-color color-default fs-48 mb-10'>
-                      <i className='si-phone_phone-ringing' />
+                      <i className='fa fa-instagram' />
                     </span>
                     <p>
                       00 (123) 456 78 90
@@ -1040,91 +1040,7 @@ const Contact_us = () => {
                 </div>
                 {/*/.row */}
                 <div className='space30' />
-                <div className='form-container'>
-                  <form
-                    action='contact/vanilla-form.php'
-                    method='post'
-                    className='vanilla vanilla-form'
-                    noValidate
-                  >
-                    <div className='row text-center'>
-                      <div className='col-md-6 pr-10'>
-                        <div className='form-group'>
-                          <input
-                            type='text'
-                            className='form-control'
-                            name='name'
-                            placeholder='Your name'
-                            required='required'
-                          />
-                        </div>
-                        {/*/.form-group */}
-                      </div>
-                      {/*/column */}
-                      <div className='col-md-6 pl-10'>
-                        <div className='form-group'>
-                          <input
-                            type='email'
-                            className='form-control'
-                            name='email'
-                            placeholder='Your e-mail'
-                            required='required'
-                          />
-                        </div>
-                        {/*/.form-group */}
-                      </div>
-                      {/*/column */}
-                      <div className='col-md-6 pr-10'>
-                        <div className='form-group'>
-                          <input
-                            type='tel'
-                            className='form-control'
-                            name='tel'
-                            placeholder='Phone'
-                          />
-                        </div>
-                        {/*/.form-group */}
-                      </div>
-                      {/*/column */}
-                      <div className='col-md-6 pl-10'>
-                        <div className='form-group'>
-                          <input
-                            type='text'
-                            className='form-control'
-                            name='subject'
-                            placeholder='Subject'
-                          />
-                        </div>
-                        {/*/.form-group */}
-                      </div>
-                      {/*/column */}
-                      <div className='col-12'>
-                        <textarea
-                          name='message'
-                          className='form-control'
-                          rows={3}
-                          placeholder='Type your message here...'
-                          required
-                          defaultValue={""}
-                        />
-                        <div className='space20' />
-                        <button
-                          type='submit'
-                          className='btn'
-                          data-error='Fix errors'
-                          data-processing='Sending...'
-                          data-success='Thank you!'
-                        >
-                          Submit
-                        </button>
-                        <footer className='notification-box' />
-                      </div>
-                      {/*/column */}
-                    </div>
-                    {/*/.row */}
-                  </form>
-                  {/*/.vanilla-form */}
-                </div>
+                
                 {/*/.form-container */}
               </div>
               {/* /column */}
@@ -1134,56 +1050,7 @@ const Contact_us = () => {
           {/* /.container */}
         </div>
         {/* /.wrapper */}
-        <footer className='dark-wrapper inverse-text'>
-          <div className='container inner'>
-            <div className='row d-md-flex align-items-md-center'>
-              <div className='col-md-4 text-center text-md-left'>
-                <p className='mb-0'>© 2019 Missio. All rights reserved.</p>
-              </div>
-              {/*/column */}
-              <div className='col-md-4 text-center'>
-                <img
-                  src='#'
-                  srcSet='style/images/logo-light.png 1x, style/images/logo-light@2x.png 2x'
-                  alt=''
-                />
-              </div>
-              {/*/column */}
-              <div className='col-md-4 text-center text-md-right'>
-                <ul className='social social-mute social-s mt-10'>
-                  <li>
-                    <a href='#'>
-                      <i className='fa fa-twitter' />
-                    </a>
-                  </li>
-                  <li>
-                    <a href='#'>
-                      <i className='fa fa-facebook-f' />
-                    </a>
-                  </li>
-                  <li>
-                    <a href='#'>
-                      <i className='fa fa-pinterest' />
-                    </a>
-                  </li>
-                  <li>
-                    <a href='#'>
-                      <i className='fa fa-vimeo' />
-                    </a>
-                  </li>
-                  <li>
-                    <a href='#'>
-                      <i className='fa fa-instagram' />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              {/*/column */}
-            </div>
-            {/*/.row */}
-          </div>
-          {/* /.container */}
-        </footer>
+        
       </div>
       {/* /.content-wrapper */}
       {/* SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems! The following part can be removed on Server for On Demand Loading) */}

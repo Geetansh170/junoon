@@ -43,8 +43,9 @@ const About = () => {
                 <div className='navbar-brand'>
                   <a href='index.html'>
                     <img
+                      style={{width:"400px"}}
                       src='#'
-                      srcSet='style/images/logo.png 1x, style/images/logo@2x.png 2x'
+                      srcSet='style/images/junoon-black.png 1x, style/images/junoon-black.png 3x'
                       alt=''
                     />
                   </a>
@@ -1205,38 +1206,11 @@ const About = () => {
           {/* /.wrapper */}
           <div className='wrapper gray-wrapper'>
             <div className='container inner'>
+            <h1 className='heading text-center'>Our Departments</h1>
               <div className='row'>
-                <div className='col-md-4'>
-                  <h4 className='mb-20'>Our Skills</h4>
-                  <ul className='progress-list'>
-                    <li>
-                      <p>Photoshop</p>
-                      <div
-                        className='progressbar line lavender'
-                        data-value={90}
-                      />
-                    </li>
-                    <li>
-                      <p>Final Cut</p>
-                      <div className='progressbar line rose' data-value={80} />
-                    </li>
-                    <li>
-                      <p>Studio Photography</p>
-                      <div className='progressbar line leaf' data-value={85} />
-                    </li>
-                    <li>
-                      <p>Motion Video</p>
-                      <div
-                        className='progressbar line yellow'
-                        data-value={65}
-                      />
-                    </li>
-                  </ul>
-                  {/* /.progress-list */}
-                </div>
                 {/*/column */}
                 <div className='col-md-4'>
-                  <h4 className='mb-20'>What is Our Process?</h4>
+                  <h4 className='mb-20'>Department 1</h4>
                   <p>
                     Duis mollis, est non commodo luctus, nisi porttitor ligula,
                     eget lacinia odio sem nec elit. Aenean eu leo quam.
@@ -1252,19 +1226,79 @@ const About = () => {
                 </div>
                 {/* /column */}
                 <div className='col-md-4'>
-                  <h4 className='mb-20'>Why Choose Us?</h4>
+                  <h4 className='mb-20'>Department 2</h4>
                   <p>
-                    Vestibulum id ligula porta felis euismod semper. Cras mattis
-                    consectetur purus sit amet fermentum. Donec ullamcorper
-                    nulla non metus. Etiam porta sem malesuada magna mollis
-                    euismod.
+                    Duis mollis, est non commodo luctus, nisi porttitor ligula,
+                    eget lacinia odio sem nec elit. Aenean eu leo quam.
+                    Pellentesque ornare sem. Nullam id dolor id nibh ultricies
+                    vehicula ut id elit ullamcorper.
                   </p>
-                  <ul className='unordered-list list-default'>
-                    <li>Donec ullamcorper nulla non metus auctor.</li>
-                    <li>Cras justo odio, dapibus ac facilisis.</li>
-                    <li>Praesent commodo cursus magna.</li>
-                    <li>Curabitur blandit tempus porttitor.</li>
-                  </ul>
+                  <ol>
+                    <li>Vivamus sagittis lacus vel augue laoreet.</li>
+                    <li>Cras mattis consectetur purus sit amet.</li>
+                    <li>Vestibulum id ligula porta felis euismod.</li>
+                    <li>Nulla vitae elit libero, a pharetra augue.</li>
+                  </ol>
+                </div>
+                <div className='col-md-4'>
+                  <h4 className='mb-20'>Department 3</h4>
+                  <p>
+                    Duis mollis, est non commodo luctus, nisi porttitor ligula,
+                    eget lacinia odio sem nec elit. Aenean eu leo quam.
+                    Pellentesque ornare sem. Nullam id dolor id nibh ultricies
+                    vehicula ut id elit ullamcorper.
+                  </p>
+                  <ol>
+                    <li>Vivamus sagittis lacus vel augue laoreet.</li>
+                    <li>Cras mattis consectetur purus sit amet.</li>
+                    <li>Vestibulum id ligula porta felis euismod.</li>
+                    <li>Nulla vitae elit libero, a pharetra augue.</li>
+                  </ol>
+                </div>
+                <div className='col-md-4'>
+                  <h4 className='mb-20'>Department 4</h4>
+                  <p>
+                    Duis mollis, est non commodo luctus, nisi porttitor ligula,
+                    eget lacinia odio sem nec elit. Aenean eu leo quam.
+                    Pellentesque ornare sem. Nullam id dolor id nibh ultricies
+                    vehicula ut id elit ullamcorper.
+                  </p>
+                  <ol>
+                    <li>Vivamus sagittis lacus vel augue laoreet.</li>
+                    <li>Cras mattis consectetur purus sit amet.</li>
+                    <li>Vestibulum id ligula porta felis euismod.</li>
+                    <li>Nulla vitae elit libero, a pharetra augue.</li>
+                  </ol>
+                </div>
+                <div className='col-md-4'>
+                  <h4 className='mb-20'>Department 5</h4>
+                  <p>
+                    Duis mollis, est non commodo luctus, nisi porttitor ligula,
+                    eget lacinia odio sem nec elit. Aenean eu leo quam.
+                    Pellentesque ornare sem. Nullam id dolor id nibh ultricies
+                    vehicula ut id elit ullamcorper.
+                  </p>
+                  <ol>
+                    <li>Vivamus sagittis lacus vel augue laoreet.</li>
+                    <li>Cras mattis consectetur purus sit amet.</li>
+                    <li>Vestibulum id ligula porta felis euismod.</li>
+                    <li>Nulla vitae elit libero, a pharetra augue.</li>
+                  </ol>
+                </div>
+                <div className='col-md-4'>
+                  <h4 className='mb-20'>Department 6</h4>
+                  <p>
+                    Duis mollis, est non commodo luctus, nisi porttitor ligula,
+                    eget lacinia odio sem nec elit. Aenean eu leo quam.
+                    Pellentesque ornare sem. Nullam id dolor id nibh ultricies
+                    vehicula ut id elit ullamcorper.
+                  </p>
+                  <ol>
+                    <li>Vivamus sagittis lacus vel augue laoreet.</li>
+                    <li>Cras mattis consectetur purus sit amet.</li>
+                    <li>Vestibulum id ligula porta felis euismod.</li>
+                    <li>Nulla vitae elit libero, a pharetra augue.</li>
+                  </ol>
                 </div>
                 {/* /column */}
               </div>
@@ -1283,55 +1317,13 @@ const About = () => {
             className='wrapper image-wrapper bg-image inverse-text'
             data-image-src='style/images/art/bg3.jpg'
           >
-            <div className='container inner pt-150 pb-150'>
-              <div className='row counter'>
-                <div className='col-md-4'>
-                  <div className='d-flex flex-row justify-content-center'>
-                    <div className='icon fs-58 icon-color color-dark mr-25'>
-                      <i className='si-photo_camera' />
-                    </div>
-                    <div>
-                      <h3 className='value'>7518</h3>
-                      <p>Shots Taken</p>
-                    </div>
-                  </div>
-                </div>
-                {/*/column */}
-                <div className='col-md-4'>
-                  <div className='d-flex flex-row justify-content-center'>
-                    <div className='icon fs-58 icon-color color-dark mr-25'>
-                      {" "}
-                      <i className='si-cafe_hot-coffee' />{" "}
-                    </div>
-                    <div>
-                      <h3 className='value'>3472</h3>
-                      <p>Cups of Coffee</p>
-                    </div>
-                  </div>
-                </div>
-                {/*/column */}
-                <div className='col-md-4'>
-                  <div className='d-flex flex-row justify-content-center'>
-                    <div className='icon fs-58 icon-color color-dark mr-25'>
-                      {" "}
-                      <i className='si-sports_medal-2' />{" "}
-                    </div>
-                    <div>
-                      <h3 className='value'>4523</h3>
-                      <p>Awards Won</p>
-                    </div>
-                  </div>
-                </div>
-                {/*/column */}
-              </div>
-              {/*/.row */}
-            </div>
+            
             {/* /.container */}
           </div>
           {/* /.wrapper */}
           <div className='wrapper light-wrapper'>
             <div className='container inner'>
-              <h2 className='section-title text-center'>Happy Customers</h2>
+              <h2 className='section-title text-center'>Words of Alumuni</h2>
               <div className='cube-carousel cbp'>
                 <div className='cbp-item'>
                   <div className='box bg-white shadow'>
@@ -1456,7 +1448,7 @@ const About = () => {
             {/* /.container */}
           </div>
           {/* /.wrapper */}
-          <div className='wrapper gray-wrapper'>
+          {/* <div className='wrapper gray-wrapper'>
             <div className='container inner'>
               <h2 className='section-title text-center'>Instagram Feed</h2>
               <p className='lead text-center'>
@@ -1465,29 +1457,29 @@ const About = () => {
               <div className='space20' />
               <div className='tiles tiles-s'>
                 <div id='instafeed' className='items row' />
-              </div>
+              </div> */}
               {/*/.tiles */}
-              <div className='space40' />
+              {/* <div className='space40' />
               <div className='text-center'>
                 <a href='#' className='btn'>
                   Instagram Page
                 </a>
               </div>
-            </div>
+            </div> */}
             {/* /.container */}
-          </div>
+          {/* </div> */}
           {/* /.wrapper */}
           <footer className='dark-wrapper inverse-text'>
             <div className='container inner'>
               <div className='row d-md-flex align-items-md-center'>
                 <div className='col-md-4 text-center text-md-left'>
-                  <p className='mb-0'>© 2019 Missio. All rights reserved.</p>
+                  <p className='mb-0'></p>
                 </div>
                 {/*/column */}
                 <div className='col-md-4 text-center'>
                   <img
                     src='#'
-                    srcSet='style/images/logo-light.png 1x, style/images/logo-light@2x.png 2x'
+                    srcSet='style/images/junoon-white.png 1x, style/images/junoon-white.png 4x'
                     alt=''
                   />
                 </div>

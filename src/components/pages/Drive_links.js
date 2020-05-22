@@ -3,38 +3,6 @@ import React, { Fragment } from "react";
 const Drive_links = () => {
   return (
     <Fragment>
-      <meta charSet='utf-8' />
-      <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-      <link rel='shortcut icon' href='style/images/favicon.png' />
-      <title>Missio</title>
-      <link
-        rel='stylesheet'
-        type='text/css'
-        href='style/css/bootstrap.min.css'
-      />
-      <link rel='stylesheet' type='text/css' href='style/css/plugins.css' />
-      <link
-        rel='stylesheet'
-        type='text/css'
-        href='style/revolution/css/settings.css'
-      />
-      <link
-        rel='stylesheet'
-        type='text/css'
-        href='style/revolution/css/layers.css'
-      />
-      <link
-        rel='stylesheet'
-        type='text/css'
-        href='style/revolution/css/navigation.css'
-      />
-      <link rel='stylesheet' type='text/css' href='style/type/icons.css' />
-      <link rel='stylesheet' type='text/css' href='style.css' />
-      <link
-        rel='stylesheet'
-        type='text/css'
-        href='style/css/color/lavender.css'
-      />
       <div className='content-wrapper'>
         <nav className='navbar center navbar-expand-lg'>
           <div className='container flex-lg-column'>
@@ -43,7 +11,7 @@ const Drive_links = () => {
                 <a href='index.html'>
                   <img
                     src='#'
-                    srcSet='style/images/logo.png 1x, style/images/logo@2x.png 2x'
+                    srcSet='style/images/junoon-black.png 1x, style/images/junoon-black.png 3x'
                     alt=''
                   />
                 </a>
@@ -988,7 +956,7 @@ const Drive_links = () => {
         </nav>
         <div className='wrapper light-wrapper'>
           <div className='container inner'>
-            <h2 className='section-title text-center'>Dividers</h2>
+            <h2 className='section-title text-center'>Recent Drive Links</h2>
             <div className='space60' />
             <h3 className='text-center'>Solid</h3>
             <hr />
@@ -1034,15 +1002,15 @@ const Drive_links = () => {
           <div className='container inner'>
             <div className='row d-md-flex align-items-md-center'>
               <div className='col-md-4 text-center text-md-left'>
-                <p className='mb-0'>© 2019 Missio. All rights reserved.</p>
+                <p className='mb-0'></p>
               </div>
               {/*/column */}
               <div className='col-md-4 text-center'>
                 <img
                   src='#'
                   srcSet='
-                  style/images/logo-light.png    1x,
-                  style/images/logo-light@2x.png 2x
+                  style/images/junoon-white.png    1x,
+                  style/images/junoon-white.png 4x
                 '
                   alt=''
                 />

@@ -7,7 +7,7 @@ const Home = () => {
           <nav className="navbar wide transparent absolute inverse-text navbar-expand-lg">
             <div className="container-fluid flex-row justify-content-center">
               <div className="navbar-header">
-                <div className="navbar-brand"><a href="index.html"><img src="#" srcSet="style/images/logo2-light.png 1x, style/images/logo2-light@2x.png 2x" alt="" /></a></div>
+                <div className="navbar-brand"><a href="index.html"><img src="#" srcSet="style/images/junoon-white.png 1x, style/images/junoon-white.png 4x" alt="" /></a></div>
                 <div className="navbar-hamburger ml-auto d-lg-none d-xl-none"><button className="hamburger animate" data-toggle="collapse" data-target=".navbar-collapse"><span /></button></div>
               </div>
               {/* /.navbar-header */}
@@ -351,9 +351,9 @@ const Home = () => {
               </ul>
               <div className="tp-static-layers">
                 <div className="tp-caption tp-static-layer tp-shape tp-shapewrapper tp-gradient" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-x="center" data-y="bottom" data-width="full" data-height={200} data-startslide={0} data-endslide={4} data-responsive_offset="on" data-textalign="['center','center','center','center']" data-type="shape" data-basealign="slide" data-whitespace="nowrap" style={{zIndex: 6}} />
-                <div className="tp-caption tp-static-layer font-weight-700 color-white text-center" data-x="center" data-y="middle" data-voffset="['-80','-80','-80','-60']" data-fontsize="['55','55','55','35']" data-lineheight="['65','65','65','45']" data-width="['800','800','680','340']" data-textalign="['center','center','center','center']" data-whitespace="['normal','normal','normal','normal']" data-frames="[{&quot;delay&quot;:1000,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:-50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-startslide={0} data-endslide={4} data-responsive="on" data-responsive_offset="on" style={{zIndex: 9}}>Jonathan Missio</div>
-                <div className="tp-caption tp-static-layer font-weight-400 color-white text-center" data-x="center" data-y="middle" data-voffset="['0','0','0','0']" data-fontsize="['26','26','26','20']" data-lineheight="['36','36','36','30']" data-width="['800','800','680','340']" data-textalign="['center','center','center','center']" data-whitespace="['normal','normal','normal','normal']" data-frames="[{&quot;delay&quot;:1500,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;x:-50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-startslide={0} data-endslide={4} data-responsive="on" data-responsive_offset="on" style={{zIndex: 9, letterSpacing: '1px'}}>Award Winning Wild Life Photographer</div>
-                <a className="tp-caption tp-static-layer btn btn-l btn-white scroll" data-x="center" data-y="middle" data-voffset="['90','90','90','70']" data-width="['auto','auto','auto','auto']" data-textalign="['center','center','center','center']" data-frames="[{&quot;delay&quot;:2000,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-startslide={0} data-endslide={4} data-responsive="on" data-responsive_offset="on" style={{zIndex: 9}} href="#portfolio">See My Works</a>
+                <div className="tp-caption tp-static-layer font-weight-500 color-white text-center" data-x="center" data-y="middle" data-voffset="['-80','-80','-80','-60']" data-fontsize="['55','55','55','35']" data-lineheight="['65','65','65','45']" data-width="['800','800','680','340']" data-textalign="['center','center','center','center']" data-whitespace="['normal','normal','normal','normal']" data-frames="[{&quot;delay&quot;:1000,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:-50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-startslide={0} data-endslide={4} data-responsive="on" data-responsive_offset="on" style={{zIndex: 9}}>JUNOON</div>
+                <div className="tp-caption tp-static-layer font-weight-200 color-white text-center" data-x="center" data-y="middle" data-voffset="['0','0','0','0']" data-fontsize="['26','26','26','20']" data-lineheight="['36','36','36','30']" data-width="['800','800','680','340']" data-textalign="['center','center','center','center']" data-whitespace="['normal','normal','normal','normal']" data-frames="[{&quot;delay&quot;:1500,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;x:-50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-startslide={0} data-endslide={4} data-responsive="on" data-responsive_offset="on" style={{zIndex: 9, letterSpacing: '1px'}}>The Photography Club Of NSUT</div>
+                <a className="tp-caption tp-static-layer btn btn-l btn-white scroll" data-x="center" data-y="middle" data-voffset="['90','90','90','70']" data-width="['auto','auto','auto','auto']" data-textalign="['center','center','center','center']" data-frames="[{&quot;delay&quot;:2000,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-startslide={0} data-endslide={4} data-responsive="on" data-responsive_offset="on" style={{zIndex: 9}} href="#portfolio">See Our Works</a>
               </div>
               <div className="tp-bannertimer tp-bottom" />
             </div>
@@ -362,10 +362,10 @@ const Home = () => {
           {/* /.rev_slider_wrapper */}
           <div className="wrapper dark-wrapper inverse-text fullscreen-container">
             <div className="container inner">
-              <h2 className="section-title mb-30 text-center">About Me</h2>
+              <h2 className="section-title mb-30 text-center">About Junoon</h2>
               <div className="row d-flex align-items-center">
                 <div className="col-lg-6 pr-35 pr-sm-15">
-                  <figure className="rounded"><img src="style/images/art/about5.jpg" alt="" /></figure>
+                  <figure className="rounded"><img src="style/images/junoon-logo-only.png" alt="" /></figure>
                 </div>
                 {/* /column */}
                 <div className="space30 d-block d-lg-none d-xl-none" />
@@ -501,7 +501,7 @@ const Home = () => {
               </div>
               {/*/.tiles */}
               <div className="space150" />
-              <h2 className="section-title mb-30 text-center">From My Journal</h2>
+              <h2 className="section-title mb-30 text-center">Best of Storygram</h2>
               <div className="blog grid grid-view boxed">
                 <div className="row isotope">
                   <div className="item post grid-sizer col-md-6 mb-0">
@@ -552,112 +552,53 @@ const Home = () => {
             {/* /.container */}
           </div>
           {/* /.wrapper */}
-          <footer className="dark-wrapper inverse-text">
-            <div className="container inner">
-              <div className="row">
-                <div className="col-md-6 col-lg-3">
-                  <div className="widget">
-                    <h3 className="widget-title">Popular Posts</h3>
-                    <ul className="image-list">
-                      <li>
-                        <figure className="rounded"><a href="blog-post.html"><img src="style/images/art/a1.jpg" alt="" /></a></figure>
-                        <div className="post-content">
-                          <h6 className="post-title"> <a href="blog-post.html">Magna Mollis Ornare</a> </h6>
-                          <div className="meta"><span className="date">12 Nov 2014</span><span className="comments"><a href="#">4</a></span></div>
-                        </div>
-                      </li>
-                      <li>
-                        <figure className="rounded"> <a href="blog-post.html"><img src="style/images/art/a2.jpg" alt="" /></a></figure>
-                        <div className="post-content">
-                          <h6 className="post-title"> <a href="blog-post.html">Nullam Risus Cursus</a> </h6>
-                          <div className="meta"><span className="date">12 Nov 2014</span><span className="comments"><a href="#">4</a></span></div>
-                        </div>
-                      </li>
-                      <li>
-                        <figure className="rounded"><a href="blog-post.html"><img src="style/images/art/a3.jpg" alt="" /></a></figure>
-                        <div className="post-content">
-                          <h6 className="post-title"> <a href="blog-post.html">Blandit Tempus Fusce</a> </h6>
-                          <div className="meta"><span className="date">12 Nov 2014</span><span className="comments"><a href="#">4</a></span></div>
-                        </div>
-                      </li>
-                    </ul>
-                    {/* /.image-list */}
-                  </div>
-                  {/* /.widget */}
+          <footer className='dark-wrapper inverse-text'>
+            <div className='container inner'>
+              <div className='row d-md-flex align-items-md-center'>
+                <div className='col-md-4 text-center text-md-left'>
+                  <p className='mb-0'></p>
                 </div>
-                {/* /column */}
-                <div className="col-md-6 col-lg-3">
-                  <div className="widget">
-                    <h3 className="widget-title">Tags</h3>
-                    <ul className="list-unstyled tag-list">
-                      <li><a href="#" className="btn btn-white shadow">Still Life</a></li>
-                      <li><a href="#" className="btn btn-white shadow">Urban</a></li>
-                      <li><a href="#" className="btn btn-white shadow">Nature</a></li>
-                      <li><a href="#" className="btn btn-white shadow">Landscape</a></li>
-                    </ul>
-                  </div>
-                  <div className="widget">
-                    <h3 className="widget-title">Categories</h3>
-                    <ul className="unordered-list column-2">
-                      <li><a href="#" className="nocolor">Lifestyle (21)</a></li>
-                      <li><a href="#" className="nocolor">Photo (19)</a></li>
-                      <li><a href="#" className="nocolor">Journal (16)</a></li>
-                      <li><a href="#" className="nocolor">Works (7)</a></li>
-                      <li><a href="#" className="nocolor">Still Life (9)</a></li>
-                      <li><a href="#" className="nocolor">Travel (17)</a></li>
-                    </ul>
-                  </div>
-                  {/* /.widget */}
+                {/*/column */}
+                <div className='col-md-4 text-center'>
+                  <img
+                    src='#'
+                    srcSet='style/images/junoon-white.png 1x, style/images/junoon-white.png 4x'
+                    alt=''
+                  />
                 </div>
-                {/* /column */}
-                <div className="col-md-6 col-lg-3">
-                  <div className="widget">
-                    <h3 className="widget-title">Get in Touch</h3>
-                    <address>
-                      <strong>Missio, Inc.</strong><br /> Moon Street Light Avenue, 14/05 <br /> Jupiter, JP 80630<br />
-                      <abbr title="Phone">P:</abbr> 00 (123) 456 78 90 <br />
-                      <abbr title="Email">E:</abbr> <a href="mailto:#" className="nocolor">missio@email.com</a>
-                    </address>
-                  </div>
-                  {/* /.widget */}
-                  <div className="widget">
-                    <h3 className="widget-title">Elsewhere</h3>
-                    <ul className="social social-mute social-s mt-10 mb-0">
-                      <li><a href="#"><i className="fa fa-twitter" /></a></li>
-                      <li><a href="#"><i className="fa fa-facebook-f" /></a></li>
-                      <li><a href="#"><i className="fa fa-pinterest" /></a></li>
-                      <li><a href="#"><i className="fa fa-vimeo" /></a></li>
-                      <li><a href="#"><i className="fa fa-instagram" /></a></li>
-                    </ul>
-                  </div>
-                  {/* /.widget */}
+                {/*/column */}
+                <div className='col-md-4 text-center text-md-right'>
+                  <ul className='social social-mute social-s mt-10'>
+                    <li>
+                      <a href='#'>
+                        <i className='fa fa-twitter' />
+                      </a>
+                    </li>
+                    <li>
+                      <a href='#'>
+                        <i className='fa fa-facebook-f' />
+                      </a>
+                    </li>
+                    <li>
+                      <a href='#'>
+                        <i className='fa fa-pinterest' />
+                      </a>
+                    </li>
+                    <li>
+                      <a href='#'>
+                        <i className='fa fa-vimeo' />
+                      </a>
+                    </li>
+                    <li>
+                      <a href='#'>
+                        <i className='fa fa-instagram' />
+                      </a>
+                    </li>
+                  </ul>
                 </div>
-                {/* /column */}
-                <div className="col-md-6 col-lg-3">
-                  <div className="widget">
-                    <h3 className="widget-title">Learn More</h3>
-                    <ul className="list-unstyled">
-                      <li><a href="#" className="nocolor">About Us</a></li>
-                      <li><a href="#" className="nocolor">Our Story</a></li>
-                      <li><a href="#" className="nocolor">Projects</a></li>
-                    </ul>
-                  </div>
-                  {/* /.widget */}
-                  <div className="widget">
-                    <h3 className="widget-title">Need Help?</h3>
-                    <ul className="list-unstyled">
-                      <li><a href="#" className="nocolor">Support</a></li>
-                      <li><a href="#" className="nocolor">Get Started</a></li>
-                      <li><a href="#" className="nocolor">Contact Us</a></li>
-                    </ul>
-                  </div>
-                  {/* /.widget */}
-                </div>
-                {/* /column */}
+                {/*/column */}
               </div>
               {/*/.row */}
-              <div className="space30" />
-              <p className="text-center mb-0">© 2019 Missio. All rights reserved.</p>
             </div>
             {/* /.container */}
           </footer>
