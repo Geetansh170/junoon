@@ -1221,7 +1221,7 @@ const Insta_gal = () => {
                   
                 </div>
                 {/*/column */}
-                <div className='col-md-4 text-center'>
+                <div className='col-md-4 text-center footy'>
                   <img
                     src='#'
                     srcSet='style/images/junoon-white.png 1x, style/images/junoon-white.png 4x'

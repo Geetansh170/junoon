@@ -41,14 +41,14 @@ const About = () => {
             <div className='container flex-lg-column'>
               <div className='navbar-header'>
                 <div className='navbar-brand'>
-                  <a href='index.html'>
+                  
                     <img
-                      style={{width:"400px"}}
+                      intrinsicsize="1268x512"
                       src='#'
                       srcSet='style/images/junoon-black.png 1x, style/images/junoon-black.png 3x'
                       alt=''
                     />
-                  </a>
+                 
                 </div>
                 <div className='navbar-hamburger ml-auto d-lg-none d-xl-none'>
                   <button
@@ -85,7 +85,7 @@ const About = () => {
                                     <div className='col-lg-4'>
                                       <ul className='list-unstyled'>
                                         <li>
-                                          <a href='index.html'>Home Demo 1</a>
+                                          <a href='index.html'>Home Demo </a>
                                         </li>
                                         <li>
                                           <a href='index2.html'>Home Demo 2</a>
@@ -1081,7 +1081,7 @@ const About = () => {
             <div className='container inner pt-70'>
               <h2 className='section-title mb-40 text-center'>Meet the Team</h2>
               <div className='row boxed grid-view'>
-                <div className='col-md-6 col-lg-3'>
+                <div className='col-md-6 col-lg-4'>
                   <div className='box bg-white shadow p-30'>
                     <figure className='main'>
                       <img src='style/images/art/t1.jpg' alt='' />
@@ -1110,7 +1110,7 @@ const About = () => {
                   {/* /.box */}
                 </div>
                 {/*/column */}
-                <div className='col-md-6 col-lg-3'>
+                <div className='col-md-6 col-lg-4'>
                   <div className='box bg-white shadow p-30'>
                     <figure className='main'>
                       <img src='style/images/art/t2.jpg' alt='' />
@@ -1140,7 +1140,7 @@ const About = () => {
                 </div>
                 {/*/column */}
                 <div className='space30 d-lg-none' />
-                <div className='col-md-6 col-lg-3'>
+                <div className='col-md-6 col-lg-4'>
                   <div className='box bg-white shadow p-30'>
                     <figure className='main'>
                       <img src='style/images/art/t3.jpg' alt='' />
@@ -1169,34 +1169,7 @@ const About = () => {
                   {/* /.box */}
                 </div>
                 {/*/column */}
-                <div className='col-md-6 col-lg-3'>
-                  <div className='box bg-white shadow p-30'>
-                    <figure className='main'>
-                      <img src='style/images/art/t4.jpg' alt='' />
-                    </figure>
-                    <h4 className='mb-5'>Nikolas Brooten</h4>
-                    <div className='meta mb-10'>Videographer</div>
-                    <p>Fermentum massa justo sit amet risus morbi leo.</p>
-                    <ul className='social social-mute'>
-                      <li>
-                        <a href='#'>
-                          <i className='fa fa-twitter' />
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#'>
-                          <i className='fa fa-pinterest-p' />
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#'>
-                          <i className='fa fa-vimeo' />
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  {/* /.box */}
-                </div>
+                
                 {/*/column */}
               </div>
               {/*/.row */}
@@ -1476,7 +1449,7 @@ const About = () => {
                   <p className='mb-0'></p>
                 </div>
                 {/*/column */}
-                <div className='col-md-4 text-center'>
+                <div className='col-md-4 text-center footy'>
                   <img
                     src='#'
                     srcSet='style/images/junoon-white.png 1x, style/images/junoon-white.png 4x'

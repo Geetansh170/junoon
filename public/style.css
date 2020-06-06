@@ -358,6 +358,10 @@ footer .inner {
     padding-top: 70px;
     padding-bottom: 70px;
 }
+.footy img
+{
+    max-width: 310px;
+}
 .white-wrapper {
     background: #fff;
 }
@@ -704,8 +708,10 @@ acronym[title] {
     -webkit-transform: translateZ();
     height: auto;
     width: auto;
-    max-width: none;
+    max-width: 310px;
 }
+
+
 @media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: .001dpcm) {
     .navbar-brand img {
         image-rendering: -webkit-optimize-contrast;

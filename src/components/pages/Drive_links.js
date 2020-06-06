@@ -8,13 +8,13 @@ const Drive_links = () => {
           <div className='container flex-lg-column'>
             <div className='navbar-header'>
               <div className='navbar-brand'>
-                <a href='index.html'>
+               
                   <img
                     src='#'
                     srcSet='style/images/junoon-black.png 1x, style/images/junoon-black.png 3x'
                     alt=''
                   />
-                </a>
+                
               </div>
               <div className='navbar-hamburger ml-auto d-lg-none d-xl-none'>
                 <button
@@ -1005,7 +1005,7 @@ const Drive_links = () => {
                 <p className='mb-0'></p>
               </div>
               {/*/column */}
-              <div className='col-md-4 text-center'>
+              <div className='col-md-4 text-center footy'>
                 <img
                   src='#'
                   srcSet='
