@@ -9,7 +9,7 @@ exports.ig_response = {
 exports.scrape_settings = {
     post_url: "",
     username: "",
-    max_posts: 9,
+    max_posts: 10,
     max_comments: 5,
     continuation_token: "",
     retrieve_video: false
