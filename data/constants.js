@@ -12,7 +12,8 @@ exports.identifiers = {
     post: {
         username: 'a.nJAzx',
         addCommentBox: 'textarea.Ypffh',
-        videoControl :'span.jNBsH',
+        videoControl_legacy :'span.jNBsH',
+        videoControl :'span.qBUYS',
         likes: 'a.zV_Nj span',
         views: 'span.vcOH2 span',
         details: 'div.C4VMK',
