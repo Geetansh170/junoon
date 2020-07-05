@@ -5,6 +5,7 @@ const service = require('./js/service');
 const models = require('./data/models');
 const constants = require('./data/constants');
 const logger = require('./js/logger');
+const path = require('path');
 
 const app = express();
 app.use(bodyParser.json());
