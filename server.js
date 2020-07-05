@@ -12,7 +12,7 @@ const port = process.env.PORT || 5000;
 
 app.use(cors());
 
-app.get('/', (req, res) => res.send('API Ok'));
+// app.get('/', (req, res) => res.send('API Ok'));
 
 //Retrieve a user's profile
 app.post('/user', function (req, res) {
