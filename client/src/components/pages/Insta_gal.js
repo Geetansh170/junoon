@@ -29,7 +29,7 @@ const Insta_gal = () => {
     };
 
     try {
-      const res = await axios.post("https://localhost:5000/post/all",user,config);
+      const res = await axios.post("http://localhost:5000/post/all",user,config);
       //https://junoonnsut.herokuapp.com/
       //const res=await axios.get("http://localhost:5000");
       //console.log(res.data.data[0].images.standard_resolution.url);
