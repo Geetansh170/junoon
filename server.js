@@ -8,7 +8,7 @@ const logger = require('./js/logger');
 
 const app = express();
 app.use(bodyParser.json());
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 app.use(cors());
 
@@ -29,6 +29,9 @@ app.post('/user', function (req, res) {
 //Retrieve an amount of posts from a user
 app.post('/post/all', function (req, res) {
     if (!req.body.username) return res.send('No username was provided');
+
+    console.log(req.body);
+    //res.send("received");
 
     const settings = Object.assign(models.scrape_settings, req.body);
     settings.scrape_type = constants.types.posts;
@@ -101,4 +104,13 @@ app.get('/logs', function (req, res) {
     return res.send(logger.read_logs());
 });
 
-app.listen(port, () => console.log('igscraper listening on :5000\nCORS is enabled'));
+if (process.env.NODE_ENV === 'production') {
+    // Set static folder
+    app.use(express.static('client/build'));
+  
+    app.get('*', (req, res) => {
+      res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+    });
+  }
+
+app.listen(port, () => console.log(`igscraper listening on :${port} \nCORS is enabled`));

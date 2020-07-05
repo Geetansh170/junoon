@@ -64,7 +64,7 @@ const About = () => {
               <div className='navbar-collapse collapse w-100 bg-light'>
                 <ul className='navbar-nav nav-fill w-100'>
                   <li className='nav-item'>
-                    <a className='nav-link' href='/home'>
+                    <a className='nav-link' href='/'>
                       Home
                     </a>
                     
@@ -111,11 +111,11 @@ const About = () => {
                       <img src='style/images/senapati_s.jpeg' alt='' />
                     </figure>
                     <h4 className='mb-5'>Ashwini Senapati</h4>
-                    <div className='meta mb-10'>President</div>
+                    <div className='meta mb-10'>President (operational) </div>
                     <p>Junoon The Photography club of NSUT</p>
                     <ul className='social social-mute'>
                       <li>
-                        <a href='https://www.instagram.com/ashwanisenapati/'>
+                        <a href='https://www.instagram.com/ashwanisenapati/' target="_blank">
                           <i className='fa fa-instagram' />
                         </a>
                       </li>
@@ -131,11 +131,11 @@ const About = () => {
                       <img src='style/images/sunny_s.jpg' alt='' />
                     </figure>
                     <h4 className='mb-5'>Sunny Rauniyar</h4>
-                    <div className='meta mb-10'>President</div>
+                    <div className='meta mb-10'>President (managerial)</div>
                     <p>Junoon The Photography club of NSUT</p>
                     <ul className='social social-mute'>
                       <li>
-                        <a href='https://www.instagram.com/sunny_supertramp/'>
+                        <a href='https://www.instagram.com/sunny_supertramp/' target="_blank">
                           <i className='fa fa-instagram' />
                         </a>
                       </li>
@@ -156,7 +156,7 @@ const About = () => {
                     <p>Junoon The Photography club of NSUT</p>
                     <ul className='social social-mute'>
                       <li>
-                        <a href='https://www.instagram.com/hardayal31/'>
+                        <a href='https://www.instagram.com/hardayal31/' target="_blank">
                           <i className='fa fa-instagram' />
                         </a>
                       </li>
@@ -207,7 +207,7 @@ const About = () => {
                   </p>
                   
                 </div>
-                <div className='col-md-6'>
+                {/* <div className='col-md-6'>
                   <h4 className='mb-20'>Department 5</h4>
                   <p>
                     Duis mollis, est non commodo luctus, nisi porttitor ligula,
@@ -221,8 +221,8 @@ const About = () => {
                     <li>Vestibulum id ligula porta felis euismod.</li>
                     <li>Nulla vitae elit libero, a pharetra augue.</li>
                   </ol>
-                </div>
-                <div className='col-md-6'>
+                </div> */}
+                {/* <div className='col-md-6'>
                   <h4 className='mb-20'>Department 6</h4>
                   <p>
                     Duis mollis, est non commodo luctus, nisi porttitor ligula,
@@ -236,16 +236,16 @@ const About = () => {
                     <li>Vestibulum id ligula porta felis euismod.</li>
                     <li>Nulla vitae elit libero, a pharetra augue.</li>
                   </ol>
-                </div>
+                </div> */}
                 {/* /column */}
               </div>
               {/*/.row */}
               <div className='space10' />
-              <div className='text-center'>
+              {/* <div className='text-center'>
                 <a href='#' className='btn'>
                   Hire Us
                 </a>
-              </div>
+              </div> */}
             </div>
             {/* /.container */}
           </div>
@@ -425,14 +425,14 @@ const About = () => {
                   <ul className='social social-mute social-s mt-10'>
 
                     <li>
-                      <a href='https://www.facebook.com/junoon.nsut/'>
+                      <a href='https://www.facebook.com/junoon.nsut/' target="_blank">
                         <i className='fa fa-facebook-f' />
                       </a>
                     </li>
                     
                    
                     <li>
-                      <a href='https://www.instagram.com/junoon.nsut/'>
+                      <a href='https://www.instagram.com/junoon.nsut/' target="_blank">
                         <i className='fa fa-instagram' />
                       </a>
                     </li>

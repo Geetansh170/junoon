@@ -4,22 +4,23 @@
   "description": "Express web app to scrape Instagram content",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eddswitchengage/igscraper.git"
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "clientinstall": "npm install --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "Eddie Caldwell",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/eddswitchengage/igscraper/issues"
-  },
-  "homepage": "https://github.com/eddswitchengage/igscraper#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "puppeteer": "^1.17.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.19.1"
   }
 }

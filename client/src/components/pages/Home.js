@@ -13,7 +13,7 @@ const Home = () => {
               {/* /.navbar-header */}
               <div className="navbar-collapse collapse justify-content-between align-items-center">
                 <ul className="navbar-nav plain mx-auto text-center">
-                  <li className="nav-item"><a className="nav-link" href="/home">Home</a>
+                  <li className="nav-item"><a className="nav-link" href="/">Home</a>
                     
                     {/*/.dropdown-menu */}
                   </li>
@@ -37,9 +37,9 @@ const Home = () => {
               <div className="social-wrapper text-right">
                 <ul className="social social-mute social-s mb-0">
                   
-                  <li><a href="https://www.facebook.com/junoon.nsut/"><i className="fa fa-facebook-f" /></a></li>
+                  <li><a href="https://www.facebook.com/junoon.nsut/" target="_blank"><i className="fa fa-facebook-f" /></a></li>
                   
-                  <li><a href="https://www.instagram.com/junoon.nsut/"><i className="fa fa-instagram" /></a></li>
+                  <li><a href="https://www.instagram.com/junoon.nsut/" target="_blank"><i className="fa fa-instagram" /></a></li>
                 </ul>
               </div>
               {/*/.social-wrapper */}
@@ -74,12 +74,10 @@ const Home = () => {
                 {/* /column */}
                 <div className="space30 d-block d-lg-none d-xl-none" />
                 <div className="col-lg-6">
-                  <p className="lead">Founded in 2010, Junoon is a platform for photography and videography enthusiasts of NSUT, who can showcase and develop their talents with the help of it. 
+                  <p style={{textAlign:"left"}} className="lead">Founded in 2010, Junoon is a platform for photography and videography enthusiasts of NSUT, who can showcase and develop their talents with the help of it. 
 
 Our members excel not just in different genres of photography but also in film making, photo editing and storytelling through pictures. We bring out our flair for photography through three of our main projects:
--Project Perspective
--Storygram
--Humans Of NSUT
+Project Perspective,Storygram and Humans Of NSUT
 Apart from these, Junoon also organizes the Ethnic Day every year, where the students and the faculty come together to showcase and celebrate our rich and diverse culture and tradition.
 
 We at Junoon provide opportunities for all budding photographers to be featured on our Instagram page. We conduct photowalks around Delhi, hence providing a captivating experience for everyone who wants to learn and grow in this field. Additionally, we hold technical workshops for enhanced learning and organize time to time photography competitions.
@@ -277,13 +275,13 @@ We also indulge in collborations with other societies to exhibit the best of hap
                   <ul className='social social-mute social-s mt-10'>
                     
                     <li>
-                      <a href='https://www.facebook.com/junoon.nsut/'>
+                      <a href='https://www.facebook.com/junoon.nsut/' target="_blank">
                         <i className='fa fa-facebook-f' />
                       </a>
                     </li>
                     
                     <li>
-                      <a href='https://www.instagram.com/junoon.nsut/'>
+                      <a href='https://www.instagram.com/junoon.nsut/' target="_blank">
                         <i className='fa fa-instagram' />
                       </a>
                     </li>
