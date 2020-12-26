@@ -29,15 +29,46 @@ const Insta_gal = () => {
     };
 
     try {
-      const res = await axios.post("http://localhost:5000/post/all",user,config);
-      //https://junoonnsut.herokuapp.com/
-      //const res=await axios.get("http://localhost:5000");
-      //console.log(res.data.data[0].images.standard_resolution.url);
-      //images=res.data.data;
-      setImages(res.data.data)
-      console.log(images);
+      console.log("before")
+      const res = await axios.get("https://graph.instagram.com/17841401475482155/media?access_token=IGQVJWb2Vod21HeW1CenZA1SkJMUl91UGc5LTFEQmhmWEx1aGZAnanhKYThHM1NzMmJsajlQcFFqanAwMnBCWkVNb3VYYi14RmxScXhtaG1yS1cxb0x5TFBDUXZAaYklXcjI5WXRSLXZAR&fields=id,timestamp");
+      console.log("after");
+      
+
+      let useful_data=res.data.data.slice();//only id and timestamp
+      let PicId={};//to store all the IDs
+
+      for (let i = 0; i < useful_data.length; i++) {
+          PicId[i]=useful_data[i].id;
+        
+      }
+      
+console.log(PicId);
+      let PicUrl=[];
+      let j=0;
+      for (let i = 0; i <25 ; i++) {
+        let url = await axios.get("https://graph.instagram.com/"+PicId[i]+"?access_token=IGQVJWb2Vod21HeW1CenZA1SkJMUl91UGc5LTFEQmhmWEx1aGZAnanhKYThHM1NzMmJsajlQcFFqanAwMnBCWkVNb3VYYi14RmxScXhtaG1yS1cxb0x5TFBDUXZAaYklXcjI5WXRSLXZAR&fields=media_url,media_type");
+        console.log(url);
+        if(url.data.media_type=="IMAGE")
+         { PicUrl[j]=url.data.media_url;
+          //console.log(PicUrl);
+          j++;
+         }
+
+         if(j>=10)
+         {
+         break;
+         }
+      }
+
+      console.log(PicUrl);
+      
+       setImages(PicUrl)
+      console.log("images");
      
-    } catch (err) {
+    } 
+    
+    
+    catch (err) {
       console.error(err);
     }
 
@@ -46,6 +77,8 @@ const Insta_gal = () => {
   
   if (images.length === 0) {
     console.log(images);
+    setTimeout(() => { console.log("hello")}, 4000);
+
     return (
       <Fragment>
       <div>
@@ -148,7 +181,7 @@ const Insta_gal = () => {
                     <div className='box bg-white shadow p-30'>
                       <figure className='main polaroid overlay overlay1'>
                         <a href='#'>
-                          <img style={{width: "100%" , height:"auto", objectFit:'contain'}} src="style/images/loading.png"/*{images[1].images.standard_resolution.url}*/ alt='' />
+                          <img style={{width: "100%" , height:"auto", objectFit:'contain'}} src="style/images/loading.png"/*{images[1]}*/ alt='' />
                         </a>
                         {/* <figcaption>
                           <h5 className='text-uppercase from-top mb-0'>
@@ -458,8 +491,8 @@ const Insta_gal = () => {
                   <div style={{WebkitBoxFlex:"1" , flex:"100%" }} className='item grid-sizer col-md-6 col-lg-4'>
                     <div className='box bg-white shadow p-30'>
                       <figure className='main polaroid overlay overlay1'>
-                        <a href={images[0].link} target='_blank'>
-                          <img style={{width: "100%" , height:'auto', objectFit:'contain'}} src={images[0].images.standard_resolution.url} alt='' />
+                        <a href={images[0]} target='_blank'>
+                          <img style={{width: "100%" , height:'auto', objectFit:'contain'}} src={images[0]} alt='' />
                           </a>
                         <figcaption>
                           <h5 className='text-uppercase from-top mb-0'>
@@ -475,8 +508,8 @@ const Insta_gal = () => {
                   <div style={{WebkitBoxFlex:"1" , flex:"100%" }} className='item grid-sizer col-md-6 col-lg-4'>
                     <div className='box bg-white shadow p-30'>
                       <figure className='main polaroid overlay overlay1'>
-                      <a href={images[1].link} target='_blank'>
-                          <img style={{width: "100%" , height:"auto", objectFit:'contain'}} src={images[1].images.standard_resolution.url} alt='' />
+                      <a href={images[1]} target='_blank'>
+                          <img style={{width: "100%" , height:"auto", objectFit:'contain'}} src={images[1]} alt='' />
                         </a>
                         <figcaption>
                           <h5 className='text-uppercase from-top mb-0'>
@@ -492,8 +525,8 @@ const Insta_gal = () => {
                   <div  style={{WebkitBoxFlex:"1" , flex:"100%" }} className='item grid-sizer col-md-6 col-lg-4 '>
                     <div className='box bg-white shadow p-30'>
                       <figure className='main polaroid overlay overlay1'>
-                      <a href={images[2].link} target='_blank'>
-                          <img style={{width: "100%" , height:"auto", objectFit:'contain'}} src={images[2].images.standard_resolution.url} alt='' />
+                      <a href={images[2]} target='_blank'>
+                          <img style={{width: "100%" , height:"auto", objectFit:'contain'}} src={images[2]} alt='' />
                         </a>
                         <figcaption>
                           <h5 className='text-uppercase from-top mb-0'>
@@ -510,8 +543,8 @@ const Insta_gal = () => {
                   <div style={{WebkitBoxFlex:"1" , flex:"100%" }} className='item grid-sizer col-md-6 col-lg-4'>
                     <div className='box bg-white shadow p-30'>
                       <figure className='main polaroid overlay overlay1'>
-                      <a href={images[3].link} target='_blank'>
-                          <img style={{width: "100%" , height:'auto', objectFit:'contain'}} src={images[3].images.standard_resolution.url} alt='' />
+                      <a href={images[3]} target='_blank'>
+                          <img style={{width: "100%" , height:'auto', objectFit:'contain'}} src={images[3]} alt='' />
                         </a>
                         <figcaption>
                           <h5 className='text-uppercase from-top mb-0'>
@@ -527,8 +560,8 @@ const Insta_gal = () => {
                   <div style={{WebkitBoxFlex:"1" , flex:"100%" }} className='item grid-sizer col-md-6 col-lg-4'>
                     <div className='box bg-white shadow p-30'>
                       <figure className='main polaroid overlay overlay1'>
-                      <a href={images[4].link} target='_blank'>
-                          <img style={{width: "100%" , height:"auto", objectFit:'contain'}} src={images[4].images.standard_resolution.url} alt='' />
+                      <a href={images[4]} target='_blank'>
+                          <img style={{width: "100%" , height:"auto", objectFit:'contain'}} src={images[4]} alt='' />
                         </a>
                         <figcaption>
                           <h5 className='text-uppercase from-top mb-0'>
@@ -544,8 +577,8 @@ const Insta_gal = () => {
                   <div  style={{WebkitBoxFlex:"1" , flex:"100%" }} className='item grid-sizer col-md-6 col-lg-4 '>
                     <div className='box bg-white shadow p-30'>
                       <figure className='main polaroid overlay overlay1'>
-                      <a href={images[5].link} target='_blank'>
-                          <img style={{width: "100%" , height:"auto", objectFit:'contain'}} src={images[5].images.standard_resolution.url} alt='' />
+                      <a href={images[5]} target='_blank'>
+                          <img style={{width: "100%" , height:"auto", objectFit:'contain'}} src={images[5]} alt='' />
                         </a>
                         <figcaption>
                           <h5 className='text-uppercase from-top mb-0'>
@@ -562,8 +595,8 @@ const Insta_gal = () => {
                   <div style={{WebkitBoxFlex:"1" , flex:"100%" }} className='item grid-sizer col-md-6 col-lg-4'>
                     <div className='box bg-white shadow p-30'>
                       <figure className='main polaroid overlay overlay1'>
-                      <a href={images[6].link} target='_blank'>
-                          <img style={{width: "100%" , height:'auto', objectFit:'contain'}} src={images[6].images.standard_resolution.url} alt='' />
+                      <a href={images[6]} target='_blank'>
+                          <img style={{width: "100%" , height:'auto', objectFit:'contain'}} src={images[6]} alt='' />
                         </a>
                         <figcaption>
                           <h5 className='text-uppercase from-top mb-0'>
@@ -579,8 +612,8 @@ const Insta_gal = () => {
                   <div style={{WebkitBoxFlex:"1" , flex:"100%" }} className='item grid-sizer col-md-6 col-lg-4'>
                     <div className='box bg-white shadow p-30'>
                       <figure className='main polaroid overlay overlay1'>
-                      <a href={images[7].link} target='_blank'>
-                          <img style={{width: "100%" , height:"auto", objectFit:'contain'}} src={images[7].images.standard_resolution.url} alt='' />
+                      <a href={images[7]} target='_blank'>
+                          <img style={{width: "100%" , height:"auto", objectFit:'contain'}} src={images[7]} alt='' />
                         </a>
                         <figcaption>
                           <h5 className='text-uppercase from-top mb-0'>
@@ -596,8 +629,8 @@ const Insta_gal = () => {
                   <div  style={{WebkitBoxFlex:"1" , flex:"100%" }} className='item grid-sizer col-md-6 col-lg-4 '>
                     <div className='box bg-white shadow p-30'>
                       <figure className='main polaroid overlay overlay1'>
-                      <a href={images[6].link} target='_blank'>
-                          <img style={{width: "100%" , height:"auto", objectFit:'contain'}} src={images[6].images.standard_resolution.url} alt='' />
+                      <a href={images[8]} target='_blank'>
+                          <img style={{width: "100%" , height:"auto", objectFit:'contain'}} src={images[8]} alt='' />
                         </a>
                         <figcaption>
                           <h5 className='text-uppercase from-top mb-0'>
