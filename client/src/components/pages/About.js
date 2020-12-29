@@ -228,6 +228,7 @@ const About = () => {
         </p>
         <button
           type="button"
+          className="btn btn-outline-dark"
           disabled={pageNumber <= 1}
           onClick={previousPage}
         >
@@ -235,6 +236,7 @@ const About = () => {
         </button>
         <button
           type="button"
+          className="btn btn-outline-dark"
           disabled={pageNumber >= numPages}
           onClick={nextPage}
         >
