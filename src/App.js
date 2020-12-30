@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter} from "react-router-dom";
 import Home from "./components/pages/Home";
 import Drive_links from "./components/pages/Drive_links";
 import Contact_us from "./components/pages/Contact_us";
@@ -14,7 +15,7 @@ const App = () => {
       <div className='App'>
         <div>
           {/* <h1>LETS MAKE THIS BRO</h1> */}
-          <Router basename={"/Junoon"}>
+          <HashRouter basename="/">
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/drive' component={Drive_links} />
@@ -22,7 +23,7 @@ const App = () => {
             <Route exact path='/insta' component={Insta_gal} />
             <Route exact path='/about' component={About} />
           </Switch>
-          </Router>
+          </HashRouter>
         </div>
       </div>
     </Router>
