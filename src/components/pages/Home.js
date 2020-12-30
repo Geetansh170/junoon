@@ -21,7 +21,7 @@ const Home = () => {
                   <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/insta">Instagram</a>
                     
                   </li>
-                  <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="junoon/drive">Drive</a>
+                  <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/drive">Drive</a>
                     
                   </li>
                   <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/about">About</a>
