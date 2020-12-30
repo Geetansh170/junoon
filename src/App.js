@@ -15,15 +15,15 @@ const App = () => {
       <div className='App'>
         <div>
           {/* <h1>LETS MAKE THIS BRO</h1> */}
-          <HashRouter basename="/junoon">
+          <Router basename="/junoon">
           <Switch>
             <Route exact path='/' component={Home} />
-            <Route exact path='/drive' component={Drive_links} />
+            <Route exact path='junoon/drive' component={Drive_links} />
             <Route exact path='/contact_us' component={Contact_us} />
             <Route exact path='/insta' component={Insta_gal} />
             <Route exact path='/about' component={About} />
           </Switch>
-          </HashRouter>
+          </Router>
         </div>
       </div>
     </Router>
