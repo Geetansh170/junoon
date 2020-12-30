@@ -1,27 +1,42 @@
 {
-  "name": "igscraper",
-  "version": "1.5.0",
-  "description": "Express web app to scrape Instagram content",
-  "main": "app.js",
-  "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
-    "client": "npm start --prefix client",
-    "clientinstall": "npm install --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
-  },
-  "author": "Eddie Caldwell",
-  "license": "ISC",
+  "name": "junoon",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "puppeteer": "^1.17.0",
-    "react-pdf": "^5.1.0"
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-pdf": "^5.1.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    "concurrently": "^4.1.0",
-    "nodemon": "^1.19.1"
+    "gh-pages": "^3.1.0"
   }
 }
