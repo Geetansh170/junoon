@@ -14,7 +14,7 @@ const App = () => {
       <div className='App'>
         <div>
           {/* <h1>LETS MAKE THIS BRO</h1> */}
-          <Router basename={process.env.PUBLIC_URL}>
+          <Router basename={"/Junoon"}>
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/drive' component={Drive_links} />
