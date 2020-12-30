@@ -15,7 +15,7 @@ const App = () => {
       <div className='App'>
         <div>
           {/* <h1>LETS MAKE THIS BRO</h1> */}
-          <HashRouter basename="/">
+          <HashRouter basename="/junoon">
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/drive' component={Drive_links} />
