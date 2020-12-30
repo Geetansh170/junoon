@@ -14,6 +14,7 @@ const App = () => {
       <div className='App'>
         <div>
           {/* <h1>LETS MAKE THIS BRO</h1> */}
+          <Router basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/drive' component={Drive_links} />
@@ -21,6 +22,7 @@ const App = () => {
             <Route exact path='/insta' component={Insta_gal} />
             <Route exact path='/about' component={About} />
           </Switch>
+          </Router>
         </div>
       </div>
     </Router>
