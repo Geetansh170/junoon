@@ -1,6 +1,31 @@
-import React, { Fragment } from "react";
+import React, { Fragment , useState} from "react";
+import { Document, Page,pdfjs  } from 'react-pdf';
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
+
 
 const About = () => {
+
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+    setPageNumber(1);
+  }
+
+  function changePage(offset) {
+    setPageNumber(prevPageNumber => prevPageNumber + offset);
+  }
+
+  function previousPage() {
+    changePage(-1);
+  }
+
+  function nextPage() {
+    changePage(1);
+  }
+
   return (
     <Fragment>
       <div>
@@ -174,6 +199,59 @@ const About = () => {
           </div>
           {/* /.wrapper */}
           <div className='wrapper gray-wrapper'>
+            <div className='container inner' style={{overflowX:"scroll",display:"flex",flexDirection:"column",alignItems:"center",width:"100vw",maxBlockSize:"90%"}} >
+            
+           
+            
+      <Document
+        file="./reels.pdf"
+        onLoadSuccess={onDocumentLoadSuccess}
+       
+      >
+         <Page pageNumber={pageNumber} />
+
+        {/* {
+              Array.from(
+                new Array(numPages),
+                (el, index) => (
+                  <Page
+                    key={`page_${index + 1}`}
+                    pageNumber={index + 1}
+                  />
+                ),
+              )
+            } */}
+      </Document>
+      <div>
+        <p>
+          Page {pageNumber || (numPages ? 1 : '--')} of {numPages || '--'}
+        </p>
+        <button
+          type="button"
+          className="btn btn-outline-dark"
+          disabled={pageNumber <= 1}
+          onClick={previousPage}
+        >
+          Previous
+        </button>
+        <button
+          type="button"
+          className="btn btn-outline-dark"
+          disabled={pageNumber >= numPages}
+          onClick={nextPage}
+        >
+          Next
+        </button>
+      </div>
+      
+              {/*/.row */}
+              <div className='space10' />
+              
+            </div>
+            {/* /.container */}
+          </div>
+
+          <div className='wrapper gray-wrapper'>
             <div className='container inner'>
             <h1 className='heading text-center'>Our Departments</h1>
               <div className='row'>
@@ -254,9 +332,13 @@ const About = () => {
             className='wrapper image-wrapper bg-image inverse-text'
             data-image-src='style/images/art/bg3.jpg'
           >
+
             
             {/* /.container */}
           </div>
+
+          
+
           {/* /.wrapper */}
           <div className='wrapper light-wrapper'>
             <div className='container inner'>
