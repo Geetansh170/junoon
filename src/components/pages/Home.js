@@ -18,7 +18,7 @@ const Home = () => {
                     {/*/.dropdown-menu */}
                   </li>
                   
-                  <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="junoon/#/insta">Instagram</a>
+                  <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="bobobob">Instagram</a>
                     
                   </li>
                   <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/drive">Drive</a>
