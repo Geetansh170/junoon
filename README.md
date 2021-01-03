@@ -1,1 +1,0 @@
-Website for Junoon The Photography club of NSIT
