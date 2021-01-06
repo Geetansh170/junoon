@@ -117,25 +117,25 @@ console.log(PicId);
                     {/*/.dropdown-menu */}
                   </li>
                   <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='/insta'>
+                    <a className='nav-link dropdown-toggle' href='https://geetansh170.github.io/junoon/#/insta'>
                       Instagram
                     </a>
                     
                   </li>
                   <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='/drive'>
+                    <a className='nav-link dropdown-toggle' href='https://geetansh170.github.io/junoon/#/drive'>
                       Drive
                     </a>
                     
                   </li>
                   <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='/about'>
+                    <a className='nav-link dropdown-toggle' href='https://geetansh170.github.io/junoon/#/about'>
                       About
                     </a>
                    
                   </li>
                   <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='/contact_us'>
+                    <a className='nav-link dropdown-toggle' href='https://geetansh170.github.io/junoon/#/contact_us'>
                       Contact
                     </a>
                    
@@ -445,25 +445,25 @@ console.log(PicId);
                     {/*/.dropdown-menu */}
                   </li>
                   <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='/insta'>
+                    <a className='nav-link dropdown-toggle' href='https://geetansh170.github.io/junoon/#/insta'>
                       Instagram
                     </a>
                     
                   </li>
                   <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='/drive'>
+                    <a className='nav-link dropdown-toggle' href='https://geetansh170.github.io/junoon/#/drive'>
                       Drive
                     </a>
                     
                   </li>
                   <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='/about'>
+                    <a className='nav-link dropdown-toggle' href='https://geetansh170.github.io/junoon/#/about'>
                       About
                     </a>
                    
                   </li>
                   <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='/contact_us'>
+                    <a className='nav-link dropdown-toggle' href='https://geetansh170.github.io/junoon/#/contact_us'>
                       Contact
                     </a>
                    
