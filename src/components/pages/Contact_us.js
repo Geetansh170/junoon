@@ -70,25 +70,25 @@ const Contact_us = () => {
                     {/*/.dropdown-menu */}
                   </li>
                   <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='https://geetansh170.github.io/junoon/#/insta'>
+                    <a className='nav-link dropdown-toggle' href='/insta'>
                       Instagram
                     </a>
                     
                   </li>
                   <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='https://geetansh170.github.io/junoon/#/drive'>
-                      Drive
+                    <a className='nav-link dropdown-toggle' href='/collection'>
+                      Collections
                     </a>
                     
                   </li>
                   <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='https://geetansh170.github.io/junoon/#/about'>
+                    <a className='nav-link dropdown-toggle' href='/about'>
                       About
                     </a>
                    
                   </li>
                   <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='https://geetansh170.github.io/junoon/#/contact_us'>
+                    <a className='nav-link dropdown-toggle' href='/contact_us'>
                       Contact
                     </a>
                    

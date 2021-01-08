@@ -38,25 +38,25 @@ const Drive_links = () => {
                     {/*/.dropdown-menu */}
                   </li>
                   <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='https://geetansh170.github.io/junoon/#/insta'>
+                    <a className='nav-link dropdown-toggle' href='/insta'>
                       Instagram
                     </a>
                     
                   </li>
                   <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='https://geetansh170.github.io/junoon/#/drive'>
-                      Drive
+                    <a className='nav-link dropdown-toggle' href='/collection'>
+                      Collections
                     </a>
                     
                   </li>
                   <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='https://geetansh170.github.io/junoon/#/about'>
+                    <a className='nav-link dropdown-toggle' href='/about'>
                       About
                     </a>
                    
                   </li>
                   <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='https://geetansh170.github.io/junoon/#/contact_us'>
+                    <a className='nav-link dropdown-toggle' href='/contact_us'>
                       Contact
                     </a>
                    
@@ -69,30 +69,30 @@ const Drive_links = () => {
             </div>
           </nav>
         <div className='wrapper light-wrapper'>
-          <div className='container inner'>
+        <div className='container inner'>
             <h2 className='section-title text-center'>Recent Drive Links</h2>
             <div className='space60' />
-            <a href="https:/https://geetansh170.github.io/junoon/#/drive.google.comhttps://geetansh170.github.io/junoon/#/drive/folders/1dY-dSI54Okm9n6cwopTjRt29bfS4Rd5h?usp=sharing" target="_blank">
+            <a href="https://drive.google.com/drive/folders/1dY-dSI54Okm9n6cwopTjRt29bfS4Rd5h?usp=sharing" target="_blank">
             <h3 className='text-center'>Ethnic 2019</h3>
             </a>
             <hr />
-            <a href="https:/https://geetansh170.github.io/junoon/#/drive.google.comhttps://geetansh170.github.io/junoon/#/drive/folders/196K7YVOtcdsLX1AkfwHaMo7GRaMAIKs7?usp=sharing" target="_blank">
+            <a href="https://drive.google.com/drive/folders/196K7YVOtcdsLX1AkfwHaMo7GRaMAIKs7?usp=sharing" target="_blank">
             <h3 className='text-center'>Colloquium</h3>
             </a>
             <hr />
-            <a href="https:/https://geetansh170.github.io/junoon/#/drive.google.comhttps://geetansh170.github.io/junoon/#/drive/folders/1Qtvnp3uUJ7SEaXBgYZBIhUuVs4bp9z-P?usp=sharing" target="_blank">
+            <a href="https://drive.google.com/drive/folders/1Qtvnp3uUJ7SEaXBgYZBIhUuVs4bp9z-P?usp=sharing" target="_blank">
             <h3 className='text-center'>Netaji's Birthday 2019</h3>
             </a>
             <hr />
-            <a href="https:/https://geetansh170.github.io/junoon/#/drive.google.comhttps://geetansh170.github.io/junoon/#/drive/folders/1_iaqm99wWh-y1_8x0LoatTXumdQPK4bY?usp=sharing" target="_blank">
+            <a href="https://drive.google.com/drive/folders/1_iaqm99wWh-y1_8x0LoatTXumdQPK4bY?usp=sharing" target="_blank">
             <h3 className='text-center'>Consillium</h3>
             </a>
             <hr />
-            <a href="https:/https://geetansh170.github.io/junoon/#/drive.google.comhttps://geetansh170.github.io/junoon/#/drive/folders/1s72NcvIecT44MYLhK0RQ8gFdrPYsz7zT?usp=sharing" target="_blank">
+            <a href="https://drive.google.com/drive/folders/1s72NcvIecT44MYLhK0RQ8gFdrPYsz7zT?usp=sharing" target="_blank">
             <h3 className='text-center'>E Summit</h3>
             </a>
             <hr />
-            <a href="https:/https://geetansh170.github.io/junoon/#/drive.google.comhttps://geetansh170.github.io/junoon/#/drive/folders/1hqVXxmdRxgJShWVHzZ4EuVBU5nwNCE33?usp=sharing" target="_blank">
+            <a href="https://drive.google.com/drive/folders/1hqVXxmdRxgJShWVHzZ4EuVBU5nwNCE33?usp=sharing" target="_blank">
             <h3 className='text-center'>Crescendo Eve</h3>
             </a>
             <hr />
@@ -117,6 +117,7 @@ const Drive_links = () => {
               <i className='si-photo_aperture' />
             </div> */}
           </div>
+          
           <div className='container inner'>
             <h1 className='section-title text-center'>Most popular Youtube videos</h1>
             <div className='space60' />

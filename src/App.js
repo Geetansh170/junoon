@@ -15,15 +15,15 @@ const App = () => {
       <div className='App'>
         <div>
           {/* <h1>LETS MAKE THIS BRO</h1> */}
-          <HashRouter basename="/">
+          
           <Switch>
             <Route exact path='/' component={Home} />
-            <Route exact path='/drive' component={Drive_links} />
+            <Route exact path='/collection' component={Drive_links} />
             <Route exact path='/contact_us' component={Contact_us} />
-            <Route exact path='https://geetansh170.github.io/junoon/#/insta' component={Insta_gal} />
+            <Route exact path='/insta' component={Insta_gal} />
             <Route exact path='/about' component={About} />
           </Switch>
-          </HashRouter>
+          
         </div>
       </div>
     </Router>
