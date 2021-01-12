@@ -76,8 +76,8 @@ const Contact_us = () => {
                     
                   </li>
                   <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='/collection'>
-                      Collections
+                    <a className='nav-link dropdown-toggle' href='/drive'>
+                      Drive
                     </a>
                     
                   </li>
@@ -115,7 +115,7 @@ const Contact_us = () => {
                   <div className='col-md-4'>
                     {" "}
                     <span className='icon icon-color color-default fs-48 mb-10'>
-                      <a href="https://www.facebook.com/junoon.nsut/" target="_blank"><i className='fa fa-facebook-f' /></a><i className='fa fa-facebook-f' />
+                      <a href="https://www.facebook.com/junoon.nsut/" target="_blank"></a><i className='fa fa-facebook-f' />
                     </span>
                     <p>
                       Junoon The Photography <br></br>club of NSUT
