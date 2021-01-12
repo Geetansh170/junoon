@@ -44,8 +44,8 @@ const Drive_links = () => {
                     
                   </li>
                   <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='/drive'>
-                      Drive
+                    <a className='nav-link dropdown-toggle' href='/collection'>
+                      Collections
                     </a>
                     
                   </li>
@@ -69,7 +69,7 @@ const Drive_links = () => {
             </div>
           </nav>
         <div className='wrapper light-wrapper'>
-          <div className='container inner'>
+        <div className='container inner'>
             <h2 className='section-title text-center'>Recent Drive Links</h2>
             <div className='space60' />
             <a href="https://drive.google.com/drive/folders/1dY-dSI54Okm9n6cwopTjRt29bfS4Rd5h?usp=sharing" target="_blank">
@@ -117,6 +117,7 @@ const Drive_links = () => {
               <i className='si-photo_aperture' />
             </div> */}
           </div>
+          
           <div className='container inner'>
             <h1 className='section-title text-center'>Most popular Youtube videos</h1>
             <div className='space60' />
