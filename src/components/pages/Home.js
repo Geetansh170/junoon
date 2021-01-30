@@ -119,7 +119,7 @@ We also indulge in collborations with other societies to exhibit the best of hap
                   {/*/.item */}
                   <div className="item col-md-6 col-lg-4">
                     <div className="box bg-inverse p-30">
-                      <figure className="main mb-20 overlay overlay1 rounded"><img src="style/images/h5.jpg" alt="" />
+                      <figure className="main mb-20 overlay overlay1 rounded"><img src="style/images/h3.jpg" alt="" />
                         <figcaption>
                           <h5 className="text-uppercase from-top mb-0"></h5>
                         </figcaption>
@@ -143,7 +143,7 @@ We also indulge in collborations with other societies to exhibit the best of hap
                   {/*/.item */}
                   <div className="item col-md-6 col-lg-4">
                     <div className="box bg-inverse p-30">
-                      <figure className="main mb-20 overlay overlay1 rounded"><img src="style/images/h3.jpg" alt="" />
+                      <figure className="main mb-20 overlay overlay1 rounded"><img src="style/images/h5.jpg" alt="" />
                         <figcaption>
                           <h5 className="text-uppercase from-top mb-0"></h5>
                         </figcaption>
