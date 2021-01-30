@@ -102,8 +102,8 @@ const About = () => {
                     
                   </li>
                   <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='/collection'>
-                      Collections
+                    <a className='nav-link dropdown-toggle' href='/drive'>
+                      Drive
                     </a>
                     
                   </li>
@@ -130,37 +130,19 @@ const About = () => {
             <div className='container inner pt-70'>
               <h2 className='section-title mb-40 text-center'>Meet the Team</h2>
               <div className='row boxed grid-view'>
-                <div className='col-md-6 col-lg-4'>
-                  <div className='box bg-white shadow p-30'>
-                    <figure className='main'>
-                      <img src='style/images/senapati_s.jpeg' alt='' />
-                    </figure>
-                    <h4 className='mb-5'>Ashwini Senapati</h4>
-                    <div className='meta mb-10'>President (operational) </div>
-                    <p>Junoon The Photography club of NSUT</p>
-                    <ul className='social social-mute'>
-                      <li>
-                        <a href='https://www.instagram.com/ashwanisenapati/' target="_blank">
-                          <i className='fa fa-instagram' />
-                        </a>
-                      </li>
-                    </ul>
-                    
-                  </div>
-                  {/* /.box */}
-                </div>
+                
                 {/*/column */}
-                <div className='col-md-6 col-lg-4'>
-                  <div className='box bg-white shadow p-30'>
+                <div className='col-md-10 col-lg-8' style= {{margin: "0 auto"}}>
+                  <div className='box bg-white shadow p-90'>
                     <figure className='main'>
-                      <img src='style/images/sunny_s.jpg' alt='' />
+                      <img src='style/images/fam.jpg' alt='' />
                     </figure>
-                    <h4 className='mb-5'>Sunny Rauniyar</h4>
-                    <div className='meta mb-10'>President (managerial)</div>
+                    <h4 className='mb-5'>JUNOON</h4>
+                    <div className='meta mb-10'></div>
                     <p>Junoon The Photography club of NSUT</p>
                     <ul className='social social-mute'>
                       <li>
-                        <a href='https://www.instagram.com/sunny_supertramp/' target="_blank">
+                        <a href='https://www.instagram.com/junnon.nsut/' target="_blank">
                           <i className='fa fa-instagram' />
                         </a>
                       </li>
@@ -170,25 +152,7 @@ const About = () => {
                   {/* /.box */}
                 </div>
                 {/*/column */}
-                <div className='space30 d-lg-none' />
-                <div className='col-md-6 col-lg-4'>
-                  <div className='box bg-white shadow p-30'>
-                    <figure className='main'>
-                      <img src='style/images/hardayal_s.jpg' alt='' />
-                    </figure>
-                    <h4 className='mb-5'>Hardayal Singh</h4>
-                    <div className='meta mb-10'>Vise President</div>
-                    <p>Junoon The Photography club of NSUT</p>
-                    <ul className='social social-mute'>
-                      <li>
-                        <a href='https://www.instagram.com/hardayal31/' target="_blank">
-                          <i className='fa fa-instagram' />
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  {/* /.box */}
-                </div>
+                
                 {/*/column */}
                 
                 {/*/column */}
@@ -199,7 +163,7 @@ const About = () => {
           </div>
           {/* /.wrapper */}
           <div className='wrapper gray-wrapper'>
-            <div className='container inner' style={{overflowX:"scroll",display:"flex",flexDirection:"column",alignItems:"center",width:"100vw",maxBlockSize:"90%"}} >
+            <div className='container inner' style={{display:"flex",flexDirection:"column",alignItems:"center",width:"100vw",maxBlockSize:"90%"}} >
             
            
             
