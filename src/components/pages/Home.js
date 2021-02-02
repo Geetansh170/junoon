@@ -1,6 +1,78 @@
 import React, { Fragment } from "react";
+import $ from 'jquery'
+
+/*
+Inspired by Florin Pop's coding challenges, you can check them here: https://www.florin-pop.com/blog/2019/03/weekly-coding-challenge/
+*/
+
+
 
 const Home = () => {
+  
+document.addEventListener("DOMContentLoaded", () => {
+
+  
+
+  function isElementInViewport (el) {
+
+        var rect = el.getBoundingClientRect();
+    return (
+        rect.top >= 10 &&
+        rect.left >= 10 &&
+        rect.bottom <= (window.innerHeight +10|| document.documentElement.clientHeight+10) && /* or $(window).height() */
+        rect.right <= (10+window.innerWidth ||10+ document.documentElement.clientWidth) /* or $(window).width() */
+    );
+}
+
+
+  function onVisibilityChange(el, callback) {
+    var old_visible;
+    return function () {
+        var visible = isElementInViewport(el);
+        if (visible != old_visible) {
+            old_visible = visible;
+            if (typeof callback == 'function') {
+                callback();
+            }
+        }
+    }
+}
+
+
+var handler = onVisibilityChange(document.getElementById('anchor'), function() {
+    /* Your code go here */
+    
+    
+    
+    function counter(id, start, end, duration) {
+      let obj = document.getElementById(id),
+       current = start,
+       range = end - start,
+       increment = end > start ? 1 : -1,
+       step = Math.abs(Math.floor(duration / range)),
+       timer = setInterval(() => {
+        current += increment;
+        obj.textContent = current;
+        if (current == end) {
+         clearInterval(timer);
+        }
+       }, step);
+     }
+     counter("count1", 0, 124, 3000);
+    
+});
+
+
+console.log(handler);
+
+// jQuery
+$(window).on('DOMContentLoaded load resize scroll', handler)
+
+
+
+ });
+ 
+    
   return (
     <Fragment>
         <div className="content-wrapper">
@@ -21,7 +93,7 @@ const Home = () => {
                   <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/insta">Instagram</a>
                     
                   </li>
-                  <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/collection">Collections</a>
+                  <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/drive">Drive</a>
                     
                   </li>
                   <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/about">About</a>
@@ -89,6 +161,25 @@ We also indulge in collborations with other societies to exhibit the best of hap
                 {/* /column */}
               </div>
               {/* /.row */}
+
+              <div className="wrapper"id="anchor">
+      
+       <br></br>
+       <br></br>
+        <section>
+        <div className="container">
+          <div className="row justify-content-center text-center">
+            <div className="col-md-12">
+              <p>
+                <span id="count1" style={{"fontSize": "250%"}} />
+                <span> Photowalks</span>
+                </p>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      </div>
               <div className="space150" id="portfolio" />
               <h2 className="section-title mb-30 text-center">Featured Shots</h2>
               <div className="tiles">
@@ -119,7 +210,7 @@ We also indulge in collborations with other societies to exhibit the best of hap
                   {/*/.item */}
                   <div className="item col-md-6 col-lg-4">
                     <div className="box bg-inverse p-30">
-                      <figure className="main mb-20 overlay overlay1 rounded"><img src="style/images/h3.jpg" alt="" />
+                      <figure className="main mb-20 overlay overlay1 rounded"><img src="style/images/h5.jpg" alt="" />
                         <figcaption>
                           <h5 className="text-uppercase from-top mb-0"></h5>
                         </figcaption>
@@ -143,7 +234,7 @@ We also indulge in collborations with other societies to exhibit the best of hap
                   {/*/.item */}
                   <div className="item col-md-6 col-lg-4">
                     <div className="box bg-inverse p-30">
-                      <figure className="main mb-20 overlay overlay1 rounded"><img src="style/images/h5.jpg" alt="" />
+                      <figure className="main mb-20 overlay overlay1 rounded"><img src="style/images/h3.jpg" alt="" />
                         <figcaption>
                           <h5 className="text-uppercase from-top mb-0"></h5>
                         </figcaption>
