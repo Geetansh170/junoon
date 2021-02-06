@@ -93,7 +93,7 @@ $(window).on('DOMContentLoaded load resize scroll', handler)
                   <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/insta">Instagram</a>
                     
                   </li>
-                  <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/drive">Collections</a>
+                  <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/collection">Collections</a>
                     
                   </li>
                   <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/about">About</a>
