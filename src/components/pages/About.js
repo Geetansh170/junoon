@@ -102,8 +102,8 @@ const About = () => {
                     
                   </li>
                   <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='/drive'>
-                      Drive
+                    <a className='nav-link dropdown-toggle' href='/collection'>
+                      Collections
                     </a>
                     
                   </li>
