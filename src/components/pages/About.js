@@ -142,7 +142,7 @@ const About = () => {
                     <p>Junoon The Photography club of NSUT</p>
                     <ul className='social social-mute'>
                       <li>
-                        <a href='https://www.instagram.com/junnon.nsut/' target="_blank">
+                        <a href='https://www.instagram.com/junoon.nsut/' target="_blank">
                           <i className='fa fa-instagram' />
                         </a>
                       </li>

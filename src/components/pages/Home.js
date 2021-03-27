@@ -171,7 +171,7 @@ We also indulge in collborations with other societies to exhibit the best of hap
           <div className="row justify-content-center text-center">
             <div className="col-md-12">
               <p>
-                <span id="count1" style={{"fontSize": "250%"}} />
+                <span id="count1" style={{"fontSize": "550%"}} />
                 <span> Photowalks</span>
                 </p>
 
