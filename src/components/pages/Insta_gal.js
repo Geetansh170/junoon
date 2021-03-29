@@ -341,7 +341,7 @@ console.log(PicId);
             <div className='container inner'>
               <div className='row d-md-flex align-items-md-center'>
                 <div className='col-md-4 text-center text-md-left'>
-                  
+                  <p className='mb-0'></p>
                 </div>
                 {/*/column */}
                 <div className='col-md-4 text-center footy'>
@@ -354,28 +354,16 @@ console.log(PicId);
                 {/*/column */}
                 <div className='col-md-4 text-center text-md-right'>
                   <ul className='social social-mute social-s mt-10'>
+
                     <li>
-                      <a href='#'>
-                        <i className='fa fa-twitter' />
-                      </a>
-                    </li>
-                    <li>
-                      <a href='https://www.facebook.com/junoon.nsut/'>
+                      <a href='https://www.facebook.com/junoon.nsut/' target="_blank">
                         <i className='fa fa-facebook-f' />
                       </a>
                     </li>
+                    
+                   
                     <li>
-                      <a href='#'>
-                        <i className='fa fa-pinterest' />
-                      </a>
-                    </li>
-                    <li>
-                      <a href='#'>
-                        <i className='fa fa-vimeo' />
-                      </a>
-                    </li>
-                    <li>
-                      <a href='https://www.instagram.com/junoon.nsut/'>
+                      <a href='https://www.instagram.com/junoon.nsut/' target="_blank">
                         <i className='fa fa-instagram' />
                       </a>
                     </li>
@@ -438,7 +426,7 @@ console.log(PicId);
               <div className='navbar-collapse collapse w-100 bg-light'>
                 <ul className='navbar-nav nav-fill w-100'>
                   <li className='nav-item'>
-                    <a className='nav-link' href='/home'>
+                    <a className='nav-link' href='/'>
                       Home
                     </a>
                     
@@ -666,45 +654,43 @@ console.log(PicId);
           </div>
           {/* /.wrapper */}
           <footer className='dark-wrapper inverse-text'>
-          <div className='container inner'>
-            <div className='row d-md-flex align-items-md-center'>
-              <div className='col-md-4 text-center text-md-left'>
-                <p className='mb-0'></p>
+            <div className='container inner'>
+              <div className='row d-md-flex align-items-md-center'>
+                <div className='col-md-4 text-center text-md-left'>
+                  <p className='mb-0'></p>
+                </div>
+                {/*/column */}
+                <div className='col-md-4 text-center footy'>
+                  <img
+                    src='#'
+                    srcSet='style/images/junoon-white.png 1x, style/images/junoon-white.png 4x'
+                    alt=''
+                  />
+                </div>
+                {/*/column */}
+                <div className='col-md-4 text-center text-md-right'>
+                  <ul className='social social-mute social-s mt-10'>
+
+                    <li>
+                      <a href='https://www.facebook.com/junoon.nsut/' target="_blank">
+                        <i className='fa fa-facebook-f' />
+                      </a>
+                    </li>
+                    
+                   
+                    <li>
+                      <a href='https://www.instagram.com/junoon.nsut/' target="_blank">
+                        <i className='fa fa-instagram' />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                {/*/column */}
               </div>
-              {/*/column */}
-              <div className='col-md-4 text-center footy'>
-                <img
-                  src='#'
-                  srcSet='
-                  style/images/junoon-white.png    1x,
-                  style/images/junoon-white.png 4x
-                '
-                  alt=''
-                />
-              </div>
-              {/*/column */}
-              <div className='col-md-4 text-center text-md-right'>
-                <ul className='social social-mute social-s mt-10'>
-                  
-                  <li>
-                    <a href='https://www.facebook.com/junoon.nsut/' target="_blank">
-                      <i className='fa fa-facebook-f' />
-                    </a>
-                  </li>
-                  
-                  <li>
-                    <a href='https://www.instagram.com/junoon.nsut/' target="_blank">
-                      <i className='fa fa-instagram' />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              {/*/column */}
+              {/*/.row */}
             </div>
-            {/*/.row */}
-          </div>
-          {/* /.container */}
-        </footer>
+            {/* /.container */}
+          </footer>
         </div>
         {/* /.content-wrapper */}
         {/* SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems! The following part can be removed on Server for On Demand Loading) */}

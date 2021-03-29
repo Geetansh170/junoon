@@ -304,7 +304,7 @@ const About = () => {
           
 
           {/* /.wrapper */}
-          <div className='wrapper light-wrapper'>
+          {/* <div className='wrapper light-wrapper'>
             <div className='container inner'>
               <h2 className='section-title text-center'>Words of Alumuni</h2>
               <div className='cube-carousel cbp'>
@@ -322,9 +322,9 @@ const About = () => {
                       </footer>
                     </blockquote>
                   </div>
-                  {/* /.box */}
+                 
                 </div>
-                {/* /.cbp-item */}
+               
                 <div className='cbp-item'>
                   <div className='box bg-white shadow'>
                     <blockquote className='icon icon-left'>
@@ -339,9 +339,9 @@ const About = () => {
                       </footer>
                     </blockquote>
                   </div>
-                  {/* /.box */}
+                 
                 </div>
-                {/* /.cbp-item */}
+                
                 <div className='cbp-item'>
                   <div className='box bg-white shadow'>
                     <blockquote className='icon icon-left'>
@@ -356,9 +356,9 @@ const About = () => {
                       </footer>
                     </blockquote>
                   </div>
-                  {/* /.box */}
+                
                 </div>
-                {/* /.cbp-item */}
+               
                 <div className='cbp-item'>
                   <div className='box bg-white shadow'>
                     <blockquote className='icon icon-left'>
@@ -373,9 +373,9 @@ const About = () => {
                       </footer>
                     </blockquote>
                   </div>
-                  {/* /.box */}
+                 
                 </div>
-                {/* /.cbp-item */}
+              
                 <div className='cbp-item'>
                   <div className='box bg-white shadow'>
                     <blockquote className='icon icon-left'>
@@ -390,9 +390,9 @@ const About = () => {
                       </footer>
                     </blockquote>
                   </div>
-                  {/* /.box */}
+                  
                 </div>
-                {/* /.cbp-item */}
+               
                 <div className='cbp-item'>
                   <div className='box bg-white shadow'>
                     <blockquote className='icon icon-left'>
@@ -405,9 +405,9 @@ const About = () => {
                       <footer className='blockquote-footer'>Cory Zamora</footer>
                     </blockquote>
                   </div>
-                  {/* /.box */}
+                 
                 </div>
-                {/* /.cbp-item */}
+              
                 <div className='cbp-item'>
                   <div className='box bg-white shadow'>
                     <blockquote className='icon icon-left'>
@@ -422,14 +422,14 @@ const About = () => {
                       </footer>
                     </blockquote>
                   </div>
-                  {/* /.box */}
+                  
                 </div>
-                {/* /.cbp-item */}
+               
               </div>
-              {/* /.cbp */}
+             
             </div>
-            {/* /.container */}
-          </div>
+           
+          </div> */}
           {/* /.wrapper */}
           {/* <div className='wrapper gray-wrapper'>
             <div className='container inner'>

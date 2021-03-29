@@ -79,7 +79,7 @@ $(window).on('DOMContentLoaded load resize scroll', handler)
           <nav className="navbar wide transparent absolute inverse-text navbar-expand-lg">
             <div className="container-fluid flex-row justify-content-center">
               <div className="navbar-header">
-                <div className="navbar-brand"><a href="/home"><img src="#" srcSet="style/images/junoon-white.png 1x, style/images/junoon-white.png 4x" alt="" /></a></div>
+                <div className="navbar-brand"><a href="/"><img src="#" srcSet="style/images/junoon-white.png 1x, style/images/junoon-white.png 4x" alt="" /></a></div>
                 <div className="navbar-hamburger ml-auto d-lg-none d-xl-none"><button className="hamburger animate" data-toggle="collapse" data-target=".navbar-collapse"><span /></button></div>
               </div>
               {/* /.navbar-header */}
@@ -313,7 +313,7 @@ We also indulge in collborations with other societies to exhibit the best of hap
                       </div>
                       {/* /.post-content */}
                       <hr />
-                      <div className="meta meta-footer d-flex justify-content-between mb-0"><span className="date">5 Jul 2018</span><span className="comments"><a href="#">3</a></span></div>
+                      <div className="meta meta-footer d-flex justify-content-between mb-0"><span className="date">5 Jul 2018</span><span className="comments"><a>12</a></span></div>
                     </div>
                     {/* /.box */}
                   </div>
@@ -334,7 +334,7 @@ We also indulge in collborations with other societies to exhibit the best of hap
                       </div>
                       {/* /.post-content */}
                       <hr />
-                      <div className="meta meta-footer d-flex justify-content-between mb-0"><span className="date">18 Jun 2018</span><span className="comments"><a href="#">5</a></span></div>
+                      <div className="meta meta-footer d-flex justify-content-between mb-0"><span className="date">18 Jun 2018</span><span className="comments"><a>15</a></span></div>
                     </div>
                     {/* /.box */}
                   </div>
