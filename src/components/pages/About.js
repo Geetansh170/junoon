@@ -249,6 +249,14 @@ const About = () => {
                   </p>
                   
                 </div>
+
+                <div className='col-md-6'>
+                  <h4 className='mb-20'>Tech-Department</h4>
+                  <p>
+                    So we got pictures, we got videos and we got stories but to properly showcase this to the world, we needed a website. This is where the tech department of Junoon comes in. This department mainly deals with creating, mainitaing and improving the official website of Junoon. A website is as good as it's user experience and Junoon tries to provide an easy, informative, seamless UI that both showcases our talent but doesn't overwhelm the visitors with too much content. It also provides an easier way to get in contact with Junoon for collaberations. With time, we will also conduct all the competitions on the website itself giving a dedicated space for budding and veteran photographers to interact and improve together.
+                  </p>
+                  
+                </div>
                 {/* <div className='col-md-6'>
                   <h4 className='mb-20'>Department 5</h4>
                   <p>
