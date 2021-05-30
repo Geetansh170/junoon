@@ -13,14 +13,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   
 
-  function isElementInViewport (el) {
+    function isElementInViewport (el) {
 
         var rect = el.getBoundingClientRect();
     return (
-        rect.top >= 10 &&
-        rect.left >= 10 &&
-        rect.bottom <= (window.innerHeight +10|| document.documentElement.clientHeight+10) && /* or $(window).height() */
-        rect.right <= (10+window.innerWidth ||10+ document.documentElement.clientWidth) /* or $(window).width() */
+        rect.top >= -65 &&
+        rect.left >= -10 &&
+        rect.bottom <= (window.innerHeight+65|| document.documentElement.clientHeight+65) && /* or $(window).height() */
+        rect.right <= (window.innerWidth -10||document.documentElement.clientWidth-10) /* or $(window).width() */
     );
 }
 
@@ -39,26 +39,34 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 
 
-var handler = onVisibilityChange(document.getElementById('anchor'), function() {
+var handler = onVisibilityChange(document.getElementById('count1'), function() {
     /* Your code go here */
     
+   
+      function counter(id, start, end, duration) {
+        let obj = document.getElementById(id),
+        current = start,
+        range = end - start,
+        increment = end > start ? 1 : -1,
+        step = Math.abs(Math.floor(duration / range)),
+        timer = setInterval(() => {
+          current += increment;
+          obj.textContent = current;
+          if (current == end) {
+          clearInterval(timer);
+          }
+        }, step);
+      }
+      if(isElementInViewport(document.getElementById('count1')))
+      {
+        counter("count1", 0, 124, 1000);
+      }
+      else
+      {
+        counter("count1",0,1,1);
+      }
     
-    
-    function counter(id, start, end, duration) {
-      let obj = document.getElementById(id),
-       current = start,
-       range = end - start,
-       increment = end > start ? 1 : -1,
-       step = Math.abs(Math.floor(duration / range)),
-       timer = setInterval(() => {
-        current += increment;
-        obj.textContent = current;
-        if (current == end) {
-         clearInterval(timer);
-        }
-       }, step);
-     }
-     counter("count1", 0, 124, 3000);
+
     
 });
 
