@@ -309,7 +309,7 @@ We also indulge in collborations with other societies to exhibit the best of hap
                 <div className="row isotope">
                   <div className="item post grid-sizer col-md-6 mb-0">
                     <div className="box bg-inverse">
-                      <figure className="main mb-30 overlay overlay1 rounded"><a href="#"> <img src="style/images/story3.jpg" alt="" /></a>
+                      <figure className="main mb-30 overlay overlay1 rounded"><a href="https://www.facebook.com/junoon.nsut/posts/2392990294057484" target="_blank"> <img src="style/images/story3.jpg" alt="" /></a>
                         <figcaption>
                           <h5 className="text-uppercase from-top mb-0">Story 1</h5>
                         </figcaption>
@@ -328,7 +328,7 @@ We also indulge in collborations with other societies to exhibit the best of hap
                   {/* /.post */}
                   <div className="item post grid-sizer col-md-6 mb-0">
                     <div className="box bg-inverse">
-                      <figure className="main mb-30 overlay overlay1 rounded"><a href="#"> <img src="style/images/story1.jpg" alt="" /></a>
+                      <figure className="main mb-30 overlay overlay1 rounded"><a href="https://www.facebook.com/junoon.nsut/posts/2379846828705164" target="_blank" > <img src="style/images/story1.jpg" alt="" /></a>
                         <figcaption>
                           <h5 className="text-uppercase from-top mb-0">Story 2</h5>
                         </figcaption>
