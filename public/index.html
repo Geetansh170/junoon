@@ -109,20 +109,30 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 725px)
+@media screen and (max-width: 1300px)
 {
      
      .react-pdf__Page__canvas,.react-pdf__Page__textContent
      {
-       width:95vw !important ;
-       height : 100%  !important;
+       width:auto !important ;
+       height :68vh  !important;
        
      }
      /*<canvas class="react-pdf__Page__canvas" dir="ltr" width="100vw" style="display: block; user-select :none; width:85vw;"></canvas>*/
-     .progress-bar {
-  width: 85%;
-     }
 }
+
+@media screen and (max-width: 1000px)
+{
+     
+     .react-pdf__Page__canvas,.react-pdf__Page__textContent
+     {
+       width:91vw !important ;
+       height :auto  !important;
+       
+     }
+     /*<canvas class="react-pdf__Page__canvas" dir="ltr" width="100vw" style="display: block; user-select :none; width:85vw;"></canvas>*/
+}
+
     </style>
     
     <title>Junoon</title>
