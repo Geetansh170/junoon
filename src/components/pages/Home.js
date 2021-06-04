@@ -309,13 +309,13 @@ We also indulge in collborations with other societies to exhibit the best of hap
                 <div className="row isotope">
                   <div className="item post grid-sizer col-md-6 mb-0">
                     <div className="box bg-inverse">
-                      <figure className="main mb-30 overlay overlay1 rounded"><a href="#"> <img src="style/images/story3.jpg" alt="" /></a>
+                      <figure className="main mb-30 overlay overlay1 rounded"><a href="https://www.facebook.com/junoon.nsut/posts/2392990294057484" target="_blank"> <img src="style/images/story3.jpg" alt="" /></a>
                         <figcaption>
                           <h5 className="text-uppercase from-top mb-0">Story 1</h5>
                         </figcaption>
                       </figure>
           
-                      <h2 className="post-title"><a href="#">Storygram 1</a></h2>
+                      <h2 className="post-title"><a href="https://www.facebook.com/junoon.nsut/posts/2392990294057484" target="_blank">Storygram 1</a></h2>
                       <div className="post-content">
                         <p>The Bofors Howitzer stood strong in all its glory, and in front it stood two people. The little boy was in absolute awe of the grandiosity of the machine. The giant wheels and the extended barrel left him in wonder. His grandfather had felt the exact same stream of emotions some thirty years ago when he first operated on the beast. It was a long time ago, but being in the presence of the Howitzer again had sent him down the memory lane. He smiled as he remembered some of the most cherished moments he had spent while serving in the Army. It was a cold morning, but warm nostalgia comforted him. It was a cold morning, but he felt at home.</p>
                       </div>
@@ -328,13 +328,13 @@ We also indulge in collborations with other societies to exhibit the best of hap
                   {/* /.post */}
                   <div className="item post grid-sizer col-md-6 mb-0">
                     <div className="box bg-inverse">
-                      <figure className="main mb-30 overlay overlay1 rounded"><a href="#"> <img src="style/images/story1.jpg" alt="" /></a>
+                      <figure className="main mb-30 overlay overlay1 rounded"><a href="https://www.facebook.com/junoon.nsut/posts/2379846828705164" target="_blank" > <img src="style/images/story1.jpg" alt="" /></a>
                         <figcaption>
                           <h5 className="text-uppercase from-top mb-0">Story 2</h5>
                         </figcaption>
                       </figure>
                       
-                      <h2 className="post-title"><a href="#">Storygram 2</a></h2>
+                      <h2 className="post-title"><a href="https://www.facebook.com/junoon.nsut/posts/2379846828705164" target="_blank" >Storygram 2</a></h2>
                       <div className="post-content">
                         <p>
                         A cold and dark December morning. A thick mist hangs over the dawn. His boat pierces through the calm glacial waters. The mist does not deter him, for he has rowed in many such mornings before. What most dearly awaits him, is not the destination nor his duty, but the migratory birds. Over the years, they have become his most cherished friends who come to see him once a year. The only sounds heard in this serenity is that of the flapping of wings and of him sprinkling sunflower seeds around him. The birds create a symphonic chaos around him as he disappears into the mist.
