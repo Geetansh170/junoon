@@ -480,7 +480,7 @@ console.log(PicId);
                   <div style={{WebkitBoxFlex:"1" , flex:"100%" }} className='item grid-sizer col-md-6 col-lg-4'>
                     <div className='box bg-white shadow p-30'>
                       <figure className='main polaroid overlay overlay1'>
-                        <a href={images[0]} target='_blank'>
+                        <a href={images[0]} target='_blank'><span className="bg"></span>
                           <img style={{width: "100%" , height:'auto', objectFit:'contain'}} src={images[0]} alt='' />
                           </a>
                         <figcaption>
@@ -532,7 +532,7 @@ console.log(PicId);
                   <div style={{WebkitBoxFlex:"1" , flex:"100%" }} className='item grid-sizer col-md-6 col-lg-4'>
                     <div className='box bg-white shadow p-30'>
                       <figure className='main polaroid overlay overlay1'>
-                      <a href={images[3]} target='_blank'>
+                      <a href={images[3]} target='_blank'><span className="bg"></span>
                           <img style={{width: "100%" , height:'auto', objectFit:'contain'}} src={images[3]} alt='' />
                         </a>
                         <figcaption>
@@ -584,7 +584,7 @@ console.log(PicId);
                   <div style={{WebkitBoxFlex:"1" , flex:"100%" }} className='item grid-sizer col-md-6 col-lg-4'>
                     <div className='box bg-white shadow p-30'>
                       <figure className='main polaroid overlay overlay1'>
-                      <a href={images[6]} target='_blank'>
+                      <a href={images[6]} target='_blank'><span className="bg"></span>
                           <img style={{width: "100%" , height:'auto', objectFit:'contain'}} src={images[6]} alt='' />
                         </a>
                         <figcaption>
