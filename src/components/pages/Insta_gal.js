@@ -29,8 +29,9 @@ const Insta_gal = () => {
     };
 
     try {
+      
       console.log("before")
-      const res = await axios.get("https://graph.instagram.com/17841401475482155/media?access_token=IGQVJVeFJsQ1ZAjazExR2kwLXRNQjRQem96TGVST3J3RTZAOYjlfbFJTSWNMWV9tU29POEQ0YUlobUFQaWFNSEx5a1VzNlgxMUFyM3RFb25WWi12MkdJUDZA4Vklpa1JjTlh2M2draEx3&fields=id,timestamp");
+      const res = await axios.get("https://graph.instagram.com/17841401475482155/media?access_token=IGQVJVbEZAhN1U2NmROSHZAzdGRIVm5OTUg4X2QyZAVJqbDV3R2puZAjZA2R2dfMlJNcVI4UGtnbjRkaEQyQ0lZAb1I4dmdaZAEhvbmlfWVo5TVN6U1JHTmNJOUZADM0ZANM2VjZAXEyRlFQZA0x3&fields=id,timestamp");
       console.log("after");
       
 
@@ -46,7 +47,7 @@ console.log(PicId);
       let PicUrl=[];
       let j=0;
       for (let i = 0; i <25 ; i++) {
-        let url = await axios.get("https://graph.instagram.com/"+PicId[i]+"?access_token=IGQVJVeFJsQ1ZAjazExR2kwLXRNQjRQem96TGVST3J3RTZAOYjlfbFJTSWNMWV9tU29POEQ0YUlobUFQaWFNSEx5a1VzNlgxMUFyM3RFb25WWi12MkdJUDZA4Vklpa1JjTlh2M2draEx3&fields=media_url,media_type");
+        let url = await axios.get("https://graph.instagram.com/"+PicId[i]+"?access_token=IGQVJVbEZAhN1U2NmROSHZAzdGRIVm5OTUg4X2QyZAVJqbDV3R2puZAjZA2R2dfMlJNcVI4UGtnbjRkaEQyQ0lZAb1I4dmdaZAEhvbmlfWVo5TVN6U1JHTmNJOUZADM0ZANM2VjZAXEyRlFQZA0x3&fields=media_url,media_type");
         console.log(url);
         if(url.data.media_type=="IMAGE")
          { PicUrl[j]=url.data.media_url;
