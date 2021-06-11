@@ -169,7 +169,7 @@ $(window).on('DOMContentLoaded load resize scroll', handler)
                   Our society provides the platform to the photography enthusiasts as they exhibit talent through their pictures that we feature on our social media handles. 
                   We conduct photowalks around Delhi, hence providing a captivating experience for everyone who wants to learn and grow in this field. 
                   Additionally, our team holds technical workshops for enhanced learning and organizes time to time photography competitions. 
-                  Junoon also indulges in collborations with other societies to exhibit the best of happenings in NSUT..</p>
+                  Junoon also indulges in collborations with other societies to exhibit the best of happenings in NSUT.</p>
                   
                   
                 </div>
