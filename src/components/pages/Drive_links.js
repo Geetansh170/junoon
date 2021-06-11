@@ -81,7 +81,7 @@ const Drive_links = () => {
             </a>
             <hr />
             <a href="https://drive.google.com/drive/folders/1Qtvnp3uUJ7SEaXBgYZBIhUuVs4bp9z-P?usp=sharing" target="_blank">
-            <h3 className='text-center'>Netaji's Birthday 2019</h3>
+            <h3 className='text-center'>Prakram Divas 2019</h3>
             </a>
             <hr />
             <a href="https://drive.google.com/drive/folders/1_iaqm99wWh-y1_8x0LoatTXumdQPK4bY?usp=sharing" target="_blank">

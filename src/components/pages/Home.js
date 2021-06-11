@@ -60,10 +60,15 @@ var handler = onVisibilityChange(document.getElementById('count1'), function() {
       if(isElementInViewport(document.getElementById('count1')))
       {
         counter("count1", 0, 124, 1000);
+        counter("count2", 0, 45, 1000);
+        counter("count3", 0, 57, 1000);
       }
       else
       {
         counter("count1",0,1,1);
+        counter("count2",0,1,1);
+        counter("count3",0,1,1);
+        
       }
     
 
@@ -108,8 +113,10 @@ $(window).on('DOMContentLoaded load resize scroll', handler)
                    
                   </li>
                   <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/contact_us">Contact</a>
-                   
                   </li>
+
+                  {/* <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/timeline">timeline</a>
+                  </li> */}
                   
                   
                 </ul>
@@ -154,15 +161,15 @@ $(window).on('DOMContentLoaded load resize scroll', handler)
                 {/* /column */}
                 <div className="space30 d-block d-lg-none d-xl-none" />
                 <div className="col-lg-6">
-                  <p style={{textAlign:"left"}} className="lead">Founded in 2010, Junoon is a platform for photography and videography enthusiasts of NSUT, who can showcase and develop their talents with the help of it. 
-
-Our members excel not just in different genres of photography but also in film making, photo editing and storytelling through pictures. We bring out our flair for photography through three of our main projects:
-Project Perspective,Storygram and Humans Of NSUT
-Apart from these, Junoon also organizes the Ethnic Day every year, where the students and the faculty come together to showcase and celebrate our rich and diverse culture and tradition.
-
-We at Junoon provide opportunities for all budding photographers to be featured on our Instagram page. We conduct photowalks around Delhi, hence providing a captivating experience for everyone who wants to learn and grow in this field. Additionally, we hold technical workshops for enhanced learning and organize time to time photography competitions.
-
-We also indulge in collborations with other societies to exhibit the best of happenings in NSUT.</p>
+                  <p style={{textAlign:"left"}} className="lead">Founded in 2010, Junoon is a platform for photography and videography enthusiasts of NSUT where they can showcase and nurture their talents . 
+                  Our members excel not just in different genres of photography but also in film making, photo editing and storytelling through pictures. 
+                  We bring out our flair for photography through three of our main projects: Project Perspective, Storygram and Humans Of NSUT. 
+                  Two more new projects, Poll it Out and Project Reels, have been incorporated adding to the rich history of the society. 
+                  Junoon also organizes the Ethnic Day every year wherein the students and the faculty come together to celebrate and display our fusion of cultures, traditions and harmony. 
+                  Our society provides the platform to the photography enthusiasts as they exhibit talent through their pictures that we feature on our social media handles. 
+                  We conduct photowalks around Delhi, hence providing a captivating experience for everyone who wants to learn and grow in this field. 
+                  Additionally, our team holds technical workshops for enhanced learning and organizes time to time photography competitions. 
+                  Junoon also indulges in collborations with other societies to exhibit the best of happenings in NSUT..</p>
                   
                   
                 </div>
@@ -177,10 +184,24 @@ We also indulge in collborations with other societies to exhibit the best of hap
         <section>
         <div className="container">
           <div className="row justify-content-center text-center">
-            <div className="col-md-12">
+          <div className="col-md-4 col-sm-6">
+              <p>
+                <span id="count3" style={{"fontSize": "550%"}} />
+                <span> Competitions</span>
+                </p>
+
+            </div>
+            <div className="col-md-4 col-sm-6">
               <p>
                 <span id="count1" style={{"fontSize": "550%"}} />
                 <span> Photowalks</span>
+                </p>
+
+            </div>
+            <div className="col-md-4 sol-sm-6">
+              <p>
+                <span id="count2" style={{"fontSize": "550%"}} />
+                <span> Work-Shops</span>
                 </p>
 
             </div>
