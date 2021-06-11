@@ -107,7 +107,7 @@ const Contact_us = () => {
                 <h2 className='section-title text-center'>Get in Touch</h2>
                 <p className='text-center'>
                  Let's make something amazing together.
-                 Contact us for new creative ideas,collaborations,photowalks and to get to know more about Junoon . 
+                 Contact us for new creative ideas, collaborations, photowalks and to get to know more about Junoon . 
                 </p>
                 <br></br>
                 <div className='space20' />
@@ -118,7 +118,10 @@ const Contact_us = () => {
                       <a href="https://www.facebook.com/junoon.nsut/" target="_blank"><i className='fa fa-facebook-f' /></a>
                     </span>
                     <p>
-                      Junoon The Photography <br></br>club of NSUT
+                    <a className='nocolor' href='https://www.facebook.com/junoon.nsut/' target="_blank">
+                    Junoon The Photography <br></br>club of NSUT
+                      </a>
+                      
                     </p>
                   </div>
                   {/*/column */}
@@ -128,21 +131,21 @@ const Contact_us = () => {
                       <a href="https://www.instagram.com/junoon.nsut/" target="_blank"><i className='fa fa-instagram' /></a>
                     </span>
                     <p>
-                    Junoon.nsut
+                    <a className='nocolor' href='https://www.instagram.com/junoon.nsut' target="_blank">
+                      junoon.nsut
+                      </a>
                     </p>
                   </div>
                   {/*/column */}
                   <div className='col-md-4'>
                     {" "}
                     <span className='icon icon-color color-default fs-48 mb-10'>
-                      <i className='si-mail_mail-2' />
+                    <a href="mailto: nsit.junoon@gmail.com" target="_blank"><i className='fa fa-envelope-o' /></a>
                     </span>
                     <p>
-                      <a className='nocolor' href='mailto:#' target="_blank">
+                      <a className='nocolor' href='mailto: nsit.junoon@gmail.com' target="_blank">
                       nsit.junoon@gmail.com
-                      </a>
-                      <br />
-                      
+                      </a>                      
                     </p>
                   </div>
                   {/*/column */}

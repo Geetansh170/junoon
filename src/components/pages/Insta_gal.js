@@ -150,9 +150,9 @@ console.log(PicId);
           </nav>
           <div className='wrapper light-wrapper'>
             <div className='container inner pt-70'>
-              <h1 className='heading text-center'>THIS  IS  JUNOON</h1>
+              <h1 className='heading text-center'>Junooni Photographs</h1>
               <h2 className='sub-heading2 text-center'>
-                Our recent Instagram feed
+                Newest of Junoon Served Hot
               </h2>
               <div className='space50' />
              <div className='tiles grid'>
@@ -466,9 +466,9 @@ console.log(PicId);
           </nav>
           <div className='wrapper light-wrapper'>
             <div className='container inner pt-70'>
-              <h1 className='heading text-center'>THIS  IS  JUNOON</h1>
+            <h1 className='heading text-center'>Junooni Photographs</h1>
               <h2 className='sub-heading2 text-center'>
-                Our recent Instagram feed
+                Newest of Junoon Served Hot
               </h2>
               <div className='space50' />
              <div className='tiles grid'>

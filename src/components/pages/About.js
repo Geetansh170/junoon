@@ -207,6 +207,21 @@ const About = () => {
           Next
         </button>
       </div>
+            
+      <div>
+      {/* <button
+          type="button"
+          className="btn btn-outline-dark"
+          onClick={nextPage}
+        >
+          Next
+        </button> */}
+        <a href ="./reels.pdf" download="Reels-4.0.pdf" target="_blank">
+        <button type="button"
+          className="btn btn-outline-dark download" style={{width: "205.71px", 'background-color':"#101"}} > 
+          Download </button>  
+          </a>
+      </div>
       
               {/*/.row */}
               <div className='space10' />
@@ -217,7 +232,7 @@ const About = () => {
 
           <div className='wrapper gray-wrapper'>
             <div className='container inner'>
-            <h1 className='heading text-center'>Our Departments</h1>
+            <h1 className='heading text-center'>Our Projects</h1>
               <div className='row'>
                 {/*/column */}
                 <div className='col-md-6'>
@@ -233,6 +248,64 @@ const About = () => {
                   An eye of the photographer can see the weirdest things in an impressive fashion! The cameraman is always in a search of such moments. One of the amazing projects of Junoon is "Project Perspective" which is completely based on this theme. This gives you the freedom of clicking anything that may be real or illusionistic but it should blow the mind of the viewers by its creativity. You can find imaginativeness anywhere in this big sphere. To admire the scene in a different perspective all you need is to grope flora-fauna, architecture, monuments, people and many more things. This project has been going on for many years. People in Junoon have always come out with their unexpected innovativeness followed by their super skills in photography.
                   </p>
                 </div>
+                <div className='col-md-6'  style= {{margin: "0 auto"}} >
+                  <h4 className='mb-20'>Humans of NSUT</h4>
+                  <p>
+                  The world is a stage. We merely tell untold stories through pictures and captions. We talk to different people who are a part of the NSUT family. Be it the seniors who share unfiltered experiences of their college life, the professors who taught us well, or the bhaiya at McCain famous for his Perri Perri fries! Inspired by the Humans of New York, Humans of NSUT is for all the people who contribute directly or indirectly to make these 145 acres in southwest Delhi exciting and fun. Cheers to all the humans out there! we owe it to you.
+                  </p>
+                 
+                </div>
+                
+                {/* <div className='col-md-6'>
+                  <h4 className='mb-20'>Department 5</h4>
+                  <p>
+                    Duis mollis, est non commodo luctus, nisi porttitor ligula,
+                    eget lacinia odio sem nec elit. Aenean eu leo quam.
+                    Pellentesque ornare sem. Nullam id dolor id nibh ultricies
+                    vehicula ut id elit ullamcorper.
+                  </p>
+                  <ol>
+                    <li>Vivamus sagittis lacus vel augue laoreet.</li>
+                    <li>Cras mattis consectetur purus sit amet.</li>
+                    <li>Vestibulum id ligula porta felis euismod.</li>
+                    <li>Nulla vitae elit libero, a pharetra augue.</li>
+                  </ol>
+                </div> */}
+                {/* <div className='col-md-6'>
+                  <h4 className='mb-20'>Department 6</h4>
+                  <p>
+                    Duis mollis, est non commodo luctus, nisi porttitor ligula,
+                    eget lacinia odio sem nec elit. Aenean eu leo quam.
+                    Pellentesque ornare sem. Nullam id dolor id nibh ultricies
+                    vehicula ut id elit ullamcorper.
+                  </p>
+                  <ol>
+                    <li>Vivamus sagittis lacus vel augue laoreet.</li>
+                    <li>Cras mattis consectetur purus sit amet.</li>
+                    <li>Vestibulum id ligula porta felis euismod.</li>
+                    <li>Nulla vitae elit libero, a pharetra augue.</li>
+                  </ol>
+                </div> */}
+                {/* /column */}
+              </div>
+              {/*/.row */}
+              <div className='space10' />
+              {/* <div className='text-center'>
+                <a href='#' className='btn'>
+                  Hire Us
+                </a>
+              </div> */}
+            </div>
+            {/* /.container */}
+          </div>
+
+
+
+          <div className='wrapper gray-wrapper'>
+            <div className='container inner'>
+            <h1 className='heading text-center'>Our Departments</h1>
+              <div className='row'>
+                {/*/column */}
                 <div className='col-md-6'>
                   <h4 className='mb-20'>Junoon Design</h4>
                   <p>
@@ -249,6 +322,15 @@ const About = () => {
                   </p>
                   
                 </div>
+
+                <div className='col-md-6'>
+                  <h4 className='mb-20'>Content Writers</h4>
+                  <p>
+                  Every photograph ever clicked at Junoon has a story and we are here to tell you those untold stories. We have many stories of this 145 acres campus be it of utmost happiness to sadness, success to disappointments, extreme positives to negatives. We capture stories of various people including the curious fresher who still has not toured the entire campus, McCain uncle who is just having a usual busy day at work, the security guard who asks for ID card even if you are entering the college for the millionth time or maybe a random student getting late for his class. We write storygrams which give life to the photographs and make you believe that a single photograph is capable of telling a thousand stories. 
+                  </p>
+                 
+                </div>
+                
 
                 <div className='col-md-6'>
                   <h4 className='mb-20'>Tech-Department</h4>
