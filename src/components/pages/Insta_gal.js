@@ -150,9 +150,14 @@ const Insta_gal = () => {
           </nav>
           <div className='wrapper light-wrapper'>
             <div className='container inner pt-70'>
-              <h1 className='heading text-center'>Junooni Photographs</h1>
+            <h1>
+            <a href='https://www.instagram.com/junoon.nsut/' target="_blank">
+                  <i className='fa fa-instagram' style={{"font-size":"45px", color:"#333"}} />
+              </a>
+                
+              </h1>
               <h2 className='sub-heading2 text-center'>
-                Newest of Junoon Served Hot
+               <img src="style/images/instagram.png" style={{width:"18vw", "min-width":"152px"}}></img>
               </h2>
               <div className='space50' />
              <div className='tiles grid'>
@@ -466,9 +471,14 @@ const Insta_gal = () => {
           </nav>
           <div className='wrapper light-wrapper'>
             <div className='container inner pt-70'>
-            <h1 className='heading text-center'>Junooni Photographs</h1>
+              <h1>
+            <a href='https://www.instagram.com/junoon.nsut/' target="_blank">
+                  <i className='fa fa-instagram' style={{"font-size":"45px", color:"#333"}} />
+              </a>
+                
+              </h1>
               <h2 className='sub-heading2 text-center'>
-                Newest of Junoon Served Hot
+               <img src="style/images/instagram.png" style={{width:"18vw", "min-width":"152px"}}></img>
               </h2>
               <div className='space50' />
              <div className='tiles grid'>
