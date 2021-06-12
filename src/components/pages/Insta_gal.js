@@ -14,13 +14,13 @@ const Insta_gal = () => {
    
   useEffect(() => {
     callapi(user);
-    console.log("use effect");
+    //console.log("use effect");
   },images);
 
  
   const callapi = async (post) => {
 
-    console.log("hahahahha");
+    //console.log("hahahahha");
 
     const config = {
       headers: {
@@ -30,9 +30,9 @@ const Insta_gal = () => {
 
     try {
       
-      console.log("before")
+      //console.log("before")
       const res = await axios.get("https://graph.instagram.com/17841401475482155/media?access_token=IGQVJVbEZAhN1U2NmROSHZAzdGRIVm5OTUg4X2QyZAVJqbDV3R2puZAjZA2R2dfMlJNcVI4UGtnbjRkaEQyQ0lZAb1I4dmdaZAEhvbmlfWVo5TVN6U1JHTmNJOUZADM0ZANM2VjZAXEyRlFQZA0x3&fields=id,timestamp");
-      console.log("after");
+      //console.log("after");
       
 
       let useful_data=res.data.data.slice();//only id and timestamp
@@ -43,12 +43,12 @@ const Insta_gal = () => {
         
       }
       
-console.log(PicId);
+//console.log(PicId);
       let PicUrl=[];
       let j=0;
       for (let i = 0; i <25 ; i++) {
         let url = await axios.get("https://graph.instagram.com/"+PicId[i]+"?access_token=IGQVJVbEZAhN1U2NmROSHZAzdGRIVm5OTUg4X2QyZAVJqbDV3R2puZAjZA2R2dfMlJNcVI4UGtnbjRkaEQyQ0lZAb1I4dmdaZAEhvbmlfWVo5TVN6U1JHTmNJOUZADM0ZANM2VjZAXEyRlFQZA0x3&fields=media_url,media_type");
-        console.log(url);
+        //console.log(url);
         if(url.data.media_type=="IMAGE")
          { PicUrl[j]=url.data.media_url;
           //console.log(PicUrl);
@@ -61,24 +61,24 @@ console.log(PicId);
          }
       }
 
-      console.log(PicUrl);
+      //console.log(PicUrl);
       
        setImages(PicUrl)
-      console.log("images");
+      //console.log("images");
      
     } 
     
     
     catch (err) {
-      console.error(err);
+      //console.error(err);
     }
 
   }
 
   
   if (images.length === 0) {
-    console.log(images);
-    setTimeout(() => { console.log("hello")}, 4000);
+    //console.log(images);
+    setTimeout(() => { console.log("WELCOME TO JUNOON")}, 4000);
 
     return (
       <Fragment>
@@ -398,7 +398,7 @@ console.log(PicId);
     )
   }
 
-  console.log(images);
+  //console.log(images);
 
   var potty = "https://instagram.fdel1-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p750x750/91265085_903024476797666_6994931629509272609_n.jpg?_nc_ht=instagram.fdel1-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=t9dbIYTA7W4AX8D-c1o&oh=f631d76991f4fb81ffcb118521bfb09f&oe=5F14FC9B";
   return (
