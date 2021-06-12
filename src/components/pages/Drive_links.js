@@ -1,171 +1,147 @@
 import React, { Fragment } from "react";
+import "./Collections.css"
 
 const Drive_links = () => {
   return (
     <Fragment>
+      <div class="slider alignTop">
+  <div class="slider-row"></div>
+</div>
       <div className='content-wrapper'>
-      <nav className='navbar center navbar-expand-lg'>
-            <div className='container flex-lg-column'>
-              <div className='navbar-header'>
-                <div className='navbar-brand'>
-                  
-                    <img
-                      intrinsicsize="1268x512"
-                      src='#'
-                      srcSet='style/images/junoon-black.png 1x, style/images/junoon-black.png 3x'
-                      alt=''
-                    />
-                 
-                </div>
-                <div className='navbar-hamburger ml-auto d-lg-none d-xl-none'>
-                  <button
-                    className='hamburger animate'
-                    data-toggle='collapse'
-                    data-target='.navbar-collapse'
-                  >
-                    <span />
-                  </button>
-                </div>
+        <nav className='navbar center navbar-expand-lg'>
+          <div className='container flex-lg-column'>
+            <div className='navbar-header'>
+              <div className='navbar-brand'>
+
+                <img
+                  intrinsicsize="1268x512"
+                  src='#'
+                  srcSet='style/images/junoon-black.png 1x, style/images/junoon-black.png 3x'
+                  alt=''
+                />
+
               </div>
-              {/* /.navbar-header */}
-              <div className='navbar-collapse collapse w-100 bg-light'>
-                <ul className='navbar-nav nav-fill w-100'>
-                  <li className='nav-item'>
-                    <a className='nav-link' href='/'>
-                      Home
-                    </a>
-                    
-                    {/*/.dropdown-menu */}
-                  </li>
-                  <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='/insta'>
-                      Instagram
-                    </a>
-                    
-                  </li>
-                  <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='/collection'>
-                      Collections
-                    </a>
-                    
-                  </li>
-                  <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='/about'>
-                      About
-                    </a>
-                   
-                  </li>
-                  <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='/contact_us'>
-                      Contact
-                    </a>
-                   
-                  </li>
-            
-                  
-                  
-                </ul>
+              <div className='navbar-hamburger ml-auto d-lg-none d-xl-none'>
+                <button
+                  className='hamburger animate'
+                  data-toggle='collapse'
+                  data-target='.navbar-collapse'
+                >
+                  <span />
+                </button>
               </div>
             </div>
-          </nav>
-        <div className='wrapper light-wrapper'>
-        <div className='container inner'>
-            <h2 className='section-title text-center'>Recent Drive Links</h2>
-            <div className='space60' />
-            <a href="https://drive.google.com/drive/folders/1dY-dSI54Okm9n6cwopTjRt29bfS4Rd5h?usp=sharing" target="_blank">
-            <h3 className='text-center'>Ethnic 2019</h3>
-            </a>
-            <hr />
-            <a href="https://drive.google.com/drive/folders/196K7YVOtcdsLX1AkfwHaMo7GRaMAIKs7?usp=sharing" target="_blank">
-            <h3 className='text-center'>Colloquium</h3>
-            </a>
-            <hr />
-            <a href="https://drive.google.com/drive/folders/1Qtvnp3uUJ7SEaXBgYZBIhUuVs4bp9z-P?usp=sharing" target="_blank">
-            <h3 className='text-center'>Prakram Divas 2019</h3>
-            </a>
-            <hr />
-            <a href="https://drive.google.com/drive/folders/1_iaqm99wWh-y1_8x0LoatTXumdQPK4bY?usp=sharing" target="_blank">
-            <h3 className='text-center'>Consillium</h3>
-            </a>
-            <hr />
-            <a href="https://drive.google.com/drive/folders/1s72NcvIecT44MYLhK0RQ8gFdrPYsz7zT?usp=sharing" target="_blank">
-            <h3 className='text-center'>E Summit</h3>
-            </a>
-            <hr />
-            <a href="https://drive.google.com/drive/folders/1hqVXxmdRxgJShWVHzZ4EuVBU5nwNCE33?usp=sharing" target="_blank">
-            <h3 className='text-center'>Crescendo Eve</h3>
-            </a>
-            <hr />
-            
+            {/* /.navbar-header */}
+            <div className='navbar-collapse collapse w-100 bg-light'>
+              <ul className='navbar-nav nav-fill w-100'>
+                <li className='nav-item'>
+                  <a className='nav-link' href='/'>
+                    Home
+                    </a>
 
-            
-            
-            {/* <div className='space30' />
-            <h3 className='text-center'>Dashed</h3>
-            <hr className='dashed' />
-            <div className='space30' />
-            <h3 className='text-center'>Dotted</h3>
-            <hr className='dotted' />
-            <div className='space30' />
-            <h3 className='text-center'>Double</h3>
-            <hr className='double' />
-            <h3 className='text-center'>Icon</h3>
-            <div className='divider-icon'>
-              <i className='fa fa-heart' />
-            </div> */}
-            {/* <div className='divider-icon w300'>
-              <i className='si-photo_aperture' />
-            </div> */}
-          </div>
-          
-          <div className='container inner'>
-            <h1 className='section-title text-center'>Most popular Youtube videos</h1>
-            <div className='space60' />
-            <a href="https://www.youtube.com/watch?v=2Es8VBtzAUU" target="_blank">
-            <h3 className='text-center'>College ho to NSIT ho</h3>
-            </a>
-            <hr />
-            <a href="https://www.youtube.com/watch?v=CMB5__0ohdg" target="_blank">
-            <h3 className='text-center'>Farewell 2018 Batch</h3>
-            </a>
-            <hr />
-            <a href="https://www.youtube.com/watch?v=vYhuj1A9HwA" target="_blank">
-            <h3 className='text-center'>Capella Performance</h3>
-            </a>
-            <hr />
-            <a href="https://www.youtube.com/watch?v=CJ8mzPMi9oA" target="_blank">
-            <h3 className='text-center'>Mirage Moksha Performance</h3>
-            </a>
-            <hr />
-            <a href="https://www.youtube.com/watch?v=wbQuUz14088" target="_blank">
-            <h3 className='text-center'>Edward Maya at Moksha</h3>
-            </a>
-            <hr />
-           
-            
-            
+                  {/*/.dropdown-menu */}
+                </li>
+                <li className='nav-item dropdown'>
+                  <a className='nav-link dropdown-toggle' href='/insta'>
+                    Instagram
+                    </a>
 
-            
-            
-            {/* <div className='space30' />
-            <h3 className='text-center'>Dashed</h3>
-            <hr className='dashed' />
-            <div className='space30' />
-            <h3 className='text-center'>Dotted</h3>
-            <hr className='dotted' />
-            <div className='space30' />
-            <h3 className='text-center'>Double</h3>
-            <hr className='double' />
-            <h3 className='text-center'>Icon</h3>
-            <div className='divider-icon'>
-              <i className='fa fa-heart' />
-            </div> */}
-            {/* <div className='divider-icon w300'>
-              <i className='si-photo_aperture' />
-            </div> */}
+                </li>
+                <li className='nav-item dropdown'>
+                  <a className='nav-link dropdown-toggle' href='/collection'>
+                    Collections
+                    </a>
+
+                </li>
+                <li className='nav-item dropdown'>
+                  <a className='nav-link dropdown-toggle' href='/about'>
+                    About
+                    </a>
+
+                </li>
+                <li className='nav-item dropdown'>
+                  <a className='nav-link dropdown-toggle' href='/contact_us'>
+                    Contact
+                    </a>
+
+                </li>
+
+
+
+              </ul>
+            </div>
           </div>
-          {/* /.container */}
-        </div>
+        </nav>
+
+
+<div className="me">
+
+</div>
+
+<div className="hovercontainer1">
+  <div className="wrapper">
+    <div className="card card1">
+    <p className="headText mytext">Ethnic 2019</p><hr className="headUnderline"></hr>
+      <i className="fal"><a href="https://drive.google.com/drive/folders/1dY-dSI54Okm9n6cwopTjRt29bfS4Rd5h?usp=sharing" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+  </div>
+  <div className="wrapper">
+    <div className="card card2">
+      <p className="headText">Colloquium</p><hr className="headUnderline"></hr><i className="fal"><a href="https://drive.google.com/drive/folders/1_iaqm99wWh-y1_8x0LoatTXumdQPK4bY?usp=sharing
+" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+  </div>
+  <div className="wrapper">
+    <div className="card card3">
+      <p className="headText">Netaji Birthday 2019</p><hr className="headUnderline"></hr><i className="fal"><a href="https://drive.google.com/drive/folders/1Qtvnp3uUJ7SEaXBgYZBIhUuVs4bp9z-P?usp=sharing" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+  </div>
+
+  <div className="wrapper">
+    <div className="card card4">
+      <p className="headText">Consollium</p><hr className="headUnderline"></hr><i className="fal"><a href="  https://drive.google.com/drive/folders/196K7YVOtcdsLX1AkfwHaMo7GRaMAIKs7?usp=sharing" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+  </div>
+  <div className="wrapper">
+    <div className="card card5">
+      <p className="headText">E-Summit</p><hr className="headUnderline"></hr><i className="fal"><a href="https://drive.google.com/drive/folders/1s72NcvIecT44MYLhK0RQ8gFdrPYsz7zT?usp=sharing" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+  </div>
+  <div className="wrapper">
+    <div className="card card6">
+      <p className="headText">Crescendo Eve</p><hr className="headUnderline"></hr><i className="fal"><a href="https://drive.google.com/drive/folders/1hqVXxmdRxgJShWVHzZ4EuVBU5nwNCE33?usp=sharing" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+  </div>
+
+
+  
+</div>
+
+<div className="yttitle">
+  <p>Youtube links</p>
+  {/* <hr className="hryt"></hr> */}
+</div>
+
+<div className="hovercontainer2">
+<div className="wrapper">
+    <div className="card card7">
+      <p className="headText">College ho to nsit ho</p><hr className="headUnderline"></hr><i className="fal"><a href="https://www.youtube.com/watch?v=2Es8VBtzAUU
+" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+  </div>
+  <div className="wrapper">
+    <div className="card card8">
+      <p className="headText">Farewell 2018 Batch</p><hr className="headUnderline"></hr><i className="fal"><a href="https://www.youtube.com/watch?v=vYhuj1A9HwA" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+  </div>
+
+  <div className="wrapper">
+    <div className="card card9">
+      <p className="headText">Capella Performance</p><hr className="headUnderline"></hr><i className="fal"><a href="  https://www.youtube.com/watch?v=CMB5__0ohdg" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+  </div>
+  <div className="wrapper">
+    <div className="card card10">
+      <p className="headText">Mirage Moksha Performance</p><hr className="headUnderline"></hr><i className="fal"><a href="https://www.youtube.com/watch?v=CJ8mzPMi9oA" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+  </div>
+  <div className="wrapper">
+    <div className="card card11">
+      <p className="headText">Edward Maya at Moksha</p><hr className="headUnderline"></hr><i className="fal"><a href="https://www.youtube.com/watch?v=wbQuUz14088
+" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+  </div>
+</div>
+
         {/* /.wrapper */}
         <footer className='dark-wrapper inverse-text'>
           <div className='container inner'>
@@ -187,13 +163,13 @@ const Drive_links = () => {
               {/*/column */}
               <div className='col-md-4 text-center text-md-right'>
                 <ul className='social social-mute social-s mt-10'>
-                  
+
                   <li>
                     <a href='https://www.facebook.com/junoon.nsut/' target="_blank">
                       <i className='fa fa-facebook-f' />
                     </a>
                   </li>
-                  
+
                   <li>
                     <a href='https://www.instagram.com/junoon.nsut/' target="_blank">
                       <i className='fa fa-instagram' />
