@@ -349,7 +349,7 @@ $(window).on('DOMContentLoaded load resize scroll', handler)
                   {/* /.post */}
                   <div className="item post grid-sizer col-md-6 mb-0">
                     <div className="box bg-inverse">
-                      <figure className="main mb-30 overlay overlay1 rounded"><a href="https://www.facebook.com/junoon.nsut/posts/2379846828705164" target="_blank" > <img src="style/images/story1.jpg" alt="" /></a>
+                      <figure className="main mb-30 overlay overlay1 rounded"><a href="https://www.facebook.com/junoon.nsut/posts/3973279812695183" target="_blank" > <img src="style/images/story1.jpg" alt="" /></a>
                         <figcaption>
                           <h5 className="text-uppercase from-top mb-0">Story 2</h5>
                         </figcaption>
