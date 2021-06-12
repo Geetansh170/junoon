@@ -91,7 +91,7 @@ const Drive_links = () => {
   </div>
   <div className="wrapper">
     <div className="card card3">
-      <p className="headText">Netaji Birthday 2019</p><hr className="headUnderline"></hr><i className="fal"><a href="https://drive.google.com/drive/folders/1Qtvnp3uUJ7SEaXBgYZBIhUuVs4bp9z-P?usp=sharing" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+      <p className="headText">Parakram Divas 2019</p><hr className="headUnderline"></hr><i className="fal"><a href="https://drive.google.com/drive/folders/1Qtvnp3uUJ7SEaXBgYZBIhUuVs4bp9z-P?usp=sharing" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
   </div>
 
   <div className="wrapper">
