@@ -355,7 +355,7 @@ $(window).on('DOMContentLoaded load resize scroll', handler)
                         </figcaption>
                       </figure>
                       
-                      <h2 className="post-title"><a href="https://www.facebook.com/junoon.nsut/posts/2379846828705164" target="_blank" >Storygram 2</a></h2>
+                      <h2 className="post-title"><a href="https://www.facebook.com/junoon.nsut/posts/3973279812695183" target="_blank" >Storygram 2</a></h2>
                       <div className="post-content">
                         <p>
                         What Dev couldn’t foresee was the incoming sandstorm and eventual loss to the outside world. At the mercy of the desert with not many supplies, the travelers felt lost until a miracle occurred. A man appeared in front of them out of thin air, or so it appeared to them. He told that his name is Susej, and he was one of the guides, sent by the traveling agency after the storm to ensure they are escorted safely. Guiding the path on a cold desert night, the guide went on to point out the fabled biblical star of the east, a bright magnificent star that had helped the three wise kings to reach the birthplace of Jesus. After a night’s travel, the group finally found the city, and the guide took his farewell.
