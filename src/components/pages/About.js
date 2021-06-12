@@ -132,7 +132,7 @@ const About = () => {
               <div className='row boxed grid-view'>
                 
                 {/*/column */}
-                <div className='col-md-10 col-lg-8' style= {{margin: "0 auto"}}>
+                <div className='col-md-10' style= {{margin: "0 auto"}}>
                   <div className='box bg-white shadow p-90'>
                     <figure className='main'>
                       <img src='style/images/fam.jpg' alt='' />
@@ -237,20 +237,20 @@ const About = () => {
                 {/*/column */}
                 <div className='col-md-6'>
                   <h4 className='mb-20'>Storygram</h4>
-                  <p>
+                  <p className="text-justify">
                   Every picture has a story behind it! The picture shows its emotions through telling its unique story. A photographer is the one who knows each and every chapter of the photograph he takes. "Storygram" is a project of Junoon that admires clicking pictures that describe a story. It is just a random capturing of certain moments that are converted into a story. Different sceneries and sentiments in the surrounding are enough to encourage the cameraman to frame them. This project has helped the people to take photos suitable for a storygram. A kid, fruit-sellers, animals, roads, shelters, people, that means anything or anybody can contribute in the storygram. Storygram really makes the soul of a reader cherished by reading such heart-touching posts.
                   </p>
                 </div>
                 {/* /column */}
                 <div className='col-md-6'>
                   <h4 className='mb-20'>Project Perspective</h4>
-                  <p>
+                  <p className="text-justify">
                   An eye of the photographer can see the weirdest things in an impressive fashion! The cameraman is always in a search of such moments. One of the amazing projects of Junoon is "Project Perspective" which is completely based on this theme. This gives you the freedom of clicking anything that may be real or illusionistic but it should blow the mind of the viewers by its creativity. You can find imaginativeness anywhere in this big sphere. To admire the scene in a different perspective all you need is to grope flora-fauna, architecture, monuments, people and many more things. This project has been going on for many years. People in Junoon have always come out with their unexpected innovativeness followed by their super skills in photography.
                   </p>
                 </div>
                 <div className='col-md-6'  style= {{margin: "0 auto"}} >
                   <h4 className='mb-20'>Humans of NSUT</h4>
-                  <p>
+                  <p className="text-justify">
                   The world is a stage. We merely tell untold stories through pictures and captions. We talk to different people who are a part of the NSUT family. Be it the seniors who share unfiltered experiences of their college life, the professors who taught us well, or the bhaiya at McCain famous for his Perri Perri fries! Inspired by the Humans of New York, Humans of NSUT is for all the people who contribute directly or indirectly to make these 145 acres in southwest Delhi exciting and fun. Cheers to all the humans out there! we owe it to you.
                   </p>
                  
@@ -308,7 +308,7 @@ const About = () => {
                 {/*/column */}
                 <div className='col-md-6'>
                   <h4 className='mb-20'>Junoon Design</h4>
-                  <p>
+                  <p className="text-justify">
                   Creativity is a speciality that is necessarily not possessed by everyone, but a Graphic Designer is blessed with this skill! 
                   Graphic designing is a way of interacting with people through incredible ideas that craft informative content in a beautiful piece of work. "Junoon Design" is a department that has designers who are responsible for developing different web designs, posters, brochures, logos, albums and many more illustrations like this. This department appreciates the beauty of the art of a designer who applies suitable techniques to enhance the font, colour, animation, shapes, images etcetera to make commendable designs. The designs produced are usually displayed at the occasion of festivals or some important events. The designers crave to impress the viewers at first glance by putting immense hard work and passion. Junoon Design invariably contributes something irresistible, just we need an artistic eye to praise that image.
                   </p>
@@ -316,7 +316,7 @@ const About = () => {
                 </div>
                 <div className='col-md-6'>
                   <h4 className='mb-20'>VideoGraphy</h4>
-                  <p>
+                  <p className="text-justify">
                   Video means, just pick up the camera and move it all-around, record and broadcast whatever that you want. Isn't it? Fortunately, this is not true.
                   "Videography" is a trend that shows a video has become a medium that persuasively describes all the essential facts anyone wants to convey to the people. Junoon continues to promote the stage of videography that has shared many happy moments on various orientations, college festivals, farewells, etcetera. A video is an efficacious blend of visuals, motion and sound that convince the viewers to embrace the content. A videographer does not merely shoot the footage but that person is accountable for editing the film, checking the sound production and applying designs to it. Videographers are plentiful creative which is a really important part of their profession as through video one can offer a fantastic and engaging experience to the audience. A video can show the enthusiasm of a videographer around the globe and establish an emotional relationship that compels the onlookers to cherish the efforts pushed in the video!
                   </p>
@@ -325,7 +325,7 @@ const About = () => {
 
                 <div className='col-md-6'>
                   <h4 className='mb-20'>Content Writers</h4>
-                  <p>
+                  <p className="text-justify">
                   Every photograph ever clicked at Junoon has a story and we are here to tell you those untold stories. We have many stories of this 145 acres campus be it of utmost happiness to sadness, success to disappointments, extreme positives to negatives. We capture stories of various people including the curious fresher who still has not toured the entire campus, McCain uncle who is just having a usual busy day at work, the security guard who asks for ID card even if you are entering the college for the millionth time or maybe a random student getting late for his class. We write storygrams which give life to the photographs and make you believe that a single photograph is capable of telling a thousand stories. 
                   </p>
                  
@@ -334,7 +334,7 @@ const About = () => {
 
                 <div className='col-md-6'>
                   <h4 className='mb-20'>Tech-Department</h4>
-                  <p>
+                  <p className="text-justify">
                     So we got pictures, we got videos and we got stories, but to properly showcase this to the world, we needed a website. This is where the tech department of Junoon comes in. This department mainly deals with creating, maintaining and improving the official website of Junoon. A website is as good as its user experience and Junoon tries to provide an easy, informative, seamless UI that both showcases our talent but doesn't overwhelm the visitors with too much content. It also provides an easier way to get in contact with Junoon for collaborations. With time, we will also conduct all the competitions on the website itself, giving a dedicated space for budding and veteran photographers to interact and improve together.
                   </p>
                   
