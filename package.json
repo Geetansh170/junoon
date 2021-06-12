@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.19.2",
     "jquery": "^3.5.1",
-    "react": "^16.12.0",
+    "react": "^16.14.0",
     "react-dom": "^16.12.0",
     "react-pdf": "^5.1.0",
     "react-router-dom": "^5.1.2",
@@ -35,5 +35,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PranavChauhan22/junoon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PranavChauhan22/junoon/issues"
+  },
+  "homepage": "https://github.com/PranavChauhan22/junoon#readme",
+  "description": ""
 }
