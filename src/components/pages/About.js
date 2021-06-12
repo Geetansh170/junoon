@@ -132,7 +132,7 @@ const About = () => {
               <div className='row boxed grid-view'>
                 
                 {/*/column */}
-                <div className='col-md-10' style= {{margin: "0 auto"}}>
+                <div className='col-md-11' style= {{margin: "0 auto"}}>
                   <div className='box bg-white shadow p-90'>
                     <figure className='main'>
                       <img src='style/images/fam.jpg' alt='' />
