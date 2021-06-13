@@ -85,31 +85,41 @@ const Drive_links = () => {
 
 <div className="hovercontainer1">
   <div className="wrapper">
+  <a href="https://drive.google.com/drive/folders/1dY-dSI54Okm9n6cwopTjRt29bfS4Rd5h?usp=sharing" className="mainText" target="_blank">
     <div className="card card1">
     <p className="headText mytext">Ethnic 2019</p><hr className="headUnderline"></hr>
-      <i className="fal"><a href="https://drive.google.com/drive/folders/1dY-dSI54Okm9n6cwopTjRt29bfS4Rd5h?usp=sharing" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+      <i className="fal"><span className="jnlogo"></span></i></div>
+      </a>
   </div>
   <div className="wrapper">
+  <a href="https://drive.google.com/drive/folders/1_iaqm99wWh-y1_8x0LoatTXumdQPK4bY?usp=sharing" className="mainText" target="_blank">
     <div className="card card2">
-      <p className="headText">Colloquium</p><hr className="headUnderline"></hr><i className="fal"><a href="https://drive.google.com/drive/folders/1_iaqm99wWh-y1_8x0LoatTXumdQPK4bY?usp=sharing
-" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+      <p className="headText">Colloquium</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div>
+      </a>
   </div>
   <div className="wrapper">
+  <a href="https://drive.google.com/drive/folders/1Qtvnp3uUJ7SEaXBgYZBIhUuVs4bp9z-P?usp=sharing" className="mainText" target="_blank">
     <div className="card card3">
-      <p className="headText">Parakram Divas 2019</p><hr className="headUnderline"></hr><i className="fal"><a href="https://drive.google.com/drive/folders/1Qtvnp3uUJ7SEaXBgYZBIhUuVs4bp9z-P?usp=sharing" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+      <p className="headText">Parakram Divas 2019</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div>
+      </a>
   </div>
 
   <div className="wrapper">
+  <a href="  https://drive.google.com/drive/folders/196K7YVOtcdsLX1AkfwHaMo7GRaMAIKs7?usp=sharing" className="mainText" target="_blank">
     <div className="card card4">
-      <p className="headText">Consollium</p><hr className="headUnderline"></hr><i className="fal"><a href="  https://drive.google.com/drive/folders/196K7YVOtcdsLX1AkfwHaMo7GRaMAIKs7?usp=sharing" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+      <p className="headText">Consollium</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div>
+      </a>
   </div>
   <div className="wrapper">
+  <a href="https://drive.google.com/drive/folders/1s72NcvIecT44MYLhK0RQ8gFdrPYsz7zT?usp=sharing" className="mainText" target="_blank">
     <div className="card card5">
-      <p className="headText">E-Summit</p><hr className="headUnderline"></hr><i className="fal"><a href="https://drive.google.com/drive/folders/1s72NcvIecT44MYLhK0RQ8gFdrPYsz7zT?usp=sharing" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+      <p className="headText">E-Summit</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div></a>
   </div>
   <div className="wrapper">
+  <a href="https://drive.google.com/drive/folders/1hqVXxmdRxgJShWVHzZ4EuVBU5nwNCE33?usp=sharing" className="mainText" target="_blank">
     <div className="card card6">
-      <p className="headText">Crescendo Eve</p><hr className="headUnderline"></hr><i className="fal"><a href="https://drive.google.com/drive/folders/1hqVXxmdRxgJShWVHzZ4EuVBU5nwNCE33?usp=sharing" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+      <p className="headText">Crescendo Eve</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div>
+      </a>
   </div>
 
 
@@ -123,27 +133,34 @@ const Drive_links = () => {
 
 <div className="hovercontainer2">
 <div className="wrapper">
+<a href="https://www.youtube.com/watch?v=2Es8VBtzAUU" className="mainText" target="_blank">
     <div className="card card7">
-      <p className="headText">College ho to nsit ho</p><hr className="headUnderline"></hr><i className="fal"><a href="https://www.youtube.com/watch?v=2Es8VBtzAUU
-" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+      <p className="headText">College ho to nsit ho</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div></a>
   </div>
   <div className="wrapper">
+  <a href="https://www.youtube.com/watch?v=vYhuj1A9HwA" className="mainText" target="_blank">
     <div className="card card8">
-      <p className="headText">Farewell 2018 Batch</p><hr className="headUnderline"></hr><i className="fal"><a href="https://www.youtube.com/watch?v=vYhuj1A9HwA" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+      <p className="headText">Farewell 2018 Batch</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div>
+      </a>
   </div>
 
   <div className="wrapper">
+  <a href="  https://www.youtube.com/watch?v=CMB5__0ohdg" className="mainText" target="_blank">
     <div className="card card9">
-      <p className="headText">Capella Performance</p><hr className="headUnderline"></hr><i className="fal"><a href="  https://www.youtube.com/watch?v=CMB5__0ohdg" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+      <p className="headText">Capella Performance</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div>
+      </a>
   </div>
   <div className="wrapper">
+  <a href="https://www.youtube.com/watch?v=CJ8mzPMi9oA" className="mainText" target="_blank">
     <div className="card card10">
-      <p className="headText">Mirage Moksha Performance</p><hr className="headUnderline"></hr><i className="fal"><a href="https://www.youtube.com/watch?v=CJ8mzPMi9oA" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+      <p className="headText">Mirage Moksha Performance</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div>
+      </a>
   </div>
   <div className="wrapper">
+  <a href="https://www.youtube.com/watch?v=wbQuUz14088" className="mainText" target="_blank">
     <div className="card card11">
-      <p className="headText">Edward Maya at Moksha</p><hr className="headUnderline"></hr><i className="fal"><a href="https://www.youtube.com/watch?v=wbQuUz14088
-" className="mainText" target="_blank"><span className="jnlogo"></span></a></i></div>
+      <p className="headText">Edward Maya at Moksha</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div>
+      </a>
   </div>
 </div>
 
