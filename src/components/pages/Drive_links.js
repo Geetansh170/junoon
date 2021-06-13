@@ -138,14 +138,14 @@ const Drive_links = () => {
       <p className="headText">College ho to nsit ho</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div></a>
   </div>
   <div className="wrapper">
-  <a href="https://www.youtube.com/watch?v=vYhuj1A9HwA" className="mainText" target="_blank">
+  <a href="https://www.youtube.com/watch?v=CMB5__0ohdg" className="mainText" target="_blank">
     <div className="card card8">
       <p className="headText">Farewell 2018 Batch</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div>
       </a>
   </div>
 
   <div className="wrapper">
-  <a href="  https://www.youtube.com/watch?v=CMB5__0ohdg" className="mainText" target="_blank">
+  <a href=" https://www.youtube.com/watch?v=vYhuj1A9HwA " className="mainText" target="_blank">
     <div className="card card9">
       <p className="headText">Capella Performance</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div>
       </a>
