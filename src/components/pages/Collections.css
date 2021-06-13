@@ -223,6 +223,7 @@
   border-left: 15px solid white;
   border-right: 15px solid white;
   background-color: black;
+  opacity: 1
   
   /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
   }
@@ -250,6 +251,7 @@
    */
      background-color: black;
   /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
+  opacity: 1;
   }
   .card3{
     height: 23rem;
@@ -275,6 +277,7 @@
    */
      background-color: black;
   /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
+  opacity: 1;
   }
   .card4{
     height: 23rem;
@@ -300,6 +303,7 @@
    */
      background-color: black;
   /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
+  opacity: 1;
   }
   .card5{
     height: 23rem;
@@ -325,6 +329,7 @@
    */
      background-color: black;
   /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
+  opacity: 1;
   }
   .card6{
     height: 23rem;
@@ -350,6 +355,7 @@
    */
      background-color: black;
   /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
+  opacity: 1;
   
   }
   
@@ -529,6 +535,7 @@
     border-left: 15px solid white;
     border-right: 15px solid white;
     background-color: black;
+    opacity: 1;
     
    
     }
@@ -556,6 +563,7 @@
     background-color: #000000;
     /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
       background-color: black;
+      opacity: 1;
   
     }
     .card9{
@@ -582,6 +590,7 @@
     background-color: #000000;
     /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
       background-color: black;
+      opacity: 1;
       
     }
     .card10{
@@ -609,6 +618,7 @@
    
     /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
       background-color: black;
+      opacity: 1;
     }
     .card11{
       height: 23rem;
@@ -631,6 +641,7 @@
       border-left: 15px solid white;
       border-right: 15px solid white;
       background-color: black;
+      opacity: 1;
     }
   
   .jnlogo{
@@ -899,6 +910,7 @@
   border-left: 15px solid white;
   border-right: 15px solid white;
   background-color: black;
+  opacity: 1;
   
   /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
   }
@@ -926,6 +938,7 @@
    */
      background-color: black;
   /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
+  opacity: 1;
   }
   .card3{
     height: 23rem;
@@ -951,6 +964,7 @@
    */
      background-color: black;
   /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
+  opacity: 1;
   }
   .card4{
     height: 23rem;
@@ -976,6 +990,7 @@
    */
      background-color: black;
   /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
+  opacity: 1;
   }
   .card5{
     height: 23rem;
@@ -1000,6 +1015,7 @@
   /* background-color: #000000;
    */
      background-color: black;
+     opacity: 1;
   /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
   }
   .card6{
@@ -1025,6 +1041,7 @@
   /* background-color: #000000;
    */
      background-color: black;
+     opacity: 1;
   /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
   
   }
@@ -1205,6 +1222,7 @@
     border-left: 15px solid white;
     border-right: 15px solid white;
     background-color: black;
+    opacity: 1;
     
    
     }
@@ -1232,6 +1250,7 @@
     background-color: #000000;
     /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
       background-color: black;
+      opacity: 1;
   
     }
     .card9{
@@ -1258,6 +1277,7 @@
     background-color: #000000;
     /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
       background-color: black;
+      opacity: 1;
       
     }
     .card10{
@@ -1274,6 +1294,7 @@
   
     opacity: 0.8;
   background-color: rgba(0, 0, 0, 0.927);
+  
     }
     .card10:hover{
     height: 23rem;
@@ -1285,6 +1306,7 @@
    
     /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
       background-color: black;
+      opacity: 1;
     }
     .card11{
       height: 23rem;
@@ -1307,6 +1329,7 @@
       border-left: 15px solid white;
       border-right: 15px solid white;
       background-color: black;
+      opacity: 1;
     }
   
   .jnlogo{
@@ -1335,10 +1358,12 @@
     line-height: 40px;
     color: white;
     font-size: 30px;
+    mix-blend-mode: exclusion;
   
   }
   .card:hover .headText{
     color: whitesmoke;
+    mix-blend-mode: exclusion;
     opacity: 1;
     font-size: 39px;
   }
@@ -1578,6 +1603,7 @@ border-bottom: 25px solid white;
 border-left: 15px solid white;
 border-right: 15px solid white;
 background-color: black;
+opacity: 1;
 
 /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
 }
@@ -1605,6 +1631,7 @@ border-right: 15px solid white;
  */
    background-color: black;
 /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
+opacity: 1;
 }
 .card3{
   height: 23rem;
@@ -1630,6 +1657,7 @@ border-right: 15px solid white;
  */
    background-color: black;
 /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
+opacity: 1;
 }
 .card4{
   height: 23rem;
@@ -1655,6 +1683,7 @@ border-right: 15px solid white;
  */
    background-color: black;
 /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
+opacity: 1;
 }
 .card5{
   height: 23rem;
@@ -1680,6 +1709,7 @@ border-right: 15px solid white;
  */
    background-color: black;
 /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
+opacity: 1;
 }
 .card6{
   height: 23rem;
@@ -1705,6 +1735,7 @@ border-right: 15px solid white;
  */
    background-color: black;
 /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
+opacity: 1;
 
 }
 
@@ -1884,6 +1915,7 @@ background-color: rgba(0, 0, 0, 0.927);
   border-left: 15px solid white;
   border-right: 15px solid white;
   background-color: black;
+  opacity: 1;
   
  
   }
@@ -1911,6 +1943,7 @@ background-color: rgba(0, 0, 0, 0.927);
   background-color: #000000;
   /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
     background-color: black;
+    opacity: 1;
 
   }
   .card9{
@@ -1937,6 +1970,7 @@ background-color: rgba(0, 0, 0, 0.927);
   background-color: #000000;
   /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
     background-color: black;
+    opacity: 1;
     
   }
   .card10{
@@ -1964,6 +1998,7 @@ background-color: rgba(0, 0, 0, 0.927);
  
   /* background-image: linear-gradient(315deg, #7f8c8d 0%, #000000 74%); */
     background-color: black;
+    opacity: 1;
   }
   .card11{
     height: 23rem;
@@ -1986,6 +2021,7 @@ background-color: rgba(0, 0, 0, 0.927);
     border-left: 15px solid white;
     border-right: 15px solid white;
     background-color: black;
+    opacity: 1;
   }
 
 .jnlogo{
@@ -2014,12 +2050,16 @@ background-color: rgba(0, 0, 0, 0.927);
   line-height: 40px;
   color: white;
   font-size: 30px;
+  mix-blend-mode:exclusion;
+background-blend-mode: multiply;
 
 }
 .card:hover .headText{
-  color: whitesmoke;
+  color: white;
+  mix-blend-mode:exclusion;
   opacity: 1;
   font-size: 39px;
+  background-blend-mode: unset;
 }
 .headUnderline{
   background-color: white;
