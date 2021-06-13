@@ -670,10 +670,13 @@
     line-height: 40px;
     color: white;
     font-size: 30px;
+    mix-blend-mode:exclusion;
+background-blend-mode: multiply;
   
   }
   .card:hover .headText{
-    color: whitesmoke;
+    color: white;
+    mix-blend-mode:exclusion;
     opacity: 1;
     font-size: 39px;
   }
@@ -1359,13 +1362,16 @@
     color: white;
     font-size: 30px;
     mix-blend-mode: exclusion;
+    
+background-blend-mode: multiply;
   
   }
   .card:hover .headText{
-    color: whitesmoke;
+    color: white;
     mix-blend-mode: exclusion;
     opacity: 1;
     font-size: 39px;
+    
   }
   .headUnderline{
     background-color: white;
@@ -2059,7 +2065,7 @@ background-blend-mode: multiply;
   mix-blend-mode:exclusion;
   opacity: 1;
   font-size: 39px;
-  background-blend-mode: unset;
+  /* text-shadow: 12px 12px #ff0000; */
 }
 .headUnderline{
   background-color: white;
