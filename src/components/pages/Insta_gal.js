@@ -43,6 +43,7 @@ const Insta_gal = () => {
           PicId[i]=useful_data[i].id;
         
       }
+      let PicUrl=[];
       
 //console.log(PicId);
       let j=0;
