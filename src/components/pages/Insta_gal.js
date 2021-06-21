@@ -31,7 +31,7 @@ const Insta_gal = () => {
     try {
       
       //console.log("before")
-      let accessToken="IGQVJYRGwzTWZACY2FKcE8yTEhtRzZAabXlYNWxYUXJYcmpPY0VTZATNzTl9RemFwTXhTb3lXWXRaVDlXUHU4RGNfVFhwMzhrNzBhMGx6OGdSbmxCQUFhWVJpbENEempUeUlQUF9wU0dEd1FYazRNLWhqSQZDZD";
+      let accessToken="IGQVJVbXhjTzZASekwzWnZAwVHluYm9uNjRKTDRWWkpWNm51SjU1cjdDLVFoTFNYUER6N1gxQ29ZANzExODJmeFN0a21QcFZA5bEVucWZAJZA21Sc05oN0lGZAXJyVFBhV0NtakNEdWJhZAFBjR0Y2OG5hOERxbwZDZD";
       const res = await axios.get("https://graph.instagram.com/17841401475482155/media?access_token="+accessToken+"&fields=id,timestamp");
       //console.log("after");
       
