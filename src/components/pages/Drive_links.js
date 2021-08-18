@@ -122,6 +122,13 @@ const Drive_links = () => {
       </a>
   </div>
 
+    <div className="wrapper">
+  <a href="https://drive.google.com/drive/folders/1XhOyxyDbZH3B7uSmtHnLuOz3igpgO-Ug?usp=sharing" className="mainText" target="_blank">
+    <div className="card card1">
+      <p className="headText">FDP 2021</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div>
+      </a>
+  </div>
+
 
   
 </div>
