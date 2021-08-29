@@ -2081,3 +2081,8 @@ height: 20px;
 
 
   }
+
+  .noBlend .headText
+{
+  mix-blend-mode: normal;
+}
