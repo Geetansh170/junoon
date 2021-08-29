@@ -129,6 +129,13 @@ const Drive_links = () => {
       </a>
   </div>
 
+  <div className="wrapper">
+  <a href="https://drive.google.com/folderview?id=1b5-iPbqawv6ecTuSZ6JGsq01YUuNdEwg" className="mainText" target="_blank">
+    <div className="card card2 noBlend">
+      <p className="headText">Guinness World Record Attempt</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div>
+      </a>
+  </div>
+
 
   
 </div>
@@ -159,13 +166,13 @@ const Drive_links = () => {
   </div>
   <div className="wrapper">
   <a href="https://www.youtube.com/watch?v=CJ8mzPMi9oA" className="mainText" target="_blank">
-    <div className="card card10">
+    <div className="card card10 noBlend">
       <p className="headText">Mirage Moksha Performance</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div>
       </a>
   </div>
   <div className="wrapper">
   <a href="https://www.youtube.com/watch?v=wbQuUz14088" className="mainText" target="_blank">
-    <div className="card card11">
+    <div className="card card11 ">
       <p className="headText">Edward Maya at Moksha</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div>
       </a>
   </div>
