@@ -91,6 +91,20 @@ const Drive_links = () => {
       <p className="headText">Sports Day 2021</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div>
       </a>
   </div>
+
+<div className="wrapper">
+  <a href="https://drive.google.com/folderview?id=1b5-iPbqawv6ecTuSZ6JGsq01YUuNdEwg" className="mainText" target="_blank">
+    <div className="card card2 noBlend">
+      <p className="headText">Guinness World Record Attempt</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div>
+      </a>
+  </div>
+
+   <div className="wrapper">
+  <a href="https://drive.google.com/drive/folders/1XhOyxyDbZH3B7uSmtHnLuOz3igpgO-Ug?usp=sharing" className="mainText" target="_blank">
+    <div className="card card1">
+      <p className="headText">FDP 2021</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div>
+      </a>
+  </div>
   
   <div className="wrapper">
   <a href="https://drive.google.com/drive/folders/1dY-dSI54Okm9n6cwopTjRt29bfS4Rd5h?usp=sharing" className="mainText" target="_blank">
@@ -130,19 +144,7 @@ const Drive_links = () => {
       </a>
   </div>
 
-    <div className="wrapper">
-  <a href="https://drive.google.com/drive/folders/1XhOyxyDbZH3B7uSmtHnLuOz3igpgO-Ug?usp=sharing" className="mainText" target="_blank">
-    <div className="card card1">
-      <p className="headText">FDP 2021</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div>
-      </a>
-  </div>
-
-  <div className="wrapper">
-  <a href="https://drive.google.com/folderview?id=1b5-iPbqawv6ecTuSZ6JGsq01YUuNdEwg" className="mainText" target="_blank">
-    <div className="card card2 noBlend">
-      <p className="headText">Guinness World Record Attempt</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div>
-      </a>
-  </div>
+ 
 
 
   
