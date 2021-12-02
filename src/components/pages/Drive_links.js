@@ -85,6 +85,13 @@ const Drive_links = () => {
 
 <div className="hovercontainer1">
   
+<div className="wrapper">
+  <a href="https://drive.google.com/drive/folders/1KV9lymX3S6gzioZLcTJLFyv2vScdcwn1?usp=sharing" className="mainText" target="_blank">
+    <div className="card card3">
+      <p className="headText">Ethnic Day 2021</p><hr className="headUnderline"></hr><i className="fal"><span className="jnlogo"></span></i></div>
+      </a>
+  </div>
+
   <div className="wrapper">
   <a href="https://drive.google.com/drive/folders/1Wet4M8VsGMLFyK9Ksb4EQ6JKQfRZ30kb?usp=sharing" className="mainText" target="_blank">
     <div className="card card6">
