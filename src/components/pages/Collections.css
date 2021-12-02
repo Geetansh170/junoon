@@ -53,6 +53,9 @@
   .card11:hover{
     opacity: 0.3;
   }
+  .card12:hover{
+    opacity: 0.3;
+  }
     .hovercontainer1 .wrapper:before {
       content: '';
       left: 0;
@@ -466,6 +469,20 @@
     transition: 0.25s;
   }
   
+  .hovercontainer2 .card12.card:after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-image: url("./imgs/edwardmaya.png"); */
+    background-size: cover;
+    /* background-color: #373f51; */
+    background-blend-mode: screen;
+    /* transform: skew(10deg) scale(1.2); */
+    transition: 0.25s;
+  }
   
   .hovercontainer2 .wrapper:hover {
     /* transform: translateX(-1rem) translateY(-1rem) skew(-10deg); */
@@ -566,6 +583,7 @@
       opacity: 1;
   
     }
+  
     .card9{
       height: 23rem;
     border-top: 25px solid white;
@@ -635,6 +653,30 @@
       opacity: 0.8;
     }
     .card11:hover{
+      height: 23rem;
+      border-top: 25px solid white;
+      border-bottom: 25px solid white;
+      border-left: 15px solid white;
+      border-right: 15px solid white;
+      background-color: black;
+      opacity: 1;
+    }
+
+    .card12{
+      height: 23rem;
+      border-top: 25px solid white;
+      border-bottom: 25px solid white;
+      border-left: 15px solid white;
+      border-right: 15px solid white;
+      background-color: #000000;
+      background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+      background-image: url("./imgs/ethnicDay.jpeg");
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      opacity: 0.8;
+    }
+    .card12:hover{
       height: 23rem;
       border-top: 25px solid white;
       border-bottom: 25px solid white;
@@ -741,6 +783,10 @@ background-blend-mode: multiply;
     opacity: 0.3;
   }
   .card11:hover{
+    opacity: 0.3;
+  }
+
+  .card12:hover{
     opacity: 0.3;
   }
     .hovercontainer1 .wrapper:before {
@@ -1156,6 +1202,20 @@ background-blend-mode: multiply;
     transition: 0.25s;
   }
   
+  .hovercontainer2 .card12.card:after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-image: url("./imgs/edwardmaya.png"); */
+    background-size: cover;
+    /* background-color: #373f51; */
+    background-blend-mode: screen;
+    /* transform: skew(10deg) scale(1.2); */
+    transition: 0.25s;
+  }
   
   .hovercontainer2 .wrapper:hover {
     /* transform: translateX(-1rem) translateY(-1rem) skew(-10deg); */
@@ -1334,6 +1394,31 @@ background-blend-mode: multiply;
       background-color: black;
       opacity: 1;
     }
+
+    .card12{
+      height: 23rem;
+      border-top: 25px solid white;
+      border-bottom: 25px solid white;
+      border-left: 15px solid white;
+      border-right: 15px solid white;
+      background-color: #000000;
+      background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+      background-image: url("./imgs/ethnicDay.jpeg");
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      opacity: 0.8;
+    }
+    .card12:hover{
+      height: 23rem;
+      border-top: 25px solid white;
+      border-bottom: 25px solid white;
+      border-left: 15px solid white;
+      border-right: 15px solid white;
+      background-color: black;
+      opacity: 1;
+    }
+  
   
   .jnlogo{
     /* background-image: url("/public/style/images/junoon-logo-only.png"); */
@@ -1437,6 +1522,9 @@ grid-template-columns: 1fr 1fr 1fr;
   opacity: 0.3;
 }
 .card11:hover{
+  opacity: 0.3;
+}
+.card12:hover{
   opacity: 0.3;
 }
   .hovercontainer1 .wrapper:before {
@@ -1852,6 +1940,20 @@ grid-template-columns: 1fr 1fr 1fr;
   transition: 0.25s;
 }
 
+.hovercontainer2 .card12.card:after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* background-image: url("./imgs/edwardmaya.png"); */
+  background-size: cover;
+  /* background-color: #373f51; */
+  background-blend-mode: screen;
+  /* transform: skew(10deg) scale(1.2); */
+  transition: 0.25s;
+}
 
 .hovercontainer2 .wrapper:hover {
   /* transform: translateX(-1rem) translateY(-1rem) skew(-10deg); */
@@ -2020,7 +2122,32 @@ background-color: rgba(0, 0, 0, 0.927);
     height: 100%;
     opacity: 0.8;
   }
+
+  .card12{
+    height: 23rem;
+    border-top: 25px solid white;
+    border-bottom: 25px solid white;
+    border-left: 15px solid white;
+    border-right: 15px solid white;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+    background-image: url("./imgs/ethnicDay.jpeg");    
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+  }
   .card11:hover{
+    height: 23rem;
+    border-top: 25px solid white;
+    border-bottom: 25px solid white;
+    border-left: 15px solid white;
+    border-right: 15px solid white;
+    background-color: black;
+    opacity: 1;
+  }
+
+  .card12:hover{
     height: 23rem;
     border-top: 25px solid white;
     border-bottom: 25px solid white;
