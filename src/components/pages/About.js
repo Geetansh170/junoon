@@ -1,8 +1,40 @@
 import React, { Fragment , useState} from "react";
 import { Document, Page,pdfjs  } from 'react-pdf';
+import "./About.css"
+import teamimg from "./imgs/junoonteampicethnic.jpg"
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-
-
+const Data=[
+  {
+    head:"Core Team (2020-2021)",
+    members:["Teacher Incharge - Asst Prof. Ajay Kataria"],
+    color:'black',
+    memcolor:'black',
+  },
+  {
+    head:"Seniors",
+    members:["Achin Verma","Anchita","Anmol Garg","Antra Gurain","Amandep Singh Maini","Arjun Singh","Rishabh Mittal","Riya Ghai","Yash Chandan"],
+    color:'black',
+    memcolor:'black',
+  },
+  {
+    head:"Juniors",
+    members:["Ananya Jain","Anirudh Katara","Aryan Aggarwal","Ayush Kumar Singh","Geetansh","Jyoti Sood","Kanishka","Kartik","Preeti","Raghav","Rahul Gaur","Siddharth Saini"],
+    color:'black',
+    memcolor:'whitesmoke',
+  },
+  {
+    head:"Sophomores",
+    members:["Aditya Singh","Armaan Chauhan","Arunav Goel","Aryan Verma","Atharv Rustagi","Divyanshu","Himank","Ishkaran","Mukund Maheshwari","Naman Gogia","Parth","Rahul Sharma","Sanjay Chowdary","Santosh","Sidhharth Gupta","Naman","Unnat Mittal","Aasritha Lingam","Deepak","Jaydeep","Srishti Agarwal","Vishal Vishwakarma"],
+    color:'whitesmoke',
+    memcolor:'whitesmoke',
+  },
+  {
+    head:"Freshers",
+    members:["Aditya Kumar","Arya","Arsh Poddar","Aryan Maurya","Bhavya Agrawal","Darsh Mittal","Divy Kant","Kartikeya Chhikara","Kartikeya Gupta","Lakshay Rastogi","Prakash Choudhary","Pratap Ranjan","Priyanka Kumari","Priyansh","Rohan Singh","Sankalp Roy","Vyas Saggar","Bhavya Singh","Amrutanshu Tyagi","Adarsh Kumar","Devanshi Sharma","Jatin Rawat","Pranav Chauhan","Anannya","Bhavya","Pooja"],
+    color:'whitesmoke',
+    memcolor:'whitesmoke',
+  },
+]
 
 const About = () => {
 
@@ -135,7 +167,28 @@ const About = () => {
                 <div className='col-md-11' style= {{margin: "0 auto"}}>
                   <div className='box bg-white shadow p-90'>
                     <figure className='main'>
-                      <img src='style/images/fam.jpg' alt='' />
+                      
+                      {
+                        Data.map(e=>{
+                          return (
+                            <div className="teampic">
+
+                            <div className="about_teampic_header" style={{color:e.color}}>
+                              {e.head}
+                            </div>
+                            <div className="about_teampic_member">
+                              {e.members.map(p=>{
+                                return(
+                                  <span className="about_teampic_member_each" style={{color:e.memcolor}}>
+                                    {p}
+                                  </span>
+                                )
+                              })}
+                            </div>
+                            </div>
+                          )
+                        })
+                      }
                     </figure>
                     <h4 className='mb-5'>JUNOON</h4>
                     <div className='meta mb-10'></div>
