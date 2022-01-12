@@ -679,12 +679,10 @@ acronym[title] {
 	background: #FFF !important;
 }
 .navbar.center .navbar-header {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 0;
 }
 .navbar.extended .navbar-header {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 25px 0;
 }
 .navbar .navbar-brand {
     padding-top: 0;
