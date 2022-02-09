@@ -2,7 +2,7 @@ import React, {useState, Fragment ,useContext,useEffect} from "react";
 import axios from 'axios';
 import fire from '../../firebase/firebase';
 import { getDatabase,get, ref,onValue} from 'firebase/firebase-database';
-import firebase from 'firebase'
+import firebase from 'firebase';
   
 
 
