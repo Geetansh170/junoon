@@ -679,12 +679,10 @@ acronym[title] {
 	background: #FFF !important;
 }
 .navbar.center .navbar-header {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 0;
 }
 .navbar.extended .navbar-header {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 25px 0;
 }
 .navbar .navbar-brand {
     padding-top: 0;
@@ -5651,3 +5649,550 @@ pre {
 	    padding: 0;
 	}
 }
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////TIMELINE CSS STARTS///////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+@font-face {
+    font-family: "ESL Legend";
+    src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.eot);
+    src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.eot#iefix)
+        format("embedded-opentype"),
+      url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.woff2)
+        format("woff2"),
+      url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.woff)
+        format("woff"),
+      url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.ttf)
+        format("truetype"),
+      url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.svg#eicon)
+        format("svg");
+    font-style: normal;
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: "ESL Legend";
+    src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.eot);
+    src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.eot#iefix)
+        format("embedded-opentype"),
+      url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.woff2)
+        format("woff2"),
+      url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.woff)
+        format("woff"),
+      url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.ttf)
+        format("truetype"),
+      url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.svg#eicon)
+        format("svg");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "ESL Legend";
+    src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.eot);
+    src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.eot#iefix)
+        format("embedded-opentype"),
+      url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.woff2)
+        format("woff2"),
+      url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.woff)
+        format("woff"),
+      url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.ttf)
+        format("truetype"),
+      url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.svg#eicon)
+        format("svg");
+    font-style: normal;
+    font-weight: bold;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .ag-format-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  
+    max-width: 1160px;
+    margin-right: auto;
+    margin-left: auto;
+  
+    position: relative;
+  }
+  
+  .ag-timeline-block {
+    padding: 100px 0;
+  
+    background-color: #000;
+    overflow-x: hidden;
+  }
+  .ag-timeline_title-box {
+    padding: 0 0 30px;
+  
+    text-align: center;
+  }
+  .ag-timeline_tagline {
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: rgb(84, 89, 95);
+  }
+  .ag-timeline_title {
+    font-size: 80px;
+  }
+  
+  .ag-timeline_item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  
+    margin: 0 0 50px;
+  
+    position: relative;
+  }
+  .ag-timeline_item:nth-child(even) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+  
+  .ag-timeline {
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  
+    position: relative;
+  }
+  .ag-timeline_line {
+    width: 2px;
+    background-color: #393935;
+  
+    position: absolute;
+    top: 0;
+    left: 50%;
+    bottom: 0;
+  
+    overflow: hidden;
+  
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  
+  .ag-timeline_line-progress {
+    width: 100%;
+    height: 20%;
+    background-color: #ff0;
+  }
+  .ag-timeline-card_point-box {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .ag-timeline-card_point {
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    border: 3px solid #ff0;
+    background-color: #1d1d1b;
+  
+    text-align: center;
+    font-family: "ESL Legend", sans-serif;
+    font-size: 20px;
+    color: #fff;
+  
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+  .js-ag-active .ag-timeline-card_point {
+    color: #1d1d1b;
+    background-color: #ff0;
+  }
+  
+  .ag-timeline-card_item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+  
+    background-color: #282828;
+  
+    opacity: 0;
+  
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+  
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
+  
+    animation-fill-mode: both;
+  
+    position: relative;
+  }
+  .js-ag-animated .ag-timeline-card_item {
+    opacity: 0;
+  
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+  
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  .js-ag-animated.js-ag-show:nth-child(2n + 1) .ag-timeline-card_item {
+    -webkit-animation-name: card-animation-left;
+    -moz-animation-name: card-animation-left;
+    -o-animation-name: card-animation-left;
+    animation-name: card-animation-left;
+  }
+  .js-ag-animated.js-ag-show:nth-child(2n) .ag-timeline-card_item {
+    -webkit-animation-name: card-animation-right;
+    -moz-animation-name: card-animation-right;
+    -o-animation-name: card-animation-right;
+    animation-name: card-animation-right;
+  }
+  
+  .ag-timeline-card_arrow {
+    height: 18px;
+    width: 18px;
+    margin-top: 20px;
+    background-color: #282828;
+  
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+  
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .ag-timeline_item:nth-child(2n + 1) .ag-timeline-card_arrow {
+    margin-left: calc(-18px / 2);
+    margin-right: calc(-18px / 2);
+  }
+  .ag-timeline_item:nth-child(2n) .ag-timeline-card_arrow {
+    margin-left: -10px;
+  
+    right: auto;
+    left: 0;
+  }
+  
+  .ag-timeline-card_img {
+    width: 100%;
+  }
+  .ag-timeline-card_meta-box {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .ag-timeline_item:nth-child(odd) {
+    text-align: left;
+  }
+  .ag-timeline_item:nth-child(even) {
+    text-align: right;
+  }
+  .ag-timeline-card_meta {
+    margin: 10px 0 0;
+  
+    font-family: "ESL Legend", sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #ff0;
+  }
+  .ag-timeline-card_info {
+    padding: 20px 30px;
+  }
+  .ag-timeline-card_title {
+    display: none;
+    margin: 10px 0 0;
+  
+    font-family: "ESL Legend", sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #ff0;
+  }
+  .ag-timeline-card_desc {
+    line-height: 1.45;
+  
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  @-webkit-keyframes card-animation-left {
+    0% {
+      opacity: 0;
+  
+      -webkit-transform: translateX(-400px);
+      transform: translateX(-400px);
+    }
+    100% {
+      opacity: 1;
+  
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+  @-moz-keyframes card-animation-left {
+    0% {
+      opacity: 0;
+  
+      -moz-transform: translateX(-400px);
+      transform: translateX(-400px);
+    }
+    100% {
+      opacity: 1;
+  
+      -moz-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+  @-o-keyframes card-animation-left {
+    0% {
+      opacity: 0;
+  
+      -o-transform: translateX(-400px);
+      transform: translateX(-400px);
+    }
+    100% {
+      opacity: 1;
+  
+      -o-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+  @keyframes card-animation-left {
+    0% {
+      opacity: 0;
+  
+      -webkit-transform: translateX(-400px);
+      -moz-transform: translateX(-400px);
+      -o-transform: translateX(-400px);
+      transform: translateX(-400px);
+    }
+    100% {
+      opacity: 1;
+  
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -o-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+  
+  @-webkit-keyframes card-animation-right {
+    0% {
+      opacity: 0;
+  
+      -webkit-transform: translateX(400px);
+      transform: translateX(400px);
+    }
+    100% {
+      opacity: 1;
+  
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+  @-moz-keyframes card-animation-right {
+    0% {
+      opacity: 0;
+  
+      -moz-transform: translateX(400px);
+      transform: translateX(400px);
+    }
+    100% {
+      opacity: 1;
+  
+      -moz-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+  @-o-keyframes card-animation-right {
+    0% {
+      opacity: 0;
+  
+      -o-transform: translateX(400px);
+      transform: translateX(400px);
+    }
+    100% {
+      opacity: 1;
+  
+      -o-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+  @keyframes card-animation-right {
+    0% {
+      opacity: 0;
+  
+      -webkit-transform: translateX(400px);
+      -moz-transform: translateX(400px);
+      -o-transform: translateX(400px);
+      transform: translateX(400px);
+    }
+    100% {
+      opacity: 1;
+  
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -o-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+  
+  @media only screen and (max-width: 979px) {
+    .ag-timeline_line {
+      left: 30px;
+    }
+    .ag-timeline-card_point {
+      height: 40px;
+      line-height: 40px;
+      width: 40px;
+    }
+  
+    .ag-timeline_item {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  
+      position: relative;
+    }
+    .ag-timeline-card_title {
+      display: block;
+    }
+  
+    .ag-timeline-card_meta-box {
+      display: none;
+    }
+    .ag-timeline-card_point-box {
+      -webkit-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex-positive: 0;
+      flex-grow: 0;
+      -webkit-box-ordinal-group: 1;
+      -webkit-order: 0;
+      -ms-flex-order: 0;
+      order: 0;
+  
+      margin-left: 8px;
+    }
+    .ag-timeline-card_item {
+      -webkit-box-flex: 1;
+      -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-box-ordinal-group: 2;
+      -webkit-order: 1;
+      -ms-flex-order: 1;
+      order: 1;
+  
+      max-width: 100%;
+      margin-left: 10px;
+    }
+    .ag-timeline_item:nth-child(2n) .ag-timeline-card_item {
+      -webkit-order: 0;
+      -ms-flex-order: 0;
+      order: 0;
+    }
+    .js-ag-animated.js-ag-show:nth-child(2n) .ag-timeline-card_item,
+    .js-ag-animated.js-ag-show:nth-child(2n + 1) .ag-timeline-card_item {
+      -webkit-animation-name: card-animation-right;
+      -moz-animation-name: card-animation-right;
+      -o-animation-name: card-animation-right;
+      animation-name: card-animation-right;
+    }
+    .ag-timeline_item:nth-child(2n + 1) .ag-timeline-card_arrow {
+      right: auto;
+      left: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .ag-format-container {
+      width: 96%;
+    }
+  
+    .ag-timeline-card_img {
+      height: auto;
+      width: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 639px) {
+    .ag-timeline_title {
+      font-size: 60px;
+    }
+  
+    .ag-timeline-card_info {
+      padding: 10px 15px;
+    }
+    .ag-timeline-card_desc {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 979px) {
+    .ag-format-container {
+      width: 750px;
+    }
+  }
+  
+  @media (min-width: 980px) and (max-width: 1161px) {
+    .ag-format-container {
+      width: 960px;
+    }
+  }
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////TIMELINE CSS END//////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////// */

@@ -6,6 +6,7 @@
     backface-visibility: hidden;
   }
 
+
   @media only screen and (min-width: 320px) and (max-width:600px) {
     .hovercontainer1 {
       display: grid;
@@ -1257,13 +1258,14 @@ background-blend-mode: multiply;
     padding: 1rem;
     font-size: 1.5rem;
     /* color: #373f51; */
+
+  .hovercontainer1 .wrapper {
+
     
-    z-index: 1;
-    /* transform: skew(10deg) translateY(50%); */
-    text-align: center;
     transition: 0.25s;
   }
   
+
   .card7{
     height: 23rem;
     border-top: 25px solid white;
@@ -1476,7 +1478,8 @@ background-blend-mode: multiply;
   /*----------- css for hover -----------------------  */
   
 
-  @media only screen and (min-width: 1000px)  {
+
+
 
   .hovercontainer1 {
     display: grid;
@@ -1527,6 +1530,7 @@ grid-template-columns: 1fr 1fr 1fr;
 .card12:hover{
   opacity: 0.3;
 }
+
   .hovercontainer1 .wrapper:before {
     content: '';
     left: 0;
@@ -1643,7 +1647,7 @@ grid-template-columns: 1fr 1fr 1fr;
   
 
   .hovercontainer1 .wrapper:hover .card .fal {
-    bottom: 4rem;
+    bottom: -1rem;
     background-color: transparent;
     
   }
@@ -1672,7 +1676,7 @@ grid-template-columns: 1fr 1fr 1fr;
     z-index: 1;
     /* transform: skew(10deg) translateY(50%); */
     text-align: center;
-    transition: 0.25s;
+    /* transition: 0.25s; */
   }
 
 .card1{
@@ -1968,7 +1972,7 @@ grid-template-columns: 1fr 1fr 1fr;
 }
 
 .hovercontainer2 .wrapper:hover .card .fal {
-  bottom: 4rem;
+  bottom: -1rem;
   background-color:transparent;
 }
 
@@ -2204,6 +2208,36 @@ height: 20px;
   font-size: 33px;
  
 }
+
+
+  @media only screen and (min-width: 320px) and (max-width:600px) {
+    .hovercontainer1 {
+      display: grid;
+  grid-template-columns: 1fr;
+      grid-gap: 3rem;
+      padding: 4rem 4rem;
+      
+    }
+    
+
+  
+  
+    }
+  
+
+  /*----------- css for hover -----------------------  */
+  
+
+  @media only screen and (min-width: 1000px)  {
+
+  .hovercontainer1 {
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+    padding: 4rem 4rem;
+    
+  }
+  
 
 
 

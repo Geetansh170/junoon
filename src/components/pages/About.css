@@ -1,0 +1,22 @@
+.about_teampic_header{
+    font-size: 30px;
+    margin: 10px;
+
+}
+
+.about_teampic_member{
+  
+    margin: auto;
+}
+.about_teampic_member_each{
+    margin: 10px;
+
+}
+.main{
+    background-image: url("./imgs/croppedteampic.png");
+   
+    background-size: cover;
+    padding: 12px;
+    
+    
+}
