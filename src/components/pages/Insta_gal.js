@@ -1,7 +1,13 @@
 import React, {useState, Fragment ,useContext,useEffect} from "react";
 import axios from 'axios';
+import fire from '../../firebase/firebase';
+import { getDatabase,get, ref,onValue} from 'firebase/firebase-database';
+import firebase from 'firebase'
+  
+
 
 const Insta_gal = () => {
+  //let  db = getDatabase()
 
   const [user, setUsername] = useState({
     username:"junoon.nsut"
@@ -9,15 +15,52 @@ const Insta_gal = () => {
 
   const [images, setImages] = useState([]);
 
+  
+
   //var images= [];
   //const { arr } = images;
    
   useEffect(() => {
-    callapi(user);
+    getLink();
     //console.log("use effect");
   },images);
 
+  //get insta image  links
  
+function getLink(){
+  
+let linkUrl=[];
+var links = firebase.database().ref('/-Moqz_7ML0Q6-FxThkFi/');
+links.on('value', (snapshot) => {
+  links = snapshot.val()
+  if(links){
+  linkUrl.push(links);
+  setImages(links);
+  }
+  else{
+
+    let PicUrl=["https://scontent.cdninstagram.com/v/t51.29350-15/201134827_161535689292443_5104633663825440635_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=8ae9d6&_nc_ohc=LaJhBYUK46QAX9Ys3MR&_nc_ht=scontent.cdninstagram.com&oh=53318419a71f03e1c1b28ea214d39166&oe=60CF6FA6", 
+    "https://scontent.cdninstagram.com/v/t51.29350-15/195917899_945780992944892_480151292404590393_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=8ae9d6&_nc_ohc=tDYEKTnHP9IAX_TNRmH&_nc_ht=scontent.cdninstagram.com&oh=7ed33b5d318e5b70414691d5c9eb66dc&oe=60CF0F16", 
+    "https://scontent.cdninstagram.com/v/t51.29350-15/196519290_1163146470866888_516877498906679933_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=8ae9d6&_nc_ohc=1RbirWaA2ZIAX8uOTvt&_nc_ht=scontent.cdninstagram.com&oh=a314eca94a2e720aeae7bed29c166f00&oe=60CF37E9", 
+    "https://scontent.cdninstagram.com/v/t51.29350-15/193876127_116509297228729_7117844722277867024_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=8ae9d6&_nc_ohc=m1qQpzj91g4AX_KRmwP&_nc_ht=scontent.cdninstagram.com&oh=f05c8942477870b0d2164c101cacad53&oe=60CE456D", 
+    "https://scontent.cdninstagram.com/v/t51.29350-15/192772335_818066525504516_5366988579058408664_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=8ae9d6&_nc_ohc=5R3cqr-MimIAX-hE80U&_nc_ht=scontent.cdninstagram.com&oh=ef6e3d89360012a74049d02ad60789ca&oe=60CEEE9D", 
+    "https://scontent.cdninstagram.com/v/t51.29350-15/188888550_188469959806435_5869336049369105270_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=8ae9d6&_nc_ohc=0MN7YD3h_g8AX8hQAF0&_nc_ht=scontent.cdninstagram.com&oh=7b7c8cd0c1784788f504f63c7c240c03&oe=60CEFD5C", 
+    "https://scontent.cdninstagram.com/v/t51.29350-15/172972186_1062866520870274_7270002926756165642_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=8ae9d6&_nc_ohc=7ijlsBOzJAIAX-HT3mr&_nc_oc=AQmlcLRYstEsWs1Tq5v6iTvjXnxfn-UoCMilRBIlpMEgNQesoplm2LSNYvtyczzd2LY&_nc_ht=scontent.cdninstagram.com&oh=157961fdae2717e0ed15952e0bad82d2&oe=60CF1334", 
+    "https://scontent.cdninstagram.com/v/t51.29350-15/166776600_149131107100530_6242025214745976116_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=8ae9d6&_nc_ohc=70E87piE2tIAX-D0Ey6&_nc_ht=scontent.cdninstagram.com&oh=bd84838bb515882ff46ee94fca269285&oe=60CE7257",
+     "https://scontent.cdninstagram.com/v/t51.29350-15/163608150_275500304228112_7663091167906913127_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=8ae9d6&_nc_ohc=fD_4SXHaxq4AX_gUtNe&_nc_ht=scontent.cdninstagram.com&oh=68df767e26e479b0d49d930483fd58dc&oe=60CEF414", 
+     "https://scontent.cdninstagram.com/v/t51.29350-15/156675539_173443081255668_6898039024529153365_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=8ae9d6&_nc_ohc=Ie-3wvlREgkAX8RYg2P&_nc_ht=scontent.cdninstagram.com&oh=aaf89660ca41a94d6ece1f75919e5f95&oe=60CE8440"];
+     setImages(PicUrl)
+  }
+ 
+});
+ 
+}
+
+
+
+
+//this function is not been called due to addition of above function
+/*
   const callapi = async (post) => {
 
     //console.log("hahahahha");
@@ -31,7 +74,7 @@ const Insta_gal = () => {
     try {
       
       //console.log("before")
-      let accessToken="IGQVJYMURCenFYcXpKOWlLTnZAyNGZAOTUJnMTZAjbXI1dXdvbUpwNFpUbWNKSzhYb05sZAWJ0TVpzbTlkWEJ3bDlmRW0zVC03NlVlNGZAlS2czdWpDcU1veUJZAQnctRlFiZATRHTWtsQzZATb1ZALeDNocVM3NgZDZD";
+      let accessToken="IGQVJVU2hjNW1kcDNYY2IwQXI5dWZACcXhWd1FFWjctZAjlIMi03Qjg4TWtsb29hbUlmOHBqZAUhCM0VUZAmFVWjAtQkhHX1NmdldLTG90QzVWN0JBaGN6dHhnd3dKaVhQVmlLVTRCWlBndVo3VUwtOG9lVgZDZD";
       const res = await axios.get("https://graph.instagram.com/17841401475482155/media?access_token="+accessToken+"&fields=id,timestamp");
       //console.log("after");
       
@@ -86,7 +129,7 @@ const Insta_gal = () => {
        setImages(PicUrl)
     }
 
-  }
+  }*/
 
   
   if (images.length === 0) {
