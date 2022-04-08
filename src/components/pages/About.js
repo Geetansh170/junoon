@@ -1,5 +1,6 @@
 import React, { Fragment , useState} from "react";
 import { Document, Page,pdfjs  } from 'react-pdf';
+import TeamCard from "../../Team-card";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
@@ -29,6 +30,7 @@ const About = () => {
   return (
     <Fragment>
       <div>
+        
         <meta charSet='utf-8' />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <link rel='shortcut icon' href='style/images/favicon.png' />
@@ -299,7 +301,7 @@ const About = () => {
             {/* /.container */}
           </div>
 
-
+<TeamCard/>
 
           <div className='wrapper gray-wrapper'>
             <div className='container inner'>

@@ -1,12 +1,16 @@
 import React, { Component } from "react";
 import "./membercard.css";
 import team from "./team-data/meet-team";
-class teamCard extends Component {
+class TeamCard extends Component {
   state = {};
   render() {
     const instalink = "https://www.instagram.com/";
     return (
       <React.Fragment>
+      <div className="team_head">Meet The Developers</div>
+    
+      <div className="team_card_w">
+        
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -26,7 +30,7 @@ class teamCard extends Component {
               <div className="year">{member.year} Year</div>
             </div>
             <div className="description">
-              <h3>{member.description}</h3>
+              <h3 style={{fontSize:"14px"}}>{member.description}</h3>
               <div className="insta-member">
                 <a href={instalink.concat(member.insta)}>
                   <i class="fab fa-instagram"> {member.insta}</i>
@@ -35,9 +39,10 @@ class teamCard extends Component {
             </div>
           </div>
         ))}
+      </div>
       </React.Fragment>
     );
   }
 }
 
-export default teamCard;
+export default TeamCard;
