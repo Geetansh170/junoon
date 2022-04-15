@@ -11,8 +11,6 @@
 .img_d{
 	height: 350px;
 	width: 350px;
-	
-	
 }
 .card{
 	border: 30px solid white;
@@ -41,4 +39,16 @@
 	 width: 50px;
 	 margin-top: -380px;
 	 margin-left: -250px;
+ }
+
+ @media screen and (max-width: 450px) {
+  .img_d{
+    height: 300px;
+    width: 300px;
+  }
+  .logo_junoon{
+    width: 50px;
+    margin-top: -290px;
+    margin-left: -240px;
+  }
  }
