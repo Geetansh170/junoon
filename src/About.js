@@ -1,6 +1,8 @@
 import React, { Fragment, useState } from "react";
 import Memberwrap from "./team-wrapper";
 import { Document, Page, pdfjs } from "react-pdf";
+import TeamCard from "./Team-card";
+// import teamCard from "./Team-card";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 

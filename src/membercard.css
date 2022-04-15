@@ -6,6 +6,12 @@
   grid-column-gap: 20px;
   grid-row-gap: 20px;
 }
+.team_head{
+  font-size: 30px;
+  background-color: #eef1f5;
+  font-weight: bold;
+  margin: auto;
+}
 .card-team {
   background: black;
   width: 100%;
@@ -16,8 +22,19 @@
   justify-content: space-between;
   align-items: center;
   padding: 30px 30px;
+  margin: 30px;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
+}
+.team_card_w::-webkit-scrollbar {
+  display: none;
+}
+
+.team_card_w{
+  display: flex;
+  white-space: nowrap;
+  overflow-x: scroll;
+  background-color: #eef1f5;
 }
 team-left {
   width: 150px;
