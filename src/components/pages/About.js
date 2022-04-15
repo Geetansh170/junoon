@@ -1,9 +1,51 @@
 import React, { Fragment , useState} from "react";
 import { Document, Page,pdfjs  } from 'react-pdf';
-import TeamCard from "../../Team-card";
+import "./About.css"
+import teamimg from "./imgs/sundarGroupPic.jpg";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+const Data=[
+  {
+    head:"Core Team (2020-2021)",
+    members:["Teacher Incharge - Prof. Aastha Singh"],
+    color:'white',
+    memcolor:'whitesmoke',
+  },
+  {
+    head:"Seniors",
+    members:["Ananya - President Operations",
+            "Aryan - President Managerial",
+            "Jyoti - Vice President",
+            "Kartik - Vice President",
+            "Ayush - Editor in Chief",
+            "Geetansh - Head, Technical Dept",
+            "Kanishka - Head, Public Relations",
+            "Rahul - Head, Design Dept",
+            "Siddharth - Head Creative Dept",
+            "Anirudh - Head, External Affairs"],
+    color:'white',
+    memcolor:'whitesmoke',
+  },
+  {
+    head:"Juniors",
+    members:["Aditya Singh","Armaan Chauhan","Arunav Goel","Aryan Verma","Atharv Rustagi","Divyanshu","Raghav","Ishkaran","Naman Gogia","Parth","Sanjay Chowdary","Sidhharth Gupta","Naman Singh","Unnat Mittal","Aasritha Lingam","Deepak","Jaydeep","Srishti Agarwal","Vishal Vishwakarma"],
+    color:'white',
+    memcolor:'whitesmoke',
+  },
+  {
+    head:"Sophomores",
+    members:["Aditya Kumar","Arsh Poddar","Aryan Maurya","Darsh Mittal","Divy Kant","Kartikeya Chhikara","Kartikeya Gupta","Prakash Choudhary","Pratap Ranjan","Priyanka Kumari","Rohan Singh","Sankalp Roy","Bhavya Singh","Amrutanshu Tyagi","Adarsh Kumar","Devanshi Sharma","Jatin Rawat","Pranav Chauhan","Bhavya"],
+    color:'white',
+    memcolor:'whitesmoke',
+  },
+  
+]
 
-
+// {
+//   head:"Freshers",
+//   members:["Aditya Kumar","Arya","Arsh Poddar","Aryan Maurya","Bhavya Agrawal","Darsh Mittal","Divy Kant","Kartikeya Chhikara","Kartikeya Gupta","Lakshay Rastogi","Prakash Choudhary","Pratap Ranjan","Priyanka Kumari","Priyansh","Rohan Singh","Sankalp Roy","Vyas Saggar","Bhavya Singh","Amrutanshu Tyagi","Adarsh Kumar","Devanshi Sharma","Jatin Rawat","Pranav Chauhan","Anannya","Bhavya","Pooja"],
+//   color:'whitesmoke',
+//   memcolor:'whitesmoke',
+// },
 
 const About = () => {
 
@@ -30,7 +72,6 @@ const About = () => {
   return (
     <Fragment>
       <div>
-        
         <meta charSet='utf-8' />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <link rel='shortcut icon' href='style/images/favicon.png' />
@@ -91,7 +132,7 @@ const About = () => {
               <div className='navbar-collapse collapse w-100 bg-light'>
                 <ul className='navbar-nav nav-fill w-100'>
                   <li className='nav-item'>
-                    <a className='nav-link' href='/'>
+                    <a className='nav-link hover-color-about' href='/'>
                       Home
                     </a>
                     
@@ -137,7 +178,28 @@ const About = () => {
                 <div className='col-md-11' style= {{margin: "0 auto"}}>
                   <div className='box bg-white shadow p-90'>
                     <figure className='main'>
-                      <img src='style/images/fam.jpg' alt='' />
+                      
+                      {
+                        Data.map(e=>{
+                          return (
+                            <div className="teampic">
+
+                              <div className="about_teampic_header" style={{color:e.color}}>
+                                {e.head}
+                              </div>
+                              <div className="about_teampic_member">
+                                {e.members.map(p=>{
+                                  return(
+                                    <span className="about_teampic_member_each" style={{color:e.memcolor}}>
+                                      {p}
+                                    </span>
+                                  )
+                                })}
+                            </div>
+                            </div>
+                          )
+                        })
+                      }
                     </figure>
                     <h4 className='mb-5'>JUNOON</h4>
                     <div className='meta mb-10'></div>
@@ -301,7 +363,7 @@ const About = () => {
             {/* /.container */}
           </div>
 
-<TeamCard/>
+
 
           <div className='wrapper gray-wrapper'>
             <div className='container inner'>
