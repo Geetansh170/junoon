@@ -739,20 +739,18 @@ background-blend-mode: multiply;
   
 
   @media only screen and (min-width: 600px) and (max-width:1000px) {
- 
     .hovercontainer1 {
       display: grid;
-  grid-template-columns: 1fr 1fr ;
+      grid-template-columns: 1fr 1fr ;
       grid-gap: 3rem;
       padding: 4rem 4rem;
-      
     }
     
     .hovercontainer1 .wrapper {
-      
       transition: 0.25s;
     }
-    
+  }
+
   .card1:hover {
     opacity: 0.3;
   }
@@ -894,7 +892,7 @@ background-blend-mode: multiply;
       background-size: cover;
       /* background-color: #373f51; */
       background-blend-mode: screen;
-      transform: skew(10deg) scale(1.2);
+      /* transform: skew(10deg) scale(1.2); */
       transition: 0.25s;
     }
   
