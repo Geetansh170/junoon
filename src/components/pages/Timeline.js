@@ -88,11 +88,7 @@ function timeline() {
               <TimelineCard
                 season="WE LOVE YOU SENIORS (BATCH OF NSIT'22)"
                 src="https://user-images.githubusercontent.com/71789479/163712270-e26fd67e-5c9c-4ecb-be43-9a985cc7ecb3.png"
-                info="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-                      eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-                      montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-                      pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
-                      vel, aliquet nec, vulputate eget, arcu."
+                info="Content will be given by bhavya soon!!"
                 year="2022"
         
               />
@@ -162,7 +158,7 @@ function timeline() {
               <TimelineCard
                 season="JUNOON FOUNDED"
                 src="https://user-images.githubusercontent.com/71789479/163728676-750c2ec4-eef9-49a3-859a-bdd859d6fb0c.png"
-                info="2010, the year when the JUNOON was founded in NSIT."
+                info="2010, the year when JUNOON-the photography club of NSUT (formerly NSIT) was founded."
                 year="2010"
               />
             </div>
