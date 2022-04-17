@@ -45,13 +45,13 @@
 }
 @media screen and (max-width: 600px) {
     .about_teampic_header{
-        font-size: 3vw;
+        font-size: 6vw;
         margin: 1.5vw;
     }
     
     .about_teampic_member_each{
         margin: 1.5vw;
-        font-size: 2.5vw;
+        font-size: 3.2vw;
     }
     .main{
         background-image: url("./imgs/sundarGroupPicMob.jpg");
