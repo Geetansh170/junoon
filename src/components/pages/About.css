@@ -12,13 +12,11 @@
     margin: 1.5vw;
     font-size: 1.1vw;
 }
-.main{
+.main-1{
     background-image: url("./imgs/sundarGroupPic.jpg");
     
     background-size: cover;
     padding: 12px;
-    
-    
 }
 .hover-color-about{
     color: green;
@@ -39,8 +37,6 @@
         /* width: 60vw; */
         background-size: cover;
         padding: 12px;
-        
-        
     }
 }
 @media screen and (max-width: 600px) {
@@ -58,7 +54,5 @@
         
         background-size: cover;
         padding: 12px;
-        
-        
     }
 }

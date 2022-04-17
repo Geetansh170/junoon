@@ -179,7 +179,7 @@ const About = () => {
                 {/*/column */}
                 <div className='col-md-11' style= {{margin: "0 auto"}}>
                   <div className='box bg-white shadow p-90'>
-                    <figure className='main'>
+                    <div className='main-1'>
                       
                       {
                         Data.map(e=>{
@@ -202,7 +202,7 @@ const About = () => {
                           )
                         })
                       }
-                    </figure>
+                    </div>
                     <h4 className='mb-5'>JUNOON</h4>
                     <div className='meta mb-10'></div>
                     <p>Junoon The Photography club of NSUT</p>

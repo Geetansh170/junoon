@@ -179,12 +179,14 @@ links.on('value', (snapshot) => {
                     </a>
                     
                   </li>
+
                   <li className='nav-item dropdown'>
                     <a className='nav-link dropdown-toggle' href='/collection'>
                       Collections
                     </a>
                     
                   </li>
+
  
                   <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/timeline">Timeline</a>
 
@@ -196,6 +198,7 @@ links.on('value', (snapshot) => {
                     </a>
                    
                   </li>
+
                   <li className='nav-item dropdown'>
                     <a className='nav-link dropdown-toggle' href='/contact_us'>
                       Contact
@@ -209,6 +212,9 @@ links.on('value', (snapshot) => {
               </div>
             </div>
           </nav>
+
+
+          
           <div className='wrapper light-wrapper'>
             <div className='container inner pt-70'>
             <h1>
