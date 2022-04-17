@@ -5652,6 +5652,7 @@ pre {
 
 
 
+
 /* //////////////////////////////////////////////////////////////////////////////// */
 /* ////////////////////////////////////TIMELINE CSS STARTS///////////////////////// */
 /* //////////////////////////////////////////////////////////////////////////////// */
@@ -5715,7 +5716,7 @@ pre {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-  
+    padding-top: 10vh;
     max-width: 1160px;
     margin-right: auto;
     margin-left: auto;
@@ -5724,20 +5725,25 @@ pre {
   }
   
   .ag-timeline-block {
-    padding: 100px 0;
-  
+    padding: 150px 0;
+    scroll-behavior: smooth !important;
     background-color: #000;
     overflow-x: hidden;
   }
   .ag-timeline_title-box {
     padding: 0 0 30px;
-  
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     text-align: center;
   }
   .ag-timeline_tagline {
     font-size: 40px;
-    margin-bottom: 50px;
+    /* margin-top: 25vh; */
+    /* margin-bottom: 40vh; */
     color: rgb(84, 89, 95);
+    line-height: 50px;
   }
   .ag-timeline_title {
     font-size: 80px;
@@ -5793,7 +5799,7 @@ pre {
   .ag-timeline_line-progress {
     width: 100%;
     height: 20%;
-    background-color: #ff0;
+    background-color: grey;
   }
   .ag-timeline-card_point-box {
     margin-left: 20px;
@@ -5803,7 +5809,7 @@ pre {
     height: 50px;
     line-height: 50px;
     width: 50px;
-    border: 3px solid #ff0;
+    border: 3px solid grey;
     background-color: #1d1d1b;
   
     text-align: center;
@@ -5817,7 +5823,7 @@ pre {
   }
   .js-ag-active .ag-timeline-card_point {
     color: #1d1d1b;
-    background-color: #ff0;
+    background-color: grey;
   }
   
   .ag-timeline-card_item {
@@ -5944,7 +5950,7 @@ pre {
     font-family: "ESL Legend", sans-serif;
     font-weight: bold;
     font-size: 28px;
-    color: #ff0;
+    color: grey;
   }
   .ag-timeline-card_info {
     padding: 20px 30px;
@@ -5956,7 +5962,7 @@ pre {
     font-family: "ESL Legend", sans-serif;
     font-weight: bold;
     font-size: 28px;
-    color: #ff0;
+    color: grey;
   }
   .ag-timeline-card_desc {
     line-height: 1.45;
@@ -6086,6 +6092,60 @@ pre {
       transform: translateX(0);
     }
   }
+
+
+  /* TIMELINE SCROLL DOWN BUTTON CSS START */
+  .scroll-down {
+    height: 50px;
+    width: 30px;
+    border: 2px solid white;
+    position: absolute;
+    left: 48.85%;
+    bottom: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .scroll-down::before,
+  .scroll-down::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    /* left: 48.6%; */
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -100%) rotate(45deg);
+    border: 2px solid white;
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+  }
+  .scroll-down::before {
+    top: 30%;
+    animation-delay: 0.3s;
+    /* animation: scroll-down 1s ease-in-out infinite; */
+  }
+  
+  @keyframes scroll-down {
+    0% {
+      /* top:20%; */
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    100% {
+      top: 90%;
+      opacity: 0;
+    }
+  }
+  
+  /* TIMELINE SCROLL DOWN BUTTON CSS ENDS */
+
+
+
   
   @media only screen and (max-width: 979px) {
     .ag-timeline_line {
@@ -6195,4 +6255,3 @@ pre {
   }
 /* //////////////////////////////////////////////////////////////////////////////// */
 /* ////////////////////////////////////TIMELINE CSS END//////////////////////////// */
-/* //////////////////////////////////////////////////////////////////////////////// */

@@ -18,7 +18,7 @@ function FromLeft(props) {
 
           </div>
           <div className="ag-timeline-card_info">
-            <div className="ag-timeline-card_title">Season {props.season}</div>
+            <div className="ag-timeline-card_title">{props.season}</div>
             <div className="ag-timeline-card_desc">{props.info}</div>
           </div>
         </div>
@@ -31,7 +31,7 @@ function FromLeft(props) {
       </div>
       
       <div className="ag-timeline-card_meta-box">
-        <div className="ag-timeline-card_meta">Season {props.season}</div>
+        <div className="ag-timeline-card_meta">{props.season}</div>
       </div>
     </div>
   );
