@@ -88,7 +88,10 @@ function timeline() {
               <TimelineCard
                 season="WE LOVE YOU SENIORS (BATCH OF NSIT'22)"
                 src="https://user-images.githubusercontent.com/71789479/163712270-e26fd67e-5c9c-4ecb-be43-9a985cc7ecb3.png"
-                info="Content will be given by bhavya soon!!"
+                info="Over these 2 topsy turvy years at NSUT, a crazy 3 day Moksha, HonSut, burstful photo walks and tiring event coverings, we have found a family in college. Thanks to our seniors, who mentored and nurtured us, gave us treats, scolded us, even rejected our ideas, but no matter what they always had faith in us. 
+Here’s to the batch of 2022!
+We send you countless love and wishes.
+Have a great journey ahead to your newest destinations."
                 year="2022"
         
               />
@@ -113,11 +116,7 @@ function timeline() {
               <TimelineCard
                 season="ETHINIC DAY"
                 src="https://user-images.githubusercontent.com/71789479/163712474-a34c9e6c-cb7b-41ac-933b-e8bc75f50261.png"
-                info="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-                      eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-                      montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-                      pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
-                      vel, aliquet nec, vulputate eget, arcu."
+                info="In the era of modernization and westernization when most of the people are moving away from their own culture and history Junoon NUST conducts Ethnic day each year since 2018. Enabling the young generation to revive love and respect for their own culture and history."
                 year="2018"
               />
               <TimelineCard
@@ -137,7 +136,7 @@ function timeline() {
               <TimelineCard
                 season="FIRST PHOTOWALK"
                 src="https://user-images.githubusercontent.com/71789479/163713302-b29ec9d2-fa70-44bb-890a-c0bbe2eb5653.png"
-                info="Our first photo-walk was conducted in 2014. The location was Quran Minar. Everyone had a great time interacting with each other. Since then we have not stopped and have conducted 20+ photowalks. We have convered locations like, Humayutomb, Sundar nursery, Qutub Minar etc."
+                info="Our first photo-walk was conducted in 2014. The location was Quran Minar. Everyone had a great time interacting with each other. Since then we have not stopped and have conducted 20+ photowalks. We have convered locations like Rashtrapaty Bhavan, Chandani Chowk, Humayu Tomb, Sundar Nursery etc."
                 year="2014"
               />
 
