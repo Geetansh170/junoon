@@ -8,6 +8,7 @@ import About from "./components/pages/About";
 import Insta_gal from "./components/pages/Insta_gal";
 import Profile from "./components/pages/Profile";
 import LogHandler from "./Handler/LogHandler";
+import Timeline from "./components/pages/Timeline";
 
 import "./App.css";
 
@@ -26,7 +27,7 @@ const App = () => {
             <Route exact path='/about' component={About} />
             <Route exact path='/profile' component={Profile}/>
             <Route exact path='/login' component={LogHandler}/>
-        
+            <Route exact path='/timeline' component={Timeline} />
           </Switch>
           
         </div>
