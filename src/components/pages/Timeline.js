@@ -25,14 +25,15 @@ function timeline() {
                   <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/collection">Collections</a>
                     
                   </li>
+                  <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/timeline">Timeline</a>
+                  </li>
                   <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/about">About</a>
                    
                   </li>
                   <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/contact_us">Contact</a>
                   </li>
 
-                  <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/timeline">Timeline</a>
-                  </li>
+                  
                   {/* <li className="nav-item dropdown" style={{padding: "10px 30px"}}>
                       
                     <button style={{outline:"none", background:"none", border:"none", cursor:"pointer", fontWeight: "700", color:"rgba(255, 255, 255, 1)"}} className="openModelBtn" onClick={() => {setOpenModel(true)}}>Login</button>

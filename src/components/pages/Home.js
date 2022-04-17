@@ -109,6 +109,9 @@ $(window).on('DOMContentLoaded load resize scroll', handler)
                   <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/collection">Collections</a>
                     
                   </li>
+                  <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/timeline">Timeline</a>
+                  </li>
+
                   <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/about">About</a>
                    
                   </li>

@@ -185,6 +185,9 @@ links.on('value', (snapshot) => {
                     </a>
                     
                   </li>
+                  <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/timeline">Timeline</a>
+                  </li>
+
                   <li className='nav-item dropdown'>
                     <a className='nav-link dropdown-toggle' href='/about'>
                       About
