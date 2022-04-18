@@ -180,7 +180,6 @@ const About = () => {
                 <div className='col-md-11' style= {{margin: "0 auto"}}>
                   <div className='box bg-white shadow p-90'>
                     <div className='main-1'>
-                      
                       {
                         Data.map(e=>{
                           return (
