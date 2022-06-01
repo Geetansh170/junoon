@@ -7,8 +7,8 @@ import img2 from "../pages/imgs/cardimg2.jpg";
 import img3 from "../pages/imgs/cardimg3.jpg";
 import img4 from "../pages/imgs/cardimg4.jpg";
 import etc from "../pages/imgs/ethniccardimg.jpeg";
-import ethnicday2022 from "../pages/imgs/ethnicday2022.jpeg"
-import scribbleday2022 from "../pages/imgs/scribbleday2022.jpeg"
+import ethnicday2022 from "../pages/imgs/ethnicday2022.png"
+import scribbleday2022 from "../pages/imgs/scribbleday2022.png"
 import moksha2022 from "../pages/imgs/moksha2022.png"
 import farewell2022 from  "../pages/imgs/farewell2022.png"
 const Drive_links = () => {
@@ -20,12 +20,12 @@ const Drive_links = () => {
       img: farewell2022
     },
     {
-      name: "  ",
+      name: "Scribble Day",
       link: "https://drive.google.com/drive/folders/1NZcbM2MsvhxwdpAdcL8qOgrjZ0ULvKOp",
       img: scribbleday2022
     },
     {
-      name: "  ",
+      name: "Ethnic Day",
       link: "https://drive.google.com/drive/folders/1Y_bbWyx3kMu5eJIiz5PjgqEHHLjdkkzk",
       img: ethnicday2022
     },
