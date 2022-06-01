@@ -16,7 +16,6 @@ function Cardcollection(props) {
           </div>
             </div>
         </div>
-     
     </div>
   );
 }

@@ -171,7 +171,6 @@ links.on('value', (snapshot) => {
                       Home
                     </a>
                     
-                    {/*/.dropdown-menu */}
                   </li>
                   <li className='nav-item dropdown'>
                     <a className='nav-link dropdown-toggle' href='/insta'>
@@ -188,8 +187,10 @@ links.on('value', (snapshot) => {
                   </li>
 
  
-                  <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="/timeline">Timeline</a>
-
+                  <li className='nav-item dropdown'>
+                    <a className='nav-link dropdown-toggle' href='/timeline'>
+                      Timeline
+                    </a>
                   </li>
 
                   <li className='nav-item dropdown'>

@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap');
-
+.drive_links{
+	margin-top: 100px;
+}
 .drive_links_e{
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
-	
 }
 .img_d{
 	height: 350px;
@@ -47,6 +48,7 @@
     width: 300px;
   }
   .logo_junoon{
+    display: none;
     width: 50px;
     margin-top: -290px;
     margin-left: -240px;
