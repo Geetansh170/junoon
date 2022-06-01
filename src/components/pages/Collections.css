@@ -16,9 +16,6 @@
 .card{
 	border: 30px solid white;
 	overflow: hidden;
-	height: 410px !important;
-	width: auto;
-
 }
 .card_overlay{
 	margin-top: -140px;
@@ -33,7 +30,6 @@
 	 width: 140px;
 	 background-color: transparent;
 	 border: 1px solid white;
-	 
  }
 
  .dl_txt{
@@ -51,12 +47,9 @@
     height: auto;
     width: 300px;
   }
-  .card{
-	height: 360px !important;	
-  }
   .title{
 	height: 50px;
-}
+  }
   .logo_junoon{
     display: none;
     width: 50px;
