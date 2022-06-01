@@ -15,7 +15,10 @@
 }
 .card{
 	border: 30px solid white;
-	
+	overflow: hidden;
+	height: 410px !important;
+	width: auto;
+
 }
 .card_overlay{
 	margin-top: -140px;
@@ -23,6 +26,7 @@
 .title{
 	color: white;
 	font-size: 20px;
+	height: 30px;
 }
 
  .btn{
@@ -44,9 +48,15 @@
 
  @media screen and (max-width: 450px) {
   .img_d{
-    height: 300px;
+    height: auto;
     width: 300px;
   }
+  .card{
+	height: 360px !important;	
+  }
+  .title{
+	height: 50px;
+}
   .logo_junoon{
     display: none;
     width: 50px;

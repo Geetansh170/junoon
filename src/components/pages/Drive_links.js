@@ -20,12 +20,12 @@ const Drive_links = () => {
       img: farewell2022
     },
     {
-      name: "Scribble Day",
+      name: "  ",
       link: "https://drive.google.com/drive/folders/1NZcbM2MsvhxwdpAdcL8qOgrjZ0ULvKOp",
       img: scribbleday2022
     },
     {
-      name: "Ethnic Day",
+      name: "  ",
       link: "https://drive.google.com/drive/folders/1Y_bbWyx3kMu5eJIiz5PjgqEHHLjdkkzk",
       img: ethnicday2022
     },
@@ -48,7 +48,7 @@ const Drive_links = () => {
       img: img1,
     },
     {
-      name: "Guinness World Record Attempt",
+      name: "World Record Attempt",
       link: "https://drive.google.com/drive/u/1/folders/1b5-iPbqawv6ecTuSZ6JGsq01YUuNdEwg",
       img: img2,
     },
