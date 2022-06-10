@@ -86,9 +86,9 @@ function timeline() {
               {/* The first card appears from right side, then cards appear alternatively (from left then right then left) */}
               
               <TimelineCard
-                season="WE LOVE YOU SENIORS (BATCH OF NSIT'22)"
+                season="WE LOVE YOU SENIORS (BATCH OF NSUT'22)"
                 src="https://user-images.githubusercontent.com/71789479/163712270-e26fd67e-5c9c-4ecb-be43-9a985cc7ecb3.png"
-                info="Over these 2 topsy turvy years at NSUT, a crazy 3 day Moksha, HonSut, burstful photo walks and tiring event coverings, we have found a family in college. Thanks to our seniors, who mentored and nurtured us, gave us treats, scolded us, even rejected our ideas, but no matter what they always had faith in us. 
+                info="Over these 2 topsy turvy years at NSUT, a crazy 3 day Moksha, HoNsut, burstful photo walks and tiring event coverings, we have found a family in college. Thanks to our seniors, who mentored and nurtured us, gave us treats, scolded us, even rejected our ideas, but no matter what they always had faith in us. 
 Here’s to the batch of 2022!
 We send you countless love and wishes.
 Have a great journey ahead to your newest destinations."
@@ -116,7 +116,7 @@ Have a great journey ahead to your newest destinations."
               <TimelineCard
                 season="ETHINIC DAY"
                 src="https://user-images.githubusercontent.com/71789479/163712474-a34c9e6c-cb7b-41ac-933b-e8bc75f50261.png"
-                info="In the era of modernization and westernization when most of the people are moving away from their own culture and history Junoon NUST conducts Ethnic day each year since 2018. Enabling the young generation to revive love and respect for their own culture and history."
+                info="In the era of modernization and westernization when most of the people are moving away from their own culture and history Junoon NSUT conducts Ethnic day each year since 2018. Enabling the young generation to revive love and respect for their own culture and history."
                 year="2018"
               />
               <TimelineCard

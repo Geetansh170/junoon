@@ -6,6 +6,10 @@
 .about_teampic_member{
     margin: auto;
 }
+.about_teampic_member span{
+    display: inline-block;
+    margin: 0 1.5vw;
+}
 .about_teampic_member_each{
     margin: 1.5vw;
     font-size: 1.1vw;

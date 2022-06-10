@@ -142,11 +142,11 @@ const Contact_us = () => {
                   <div className='col-md-4'>
                     {" "}
                     <span className='icon icon-color color-default fs-48 mb-10'>
-                    <a href="mailto: nsit.junoon@gmail.com" target="_blank"><i className='fa fa-envelope-o' /></a>
+                    <a href="mailto: junoon@nsut.ac.in" target="_blank"><i className='fa fa-envelope-o' /></a>
                     </span>
                     <p>
-                      <a className='nocolor' href='mailto: nsit.junoon@gmail.com' target="_blank">
-                      nsit.junoon@gmail.com
+                      <a className='nocolor' href='mailto: junoon@nsut.ac.in' target="_blank">
+                      junoon@nsut.ac.in
                       </a>                      
                     </p>
                   </div>
