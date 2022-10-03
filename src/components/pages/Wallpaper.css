@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap');
+
+.drive_links {
+	margin-top: 100px;
+}
+
+.drive_links_e {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.image_d {
+	max-height: 100%;
+	max-width: 100%;
+
+}
+
+.image {
+	max-width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: none;
+}
+
+.active {
+	display: block;
+}
+
+.image_overlay {
+	margin: 0px;
+	background-color: transparent;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	bottom: 100%;
+
+}
+
+.title {
+	color: white;
+	font-size: 20px;
+	height: 30px;
+}
+
+.wallpaper-content {
+	position: relative;
+	bottom: -80%;
+	width: 10%;
+	min-height: 5%;
+}
+.wallpaper-content-for-phone{
+	top: 87%;
+}
+.btn_wallpaper {
+	width: 75%;
+	/* height: 35px; */
+	background-color: transparent;
+	font-size: large;
+	color: aliceblue;
+	margin: 0;
+	padding: 0;
+	border: 2px solid aliceblue;
+}
+.btn_wallpaper svg{
+	margin: 15% 0;
+}
+
+.btn_wallpaper_for_phone{
+	margin-left: 15px;
+	width: 150%;
+}
+
+.dl_txt_wallpaper {
+	font-size: inherit;
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dl_txt_wallpaper input {
+	margin: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.dl_txt_wallpaper label {
+	margin: 5px;
+	text-align: center;
+}
+
+.logo_junoon_forwallpaper {
+	width: 5%;
+	position: relative;
+	right: 45%;
+	top: 3%;
+	opacity: 50%;
+}
+
+.logo_junoon_forwallpaper_forphone {
+	width: 30px;
+	position: relative;
+	right: 40%;
+	top: 3%;
+	opacity: 50%;
+}
+
+@media screen and (max-width: 450px) {
+	.img_d {
+		height: auto;
+		width: 300px;
+	}
+
+	.title {
+		height: 50px;
+	}
+
+	.logo_junoon {
+		display: none;
+		width: 50px;
+		margin-top: -290px;
+		margin-left: -240px;
+	}
+	.dl_txt_wallpaper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.btn_wallpaper svg{
+		font-size: 40%;
+		margin: 10% 0;
+	}
+
+
+}
+@media screen and (max-width: 680px){
+	.dl_txt_wallpaper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.btn_wallpaper {
+		border: 1px solid aliceblue;
+	}
+	.btn_wallpaper_for_phone{
+		width: 120%;
+	}
+	.radio-option{
+		flex-direction: row;
+		margin: 5px 30px;
+	}
+	.wallpaper-content {
+		bottom: -66%;
+		
+	}
+}
+@media screen and (max-width: 800px ) and (min-width : 450px){
+	.btn_wallpaper svg{
+		font-size: 70%;
+	}
+	
+}
+@media screen and (max-width: 425px){
+	.wallpaper-content {
+		bottom: -60%;
+		
+	}
+	.btn_wallpaper svg{
+		font-size: 40%;
+		margin:  0;
+	}
+}
+@media screen and (max-width: 375px){
+	.wallpaper-content {
+		bottom: -60%;
+		
+	}
+}

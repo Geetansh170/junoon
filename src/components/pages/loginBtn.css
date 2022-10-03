@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+.login-btn {
+  /* width: 100vw;
+  height: 100vh;*/
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Nunito", sans-serif;
+}
+
+.openModalBtn {
+  border: none;
+  color: white;
+  cursor: pointer;
+  background: none !important;
+}

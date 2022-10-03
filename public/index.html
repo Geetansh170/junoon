@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="style/images/junoon-logo-only.png" />
+    <meta property="og:image" content="style/images/junoon-logo-only.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000" />
+    <link rel="shortcut icon" href="style/images/junoon-logo-only.png" />
+
+    <link rel="stylesheet" type="text/css" href="style/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="style/css/plugins.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="style/revolution/css/settings.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="style/revolution/css/layers.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="style/revolution/css/navigation.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style/type/icons.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style/css/color/green.css" />
+    <meta
+      name="description"
+      content="Welcome to the Official website of Junoon"
+    />
+    <link rel="apple-touch-icon" href="style/images/junoon-logo-only.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <style>
+
+
+    
+.progress-bar {
+  margin: 0 auto;
+  height: 25px;
+  width: 50%;
+  border: 2px solid #FFF;
+  background-color: #BFADA3;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 2px 0 10px inset rgba(0,0,0,0.2);
+  position: relative;
+}
+
+* + .progress-bar {
+  margin-top: 2rem;
+}
+
+.bar {
+  width: 0%;
+  height: 100%;
+  background-color: #311a1a;
+  
+  /*Lollipop background gradient*/
+  background-image: linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, .2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, .2) 50%,
+    rgba(255, 255, 255, .2) 75%,
+    transparent 75%,
+    transparent
+  );
+ 
+  background-size: 30px 30px;
+  animation: move 2s linear infinite;
+  box-shadow: 2px 0 10px inset rgba(0,0,0,0.2);
+  transition: width 2s ease-out;
+}
+
+/*Lollipop background gradient animation*/
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 30px 30px;
+  }
+}
+
+.perc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1300px)
+{
+     
+     .react-pdf__Page__canvas,.react-pdf__Page__textContent
+     {
+       width:auto !important ;
+       height :68vh  !important;
+       
+     }
+     /*<canvas class="react-pdf__Page__canvas" dir="ltr" width="100vw" style="display: block; user-select :none; width:85vw;"></canvas>*/
+}
+
+@media screen and (max-width: 1000px)
+{
+     
+     .react-pdf__Page__canvas,.react-pdf__Page__textContent
+     {
+       width:91vw !important ;
+       height :auto  !important;
+       
+     }
+     /*<canvas class="react-pdf__Page__canvas" dir="ltr" width="100vw" style="display: block; user-select :none; width:85vw;"></canvas>*/
+}
+
+    </style>
+    
+    <title>Junoon</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script src="style/js/jquery.min.js"></script>
+    <script src="style/js/popper.min.js"></script>
+    <script src="style/js/bootstrap.min.js"></script>
+    <script src="style/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="style/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems! The following part can be removed on Server for On Demand Loading) -->
+    <script src="style/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="style/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="style/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="style/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="style/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="style/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="style/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="style/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="style/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="style/js/plugins.js"></script>
+    <script src="style/js/scripts.js"></script>
+   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  </body>
+</html>
