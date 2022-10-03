@@ -29,7 +29,7 @@ function Wallpaper_images_for_phone({ link }) {
         <RotatingLines
           strokeColor="grey"
           strokeWidth="5"
-          animationDuration="0.2"
+          animationDuration="0.75"
           width="96"
           visible={true}
         />
