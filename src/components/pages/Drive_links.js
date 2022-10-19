@@ -11,9 +11,15 @@ import ethnicday2022 from "../pages/imgs/ethnicday2022.png"
 import scribbleday2022 from "../pages/imgs/scribbleday2022.png"
 import moksha2022 from "../pages/imgs/moksha2022.png"
 import farewell2022 from  "../pages/imgs/farewell2022.png"
+import reso2022 from  "../pages/imgs/reso2022.jpg"
 const Drive_links = () => {
 
   const Y2022 = [
+    {
+      name: "Resonanz",
+      link: "https://drive.google.com/drive/folders/1Vb4jwVBmxMXApviG4KLK7JbP99lmwIMA",
+      img: reso2022
+    },
     {
       name: "Farewell",
       link: "https://drive.google.com/drive/folders/1UCrsxPlEyUaF5EtZW7hBqmpx3cqRNkMD",
