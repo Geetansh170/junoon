@@ -11,10 +11,16 @@ import ethnicday2022 from "../pages/imgs/ethnicday2022.png"
 import scribbleday2022 from "../pages/imgs/scribbleday2022.png"
 import moksha2022 from "../pages/imgs/moksha2022.png"
 import farewell2022 from  "../pages/imgs/farewell2022.png"
+import ethnic2022 from  "../pages/imgs/ethnic2022.jpg"
 import reso2022 from  "../pages/imgs/reso2022.jpg"
 const Drive_links = () => {
 
   const Y2022 = [
+    {
+      name: "Ethnic Day",
+      link: "https://drive.google.com/drive/folders/19CmrJBhs5gdUmyAZAnqIcDczgfm3jrjC",
+      img: ethnic2022
+    },
     {
       name: "Resonanz",
       link: "https://drive.google.com/drive/folders/1Vb4jwVBmxMXApviG4KLK7JbP99lmwIMA",
@@ -31,7 +37,7 @@ const Drive_links = () => {
       img: scribbleday2022
     },
     {
-      name: "Ethnic Day",
+      name: "Ethnic Day batch of '22",
       link: "https://drive.google.com/drive/folders/1Y_bbWyx3kMu5eJIiz5PjgqEHHLjdkkzk",
       img: ethnicday2022
     },
