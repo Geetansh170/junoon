@@ -52,7 +52,7 @@ function WallPaperProvider({ children }) {
     const getImagesPhone = async () => {
       setIsDesk(false);
       await apiCall(
-        `https://junoonwallpaperapi.herokuapp.com/wallpaper/phone`,
+        `https://junoonwallpaperapi.onrender.com/wallpaper/phone`,
         `phone`
       );
       console.log(url);
@@ -60,7 +60,7 @@ function WallPaperProvider({ children }) {
 
     const getImagesDesktop = async () => {
       await apiCall(
-        `https://junoonwallpaperapi.herokuapp.com/wallpaper/desktop`,
+        `https://junoonwallpaperapi.onrender.com/wallpaper/desktop`,
         `desktop`
       );
       console.log(urlD);
