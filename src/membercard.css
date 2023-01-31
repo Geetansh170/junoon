@@ -1,0 +1,117 @@
+.team-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.team_head{
+  font-size: 30px;
+  background-color: #eef1f5;
+  font-weight: bold;
+  margin: auto;
+}
+.card-team {
+  background: black;
+  width: 100%;
+  height: 300px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px;
+  margin: 30px;
+  position: relative;
+  /* overflow: hidden; */
+}
+.team_card_w::-webkit-scrollbar {
+  display: none;
+}
+
+.team_card_w{
+  display: flex;
+  white-space: nowrap;
+  overflow-x: scroll;
+  background-color: #eef1f5;
+}
+team-left {
+  width: 150px;
+}
+.team-right {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.name {
+  font-size: 30px;
+  font-weight: 900;
+  transform: translateY(0px) scale(1);
+  z-index: 2;
+  transition: all 0.3s;
+}
+.insta-member .year {
+  font-size: 80%;
+}
+.card-team::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 40px;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: all 0.3s;
+}
+.description {
+  position: absolute;
+  width: 100%;
+  font-size: 120%;
+  color: black;
+  z-index: 2;
+  top: 50%;
+  transform: scale(0);
+  transition: all 0.3s;
+  opacity: 0;
+  padding: 0px 30px;
+}
+.image {
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.team-left img {
+  width: auto;
+  height: 100%;
+}
+.card-team:hover::after {
+  transform: translateX(0);
+  opacity: 1;
+}
+.card-team:hover .description {
+  transform: scale(1);
+  opacity: 1;
+}
+.card-team:hover .name {
+  transform: translateY(-150px);
+  color: black;
+  font-size: 36px;
+  z-index: 2;
+  opacity: 1;
+}
+.description a {
+  padding-top: 40px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: black;
+}

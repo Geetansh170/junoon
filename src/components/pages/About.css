@@ -1,0 +1,60 @@
+.about_teampic_header{
+    font-size: 2vw;
+    margin: 1.5vw;
+}
+
+.about_teampic_member{
+    margin: auto;
+}
+.about_teampic_member span{
+    display: inline-block;
+    margin: 0 1.5vw;
+}
+.about_teampic_member_each{
+    margin: 1.5vw;
+    font-size: 1.1vw;
+}
+.main-1{
+    background-image: url("./imgs/sundarGroupPic.jpg");
+    
+    background-size: cover;
+    padding: 12px;
+}
+.hover-color-about{
+    color: green;
+}
+
+@media screen and (max-width: 900px) {
+    .about_teampic_header{
+        font-size: 2.5vw;
+        margin: 1.5vw;
+    }
+    
+    .about_teampic_member_each{
+        margin: 1.5vw;
+        font-size: 1.8vw;
+    }
+    .main-1{
+        background-image: url("./imgs/sundarGroupPic.jpg");
+        /* width: 60vw; */
+        background-size: cover;
+        padding: 12px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .about_teampic_header{
+        font-size: 6vw;
+        margin: 1.5vw;
+    }
+    
+    .about_teampic_member_each{
+        margin: 1.5vw;
+        font-size: 3.2vw;
+    }
+    .main-1{
+        background-image: url("./imgs/sundarGroupPicMob.jpg");
+        
+        background-size: cover;
+        padding: 12px;
+    }
+}
