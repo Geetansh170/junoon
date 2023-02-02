@@ -42,9 +42,12 @@
 }
 
 @media (max-width: 990px) {
-
+    .sg-img {
+        height: auto;
+    }
     .sg-out {
         width: 70%;
         /* box-sizing: content-box; */
     }
+
 }
