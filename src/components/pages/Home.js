@@ -181,7 +181,7 @@ const Home = () => {
           >
             <ul>
               <li data-transition='fade' data-thumb='style/images/cover9.jpg'>
-                <img src={(window.innerWidth > 700)?"style/images/cover9.jpg":"style/images/cover9_mobile.png" } alt='' />
+                <img src={(window.innerWidth > 768)?"style/images/cover9.jpg":"style/images/cover9_mobile.png" } alt='' />
               </li>
               <li data-transition='fade' data-thumb='style/images/cover6.jpg'>
                 <img src='style/images/cover6.jpg' alt='' />
