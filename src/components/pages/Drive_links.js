@@ -2,17 +2,27 @@ import React, { Fragment } from "react";
 import "./Collections.css";
 
 import Cardcollection from "./Cardcollection";
-import img1 from "../pages/imgs/cardimg1.jpg";
-import img2 from "../pages/imgs/cardimg2.jpg";
-import img3 from "../pages/imgs/cardimg3.jpg";
-import img4 from "../pages/imgs/cardimg4.jpg";
+import sportsday2021 from "../pages/imgs/sportsday.jpg";
+import worldrecord2021 from "../pages/imgs/worldrecord.jpg";
+import fdp2021 from "../pages/imgs/fdp2021.jpg";
+import edwardmaya from "../pages/imgs/edwardmaya.jpg";
+import mirageatnsit from "../pages/imgs/mirageatnsit.png";
+import esummit from "../pages/imgs/esummit.jpg";
+import capellaperf from "../pages/imgs/capellaperf.png";
+import colloquium from "../pages/imgs/colloquium.jpg";
+import consolium from "../pages/imgs/consolium.jpg";
+import netaji from "../pages/imgs/netaji.jpg";
+import ethnicday19 from "../pages/imgs/ethnic19.jpg";
 import etc from "../pages/imgs/ethniccardimg.jpeg";
-import ethnicday2022 from "../pages/imgs/ethnicday2022.png"
-import scribbleday2022 from "../pages/imgs/scribbleday2022.png"
-import moksha2022 from "../pages/imgs/moksha2022.png"
-import farewell2022 from  "../pages/imgs/farewell2022.png"
-import ethnic2022 from  "../pages/imgs/ethnic2022.jpg"
-import reso2022 from  "../pages/imgs/reso2022.jpg"
+import ethnicday2022 from "../pages/imgs/ethnicday2022.png";
+import scribbleday2022 from "../pages/imgs/scribbleday2022.png";
+import moksha2022 from "../pages/imgs/moksha2022.png";
+import collegeho from "../pages/imgs/collegehotonsitho.png";
+import creseve from '../pages/imgs/creseve.jpg';
+import farewell2022 from  "../pages/imgs/farewell2022.png";
+import ethnic2022 from  "../pages/imgs/ethnic2022.jpg";
+import farewell2018 from "../pages/imgs/farewell2018.png";
+import reso2022 from  "../pages/imgs/reso2022.jpg";
 const Drive_links = () => {
 
   const Y2022 = [
@@ -57,17 +67,17 @@ const Drive_links = () => {
     {
       name: "Sports Day",
       link: "https://drive.google.com/drive/u/5/folders/1Wet4M8VsGMLFyK9Ksb4EQ6JKQfRZ30kb",
-      img: img1,
+      img: sportsday2021,
     },
     {
       name: "World Record Attempt",
       link: "https://drive.google.com/drive/u/1/folders/1b5-iPbqawv6ecTuSZ6JGsq01YUuNdEwg",
-      img: img2,
+      img: worldrecord2021,
     },
     {
       name: "FDP 2021",
       link: "https://drive.google.com/drive/folders/1XhOyxyDbZH3B7uSmtHnLuOz3igpgO-Ug",
-      img: img3,
+      img: fdp2021,
     },
   ];
 
@@ -79,35 +89,35 @@ const Drive_links = () => {
     {
       name: "Ethnic Day",
       link: "https://drive.google.com/drive/folders/1dY-dSI54Okm9n6cwopTjRt29bfS4Rd5h",
-      img: img4,
+      img: ethnicday19,
     },
     {
       name: "Colloquium",
-      link: "https://drive.google.com/drive/folders/1_iaqm99wWh-y1_8x0LoatTXumdQPK4bY",
-      img: img1,
+      link: "https://drive.google.com/drive/folders/196K7YVOtcdsLX1AkfwHaMo7GRaMAIKs7",
+      img: colloquium,
     },
     {
       name: "Parakram Divas",
       link: "https://drive.google.com/drive/folders/1Qtvnp3uUJ7SEaXBgYZBIhUuVs4bp9z-P",
-      img: img2,
+      img: netaji,
     },
   ];
 
   const Y2018 = [
     {
       name: "Consollium",
-      link: "https://drive.google.com/drive/folders/196K7YVOtcdsLX1AkfwHaMo7GRaMAIKs7",
-      img: img3,
+      link: "https://drive.google.com/drive/folders/1_iaqm99wWh-y1_8x0LoatTXumdQPK4bY",
+      img: consolium,
     },
     {
       name: "E-Summit",
       link: "https://drive.google.com/drive/folders/1s72NcvIecT44MYLhK0RQ8gFdrPYsz7zT",
-      img: img4,
+      img: esummit,
     },
     {
       name: "Crescendo Eve",
       link: "https://drive.google.com/drive/folders/1hqVXxmdRxgJShWVHzZ4EuVBU5nwNCE33",
-      img: img1,
+      img: creseve,
     },
   ];
 
@@ -122,27 +132,27 @@ const Drive_links = () => {
     {
       name: "College Ho Toh NSIT Ho",
       link: "https://www.youtube.com/watch?v=2Es8VBtzAUU",
-      img: img1,
+      img: collegeho,
     },
     {
       name: "Farewell 2018 Batch",
       link: "https://www.youtube.com/watch?v=CMB5__0ohdg",
-      img: img2,
+      img: farewell2018,
     },
     {
       name: "Capella Performance",
       link: "https://www.youtube.com/watch?v=vYhuj1A9HwA",
-      img: img3,
+      img: capellaperf,
     },
     {
       name: "Mirage Moksha Performance",
       link: "https://www.youtube.com/watch?v=CJ8mzPMi9oA",
-      img: img4,
+      img: mirageatnsit,
     },
     {
       name: "Edward Maya At Moksha",
       link: "https://www.youtube.com/watch?v=wbQuUz14088",
-      img: img1,
+      img: edwardmaya,
     },
   ];
   return (
@@ -284,7 +294,7 @@ const Drive_links = () => {
                   <li>
                     <a
                       href="https://www.facebook.com/junoon.nsut/"
-                      target="_blank"
+                      target="_blank" rel="noopener noreferrer"
                     >
                       <i className="fa fa-facebook-f" />
                     </a>
@@ -293,7 +303,7 @@ const Drive_links = () => {
                   <li>
                     <a
                       href="https://www.instagram.com/junoon.nsut/"
-                      target="_blank"
+                      target="_blank" rel="noopener noreferrer"
                     >
                       <i className="fa fa-instagram" />
                     </a>

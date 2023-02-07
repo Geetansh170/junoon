@@ -56,9 +56,9 @@ function timeline() {
               <div className="social-wrapper text-right">
                 <ul className="social social-mute social-s mb-0">
             
-                  <li><a href="https://www.facebook.com/junoon.nsut/" target="_blank"><i className="fa fa-facebook-f" /></a></li>
+                  <li><a href="https://www.facebook.com/junoon.nsut/" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook-f" /></a></li>
                   
-                  <li><a href="https://www.instagram.com/junoon.nsut/" target="_blank"><i className="fa fa-instagram" /></a></li>
+                  <li><a href="https://www.instagram.com/junoon.nsut/" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram" /></a></li>
                 </ul>
               </div>
               {/*/.social-wrapper */}
@@ -188,13 +188,13 @@ Have a great journey ahead to your newest destinations."
                   <ul className='social social-mute social-s mt-10'>
                     
                     <li>
-                      <a href='https://www.facebook.com/junoon.nsut/' target="_blank">
+                      <a href='https://www.facebook.com/junoon.nsut/' target="_blank" rel="noopener noreferrer">
                         <i className='fa fa-facebook-f' />
                       </a>
                     </li>
                     
                     <li>
-                      <a href='https://www.instagram.com/junoon.nsut/' target="_blank">
+                      <a href='https://www.instagram.com/junoon.nsut/' target="_blank" rel="noopener noreferrer">
                         <i className='fa fa-instagram' />
                       </a>
                     </li>

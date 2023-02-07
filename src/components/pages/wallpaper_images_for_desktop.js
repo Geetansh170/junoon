@@ -45,12 +45,13 @@ function Wallpaper_images_for_desktop({ link }) {
         src={isDesk ? urlD[indexD] : url[indexP]}
         onLoad={handleLoading}
         className="image_d"
+        alt="img"
       />
 
       <div className="image_overlay">
-        <img src={logo} className="logo_junoon_forwallpaper" />
+        <img src={logo} className="logo_junoon_forwallpaper" alt="img"/>
         <div className="wallpaper-content">
-          <a href={isDesk ? urlD[indexD] : url[indexP]} target="_blank">
+          <a href={isDesk ? urlD[indexD] : url[indexP]} target="_blank" rel="noopener noreferrer">
             <button className="btn btn_wallpaper">
               <FaDownload />{" "}
             </button>

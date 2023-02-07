@@ -1,19 +1,19 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, {  useEffect, useContext } from "react";
 import Wallpaper_images_for_phone from "./wallpaper_images_for_phone";
 import "./Mockup.css";
-import {
-  ref,
-  uploadBytes,
-  getDownloadURL,
-  listAll,
-  list,
-} from "firebase-new/storage";
-import { storage } from "../../firebase/wallpaper_firebase";
+// import {
+//   ref,
+//   uploadBytes,
+//   getDownloadURL,
+//   listAll,
+//   list,
+// } from "firebase-new/storage";
+// import { storage } from "../../firebase/wallpaper_firebase";
 import { WallPaperContext } from "../../context/WallPaperContext";
 // import { v4 } from "uuid";
 
 const PhoneMockup = () => {
-  const { url, loading, indexP, setIndexP, setIsDesk, lengthP } =
+  const { url, indexP, setIndexP, setIsDesk, lengthP } =
     useContext(WallPaperContext);
 
   useEffect(() => {

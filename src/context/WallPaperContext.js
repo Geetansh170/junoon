@@ -1,13 +1,13 @@
 import React, { createContext, useState, useEffect } from "react";
 //import axios from "axios";
 //import { useNavigate } from "react-router-dom";
-import {
-  ref,
-  uploadBytes,
-  getDownloadURL,
-  listAll,
-  list,
-} from "firebase-new/storage";
+// import {
+//   ref,
+//   // uploadBytes,
+//   // getDownloadURL,
+//   // listAll,
+//   // list,
+// } from "firebase-new/storage";
 import { storage } from "../firebase/wallpaper_firebase";
 import axios from "axios";
 
@@ -15,8 +15,8 @@ const WallPaperContext = createContext();
 
 function WallPaperProvider({ children }) {
   //const navigate = useNavigate();
-  const phoneImagesListRef = ref(storage, "images/Phone/");
-  const deskImagesListRef = ref(storage, "images/Desktop/");
+  // const phoneImagesListRef = ref(storage, "images/Phone/");
+  // const deskImagesListRef = ref(storage, "images/Desktop/");
 
   const [loading, setLoading] = useState(false);
   const [url, setUrl] = useState([]);
@@ -36,7 +36,7 @@ function WallPaperProvider({ children }) {
         //setData(response.data);
         response.data.map((el) => links.push(el.link));
       });
-      if (type == "desktop") {
+      if (type === "desktop") {
         if (links) {
           setUrlD(links);
           // setLengthD(links.length);
@@ -52,7 +52,7 @@ function WallPaperProvider({ children }) {
     const getImagesPhone = async () => {
       setIsDesk(false);
       await apiCall(
-        `https://junoonwallpaperapi.herokuapp.com/wallpaper/phone`,
+        `https://junoonwallpaperapi.onrender.com/wallpaper/phone`,
         `phone`
       );
       console.log(url);
@@ -60,7 +60,7 @@ function WallPaperProvider({ children }) {
 
     const getImagesDesktop = async () => {
       await apiCall(
-        `https://junoonwallpaperapi.herokuapp.com/wallpaper/desktop`,
+        `https://junoonwallpaperapi.onrender.com/wallpaper/desktop`,
         `desktop`
       );
       console.log(urlD);

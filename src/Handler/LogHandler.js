@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { BrowserRouter as Router, Route,Switch } from 'react-router-dom';
+// import { BrowserRouter as Router, Route,Switch } from 'react-router-dom';
 import Login from '../components/pages/Login';
 import '../components/pages/Login.css';
 import Logout from '../components/pages/Logout';
@@ -51,9 +51,9 @@ const LogHandler =() => {
     });
   }
 
-  const handleProfile = () =>{
+  // const handleProfile = () =>{
 
-  }
+  // }
 
   //for calling function of databases
   
@@ -63,13 +63,14 @@ const LogHandler =() => {
     .catch((err)  =>{
       switch (err.code) {
         case "auth/invalid-email":
-          case "auth/user-disabled":
-            case "auth/user-not-found":
-               setEmailError(err.message);
-               break;
-               case "auth/wrong-password":
-                 setPasswordError(err.message);
-                 break;
+        case "auth/user-disabled":
+        case "auth/user-not-found":
+            setEmailError(err.message);
+            break;
+        case "auth/wrong-password":
+            setPasswordError(err.message);
+            break;
+
       }
     });
   };
