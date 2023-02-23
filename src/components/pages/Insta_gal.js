@@ -1,15 +1,15 @@
-import React, { useState, Fragment, useContext, useEffect } from "react";
-import axios from "axios";
-import fire from "../../firebase/firebase";
-import { getDatabase, get, ref, onValue } from "firebase-old/firebase-database";
+import React, { useState, Fragment, useEffect } from "react";
+// import axios from "axios";
+// import fire from "../../firebase/firebase";
+// import { getDatabase, get, ref, onValue } from "firebase-old/firebase-database";
 import firebase from "firebase-old";
 
 const Insta_gal = () => {
   //let  db = getDatabase()
 
-  const [user, setUsername] = useState({
-    username: "junoon.nsut",
-  });
+  // const [user, setUsername] = useState({
+  //   username: "junoon.nsut",
+  // });
 
   const [images, setImages] = useState([]);
 

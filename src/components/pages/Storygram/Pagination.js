@@ -6,7 +6,7 @@ import StorygramCard from "./StorygramCard";
 import { StorygramData } from "./StorygramData";
 
 function Pagination() {
-  const [users, setUsers] = useState(StorygramData);
+  const users= StorygramData;
   const [pageNumber, setPageNumber] = useState(0);
 
   const usersPerPage = 6;

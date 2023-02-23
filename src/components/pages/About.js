@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
 import "./About.css";
-import teamimg from "./imgs/sundarGroupPic.jpg";
+// import teamimg from "./imgs/sundarGroupPic.jpg";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 const Data = [
   {
@@ -296,7 +296,7 @@ const About = () => {
                       <li>
                         <a
                           href="https://www.instagram.com/junoon.nsut/"
-                          target="_blank"
+                          target="_blank" rel="noopener noreferrer"
                         >
                           <i className="fa fa-instagram" />
                         </a>
@@ -802,7 +802,7 @@ const About = () => {
                     <li>
                       <a
                         href="https://www.facebook.com/junoon.nsut/"
-                        target="_blank"
+                        target="_blank" rel="noopener noreferrer"
                       >
                         <i className="fa fa-facebook-f" />
                       </a>
@@ -811,7 +811,7 @@ const About = () => {
                     <li>
                       <a
                         href="https://www.instagram.com/junoon.nsut/"
-                        target="_blank"
+                        target="_blank" rel="noopener noreferrer"
                       >
                         <i className="fa fa-instagram" />
                       </a>

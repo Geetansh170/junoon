@@ -1,5 +1,5 @@
 import React from "react";
-import { Fragment } from "react";
+// import { Fragment } from "react";
 import "./Storygram.css";
 
 import Pagination from "./Pagination";
@@ -51,6 +51,11 @@ export default function Storygram() {
                 </a>
               </li>
               <li className='nav-item dropdown'>
+                <a className='nav-link dropdown-toggle' href='/wallpaper'>
+                  Wallpapers
+                </a>
+              </li>
+              <li className='nav-item dropdown'>
                 <a className='nav-link dropdown-toggle' href='/timeline'>
                   Timeline
                 </a>
@@ -74,7 +79,7 @@ export default function Storygram() {
           <div className='social-wrapper text-right'>
             <ul className='social social-mute social-s mb-0'>
               <li>
-                <a href='https://www.facebook.com/junoon.nsut/' target='_blank'>
+                <a href='https://www.facebook.com/junoon.nsut/' target='_blank' rel="noopener noreferrer">
                   <i className='fa fa-facebook-f' />
                 </a>
               </li>
@@ -82,7 +87,7 @@ export default function Storygram() {
               <li>
                 <a
                   href='https://www.instagram.com/junoon.nsut/'
-                  target='_blank'
+                  target='_blank' rel="noopener noreferrer"
                 >
                   <i className='fa fa-instagram' />
                 </a>
@@ -116,7 +121,7 @@ export default function Storygram() {
                 <li>
                   <a
                     href='https://www.facebook.com/junoon.nsut/'
-                    target='_blank'
+                    target='_blank' rel="noopener noreferrer"
                   >
                     <i className='fa fa-facebook-f' />
                   </a>
@@ -125,7 +130,7 @@ export default function Storygram() {
                 <li>
                   <a
                     href='https://www.instagram.com/junoon.nsut/'
-                    target='_blank'
+                    target='_blank' rel="noopener noreferrer"
                   >
                     <i className='fa fa-instagram' />
                   </a>

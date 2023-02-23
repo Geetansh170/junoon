@@ -294,7 +294,7 @@ const Drive_links = () => {
                   <li>
                     <a
                       href="https://www.facebook.com/junoon.nsut/"
-                      target="_blank"
+                      target="_blank" rel="noopener noreferrer"
                     >
                       <i className="fa fa-facebook-f" />
                     </a>
@@ -303,7 +303,7 @@ const Drive_links = () => {
                   <li>
                     <a
                       href="https://www.instagram.com/junoon.nsut/"
-                      target="_blank"
+                      target="_blank" rel="noopener noreferrer"
                     >
                       <i className="fa fa-instagram" />
                     </a>

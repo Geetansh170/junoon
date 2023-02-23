@@ -31,7 +31,7 @@ const Home = () => {
       var old_visible;
       return function () {
         var visible = isElementInViewport(el);
-        if (visible != old_visible) {
+        if (visible !== old_visible) {
           old_visible = visible;
           if (typeof callback == "function") {
             callback();
@@ -54,7 +54,7 @@ const Home = () => {
             timer = setInterval(() => {
               current += increment;
               obj.textContent = current;
-              if (current == end) {
+              if (current === end) {
                 clearInterval(timer);
               }
             }, step);
@@ -124,6 +124,11 @@ const Home = () => {
                   </a>
                 </li>
                 <li className='nav-item dropdown'>
+                  <a className='nav-link dropdown-toggle' href='/wallpaper'>
+                    Wallpapers
+                  </a>
+                </li>
+                <li className='nav-item dropdown'>
                   <a className='nav-link dropdown-toggle' href='/timeline'>
                     Timeline
                   </a>
@@ -149,7 +154,7 @@ const Home = () => {
                 <li>
                   <a
                     href='https://www.facebook.com/junoon.nsut/'
-                    target='_blank'
+                    target='_blank' rel="noopener noreferrer"
                   >
                     <i className='fa fa-facebook-f' />
                   </a>
@@ -158,7 +163,7 @@ const Home = () => {
                 <li>
                   <a
                     href='https://www.instagram.com/junoon.nsut/'
-                    target='_blank'
+                    target='_blank' rel="noopener noreferrer"
                   >
                     <i className='fa fa-instagram' />
                   </a>
@@ -175,6 +180,9 @@ const Home = () => {
             data-version='5.4.7'
           >
             <ul>
+              <li data-transition='fade' data-thumb='style/images/cover9.jpg'>
+                <img src={(window.innerWidth > 768)?"style/images/cover9.jpg":"style/images/cover9_mobile.png" } alt='' />
+              </li>
               <li data-transition='fade' data-thumb='style/images/cover6.jpg'>
                 <img src='style/images/cover6.jpg' alt='' />
               </li>
@@ -256,9 +264,9 @@ const Home = () => {
                 data-responsive='on'
                 data-responsive_offset='on'
                 style={{ width: "100%", zIndex: "9" }}
-                href='#portfolio'
+                href='https://www.youtube.com/watch?v=-Zvyi7lo6Yk' target="_blank" rel="noopener noreferrer"
               >
-                See Our Works
+                Watch Now
               </a>
             </div>
             <div className='tp-bannertimer tp-bottom' />
@@ -343,7 +351,7 @@ const Home = () => {
                     <figure className='main mb-20 overlay overlay1 rounded'>
                       <img src='style/images/h1.jpg' alt='' />
                       <figcaption>
-                        <h5 className='text-uppercase from-top mb-0'></h5>
+                        {/* <h5 className='text-uppercase from-top mb-0'>Fig1</h5> */}
                       </figcaption>
                     </figure>
                   </div>
@@ -355,7 +363,7 @@ const Home = () => {
                     <figure className='main mb-20 overlay overlay1 rounded'>
                       <img src='style/images/h2.jpg' alt='' />
                       <figcaption>
-                        <h5 className='text-uppercase from-top mb-0'></h5>
+                        {/* <h5 className='text-uppercase from-top mb-0'>Fig2</h5> */}
                       </figcaption>
                     </figure>
                   </div>
@@ -367,7 +375,7 @@ const Home = () => {
                     <figure className='main mb-20 overlay overlay1 rounded'>
                       <img src='style/images/h3.jpg' alt='' />
                       <figcaption>
-                        <h5 className='text-uppercase from-top mb-0'></h5>
+                        {/* <h5 className='text-uppercase from-top mb-0'>Fig3</h5> */}
                       </figcaption>
                     </figure>
                   </div>
@@ -379,7 +387,7 @@ const Home = () => {
                     <figure className='main mb-20 overlay overlay1 rounded'>
                       <img src='style/images/h4.jpg' alt='' />
                       <figcaption>
-                        <h5 className='text-uppercase from-top mb-0'></h5>
+                        {/* <h5 className='text-uppercase from-top mb-0'>Fig4</h5> */}
                       </figcaption>
                     </figure>
                   </div>
@@ -391,7 +399,7 @@ const Home = () => {
                     <figure className='main mb-20 overlay overlay1 rounded'>
                       <img src='style/images/h5.jpg' alt='' />
                       <figcaption>
-                        <h5 className='text-uppercase from-top mb-0'></h5>
+                        {/* <h5 className='text-uppercase from-top mb-0'>Fig5</h5> */}
                       </figcaption>
                     </figure>
                   </div>
@@ -403,7 +411,7 @@ const Home = () => {
                     <figure className='main mb-20 overlay overlay1 rounded'>
                       <img src='style/images/h6.jpg' alt='' />
                       <figcaption>
-                        <h5 className='text-uppercase from-top mb-0'></h5>
+                        {/* <h5 className='text-uppercase from-top mb-0'>Fig6</h5> */}
                       </figcaption>
                     </figure>
                   </div>
@@ -415,7 +423,7 @@ const Home = () => {
                     <figure className='main mb-20 overlay overlay1 rounded'>
                       <img src='style/images/h7.jpg' alt='' />
                       <figcaption>
-                        <h5 className='text-uppercase from-top mb-0'></h5>
+                        {/* <h5 className='text-uppercase from-top mb-0'>Fig7</h5> */}
                       </figcaption>
                     </figure>
                   </div>
@@ -427,7 +435,7 @@ const Home = () => {
                     <figure className='main mb-20 overlay overlay1 rounded'>
                       <img src='style/images/h8.jpg' alt='' />
                       <figcaption>
-                        <h5 className='text-uppercase from-top mb-0'></h5>
+                        {/* <h5 className='text-uppercase from-top mb-0'>Fig8</h5> */}
                       </figcaption>
                     </figure>
                   </div>
@@ -439,7 +447,7 @@ const Home = () => {
                     <figure className='main mb-20 overlay overlay1 rounded'>
                       <img src='style/images/h9.jpg' alt='' />
                       <figcaption>
-                        <h5 className='text-uppercase from-top mb-0'></h5>
+                        {/* <h5 className='text-uppercase from-top mb-0'>Fig9</h5> */}
                       </figcaption>
                     </figure>
                   </div>
@@ -509,7 +517,7 @@ const Home = () => {
                   <li>
                     <a
                       href='https://www.facebook.com/junoon.nsut/'
-                      target='_blank'
+                      target='_blank' rel="noopener noreferrer"
                     >
                       <i className='fa fa-facebook-f' />
                     </a>
@@ -518,7 +526,7 @@ const Home = () => {
                   <li>
                     <a
                       href='https://www.instagram.com/junoon.nsut/'
-                      target='_blank'
+                      target='_blank' rel="noopener noreferrer"
                     >
                       <i className='fa fa-instagram' />
                     </a>

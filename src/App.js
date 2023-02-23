@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { HashRouter } from "react-router-dom";
 import Home from "./components/pages/Home";
 import Drive_links from "./components/pages/Drive_links";
 import Contact_us from "./components/pages/Contact_us";
@@ -11,9 +10,7 @@ import LogHandler from "./Handler/LogHandler";
 import Timeline from "./components/pages/Timeline";
 import Wallpaper from "./components/pages/Wallpaper";
 import Storygram from "./components/pages/Storygram/Storygram";
-
 import {
-  WallPaperContext,
   WallPaperProvider,
 } from "./context/WallPaperContext";
 
@@ -22,7 +19,7 @@ import "./App.css";
 const App = () => {
   return (
     <Router>
-      <div className='App'>
+      <div className="App">
         <div>
           {/* <h1>LETS MAKE THIS BRO</h1> */}
 

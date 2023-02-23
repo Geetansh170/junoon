@@ -2,7 +2,7 @@ import "../home.css";
 import "./Pagination.css";
 import React, { useState, useEffect } from "react";
 import ReactPaginate from "react-paginate";
-import StorygramCard from "./StorygramCard";
+// import StorygramCard from "./StorygramCard";
 import { StorygramData } from "./StorygramData";
 
 function Pagination() {
@@ -57,7 +57,7 @@ function Pagination() {
   const offset = currentPage * PER_PAGE;
   const currentPageData = data
     .slice(offset, offset + PER_PAGE)
-    .map(({ thumburl }) => <img src={thumburl} />);
+    .map(({ thumburl }) => <img src={thumburl} alt="img"/>);
   const pageCount = Math.ceil(data.length / PER_PAGE);
 
   function handlePageClick({ selected: selectedPage }) {
