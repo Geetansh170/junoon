@@ -55,7 +55,7 @@ function WallPaperProvider({ children }) {
         `https://junoonwallpaperapi.onrender.com/wallpaper/phone`,
         `phone`
       );
-      console.log(url);
+      // console.log(url);
     };
 
     const getImagesDesktop = async () => {
@@ -63,7 +63,7 @@ function WallPaperProvider({ children }) {
         `https://junoonwallpaperapi.onrender.com/wallpaper/desktop`,
         `desktop`
       );
-      console.log(urlD);
+      // console.log(urlD);
     };
 
     getImagesPhone();
