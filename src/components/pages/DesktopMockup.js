@@ -1,9 +1,9 @@
 import React, { useState, useContext } from "react";
 import Wallpaper_images_for_desktop from "./wallpaper_images_for_desktop";
 import "./Mockup.css";
-import farewell2022 from "../pages/imgs/farewell2022.png";
 import { WallPaperContext } from "../../context/WallPaperContext";
 import { useEffect } from "react";
+import WallpaperCollection from "./WallpaperCollection";
 
 const DesktopMockup = () => {
   const { urlD, setUrlD, indexD, setIndexD, isDesk, setIsDesk, lengthD } =
@@ -15,7 +15,7 @@ const DesktopMockup = () => {
   }, []);
 
   const nextSlide = () => {
-    if (indexD >= lengthD - 2) {
+    if (indexD >= lengthD - 1) {
       setIndexD(0);
     } else {
       setIndexD(indexD + 1);
@@ -36,6 +36,10 @@ const DesktopMockup = () => {
   return (
     <div style={{ margin: "30px" }}>
       <div className="mockups">
+        <div className="controls" onClick={prevSlide}>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" /></svg>
+        </div>
+
         <div className="css-mb with-glare">
           <div className="mb-display-position">
             <div className="mb-display">
@@ -53,17 +57,25 @@ const DesktopMockup = () => {
           <div className="mb-body"></div>
           <div className="mb-bottom-cover"></div>
         </div>
-
-        <div className="controls">
-          <a className="prev" onClick={prevSlide}>
-            Prev
-          </a>
-          <a className="next" onClick={nextSlide}>
-            Next
-          </a>
+        <div className="controls" onClick={nextSlide}>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" /></svg>
         </div>
       </div>
+
+      <div className="mini-window">
+        {
+          urlD.map((e,i) => {
+            
+            // console.log(e,i);
+            return <WallpaperCollection data={e} active = {urlD[indexD]} index = {i} key = {i}/>;
+            
+          })
+        }
+        
+
+      </div>
     </div>
+
   );
 };
 

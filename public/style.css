@@ -92,6 +92,9 @@ br {
 /*-----------------------------------------------------------------------------------*/
 /*	02. GENERAL
 /*-----------------------------------------------------------------------------------*/
+html{
+    overscroll-behavior: smooth;
+}
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -5319,21 +5322,12 @@ pre {
     .navbar.wide.bg-dark,
     .navbar.wide.bg-dark .dropdown-menu,
     .navbar.dark-wrapper.inverse-text,
-<<<<<<< HEAD
-    /* .navbar.dark-wrapper.inverse-text .dropdown-menu {
-	    background: #161616 !important
-	} */
-	/* .navbar:not(.fixed) .navbar-collapse.bg-dark.bg-dark-opacity {
-	    background: rgba(0,0,0,0.7) !important
-	} */
-=======
     .navbar.dark-wrapper.inverse-text .dropdown-menu {
 	    background: #161616 !important
 	}
 	.navbar:not(.fixed) .navbar-collapse.bg-dark.bg-dark-opacity {
 	    background: rgba(0,0,0,0.7) !important
 	}
->>>>>>> 5d87c126a216078ed182a3e687686fcc7f17ac55
 	.navbar:not(.fixed) .navbar-collapse.bg-dark.bg-dark-opacity .dropdown-menu {
 	    background: none !important
 	}

@@ -15,7 +15,7 @@ const Wallpaper = () => {
   };
 
   useEffect(() => {
-    console.log(show);
+    // console.log(show);
   });
 
   return (
@@ -91,7 +91,7 @@ const Wallpaper = () => {
         </nav>
 
         <div className="drive_links">
-          <div className="dl_txt" style={{}}>
+          <div className="dl_txt" >
             <h3> WALLPAPERS</h3>
           </div>
 

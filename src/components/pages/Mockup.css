@@ -3,6 +3,7 @@
 .mockups {
   margin: 0;
   padding-bottom: 2vw;
+  display: flex;
 }
 
 
@@ -32,10 +33,21 @@
 .controls {
   text-align: center;
   padding: 2em;
-
+  cursor: pointer;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  transition: .2s ease-in-out all;
+  width: 220px;
 }
-
-.controls a {
+.controls a{
+  width: 100%;
+  height: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.controls svg {
   color: #fff;
   background-color: #ccc;
   text-decoration: none;
@@ -44,12 +56,11 @@
   display: inline-block;
   border: 2px solid #ccc;
   border-radius: 500px;
-  transition: .2s ease-in-out all;
-  cursor: pointer;
+  width: 65px;
 }
 
-.controls a:hover {
-  background-color: #16A085;
+.controls:hover {
+  background-color: #e4ea3333;
   color: #fff;
   border-color: #fff;
 }
@@ -58,6 +69,7 @@
 .css-mb {
   max-width: 1080px;
   /* min-width: 1000px; */
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -351,6 +363,79 @@
   right: -2px;
   top: 160px;
   width: 3px;
+}
+
+/* new CSS for mini-window */
+
+.mini-window{
+  margin: auto;
+  display: flex;
+  background-color: #a9abae4c;
+  width: 90%;
+  height: auto;
+  overflow: auto;
+
+}
+
+.small-image-box{
+  padding: 25px;
+}
+.small-image-box:hover{
+  background-color: #e9eba6ab;
+  border-radius: 15px;
+
+}
+.small-images{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 5px;
+}
+.small-images img{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+
+}
+.small-images:hover {
+  cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+  .controls{
+    padding: 2em 0;
+    width: auto;
+  }
+  .controls svg{
+    width: 50px;
+  }
+  .small-image-box{
+    padding: 11px;
+  }
+  .small-images{
+    width: 80px;
+    height: 80px;
+  }
+  .mockups {
+    padding-bottom: 5vw;
+  }
+  .mini-window{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 426px){
+  .controls{
+    display: none;
+  }
+  .mockups {
+    padding-bottom: 10vw;
+  }
 }
 
 @media screen and (max-width: 400px){
