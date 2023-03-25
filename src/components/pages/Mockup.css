@@ -1,4 +1,6 @@
-
+.wallpaper-body{
+  margin: 30px;
+}
 
 .mockups {
   margin: 0;
@@ -436,12 +438,18 @@
   .mockups {
     padding-bottom: 10vw;
   }
+  .wallpaper-body{
+    margin: 15px;
+  }
+  .device , .device-iphone-x .device-frame{
+    width: 307.8px; /* 90% of width*/
+    height: 624.6px; /* 90% of height*/
+  }
 }
 
 @media screen and (max-width: 400px){
   .device , .device-iphone-x .device-frame{
-    width: auto;
-    height: 636.6px;
+    width: 290.7px; /* 85% of width*/
+    height: 589.9px; /* 85% of height*/
   }
-  
 }

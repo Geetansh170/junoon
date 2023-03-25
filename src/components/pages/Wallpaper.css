@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap');
 
 .drive_links {
-	margin-top: 100px;
+	/* height: 100%; */
+	margin: 100px 0;
 }
 
 .drive_links_e {
@@ -107,6 +108,7 @@
 	top: 3%;
 	opacity: 50%;
 }
+
 
 @media screen and (max-width: 450px) {
 	.img_d {
