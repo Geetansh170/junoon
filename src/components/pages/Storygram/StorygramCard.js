@@ -1,7 +1,5 @@
 import React, { Fragment } from "react";
-// import "./New.css";
 import "./Storygram.css";
-import img from "./reso2022.jpg";
 
 export default function StorygramCard(props) {
   var str = "./storygramImages/" + props.title + ".jpg";

@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
 import "./About.css";
+import Developers from "./Developers";
 // import teamimg from "./imgs/sundarGroupPic.jpg";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 const Data = [
@@ -132,8 +133,6 @@ const Data = [
   // },
 ];
 
-
-
 const About = () => {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
@@ -158,97 +157,97 @@ const About = () => {
   return (
     <Fragment>
       <div>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="shortcut icon" href="style/images/favicon.png" />
+        <meta charSet='utf-8' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <link rel='shortcut icon' href='style/images/favicon.png' />
         <title>Junoon</title>
         <link
-          rel="stylesheet"
-          type="text/css"
-          href="style/css/bootstrap.min.css"
+          rel='stylesheet'
+          type='text/css'
+          href='style/css/bootstrap.min.css'
         />
-        <link rel="stylesheet" type="text/css" href="style/css/plugins.css" />
+        <link rel='stylesheet' type='text/css' href='style/css/plugins.css' />
         <link
-          rel="stylesheet"
-          type="text/css"
-          href="style/revolution/css/settings.css"
-        />
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="style/revolution/css/layers.css"
+          rel='stylesheet'
+          type='text/css'
+          href='style/revolution/css/settings.css'
         />
         <link
-          rel="stylesheet"
-          type="text/css"
-          href="style/revolution/css/navigation.css"
+          rel='stylesheet'
+          type='text/css'
+          href='style/revolution/css/layers.css'
         />
-        <link rel="stylesheet" type="text/css" href="style/type/icons.css" />
-        <link rel="stylesheet" type="text/css" href="style.css" />
         <link
-          rel="stylesheet"
-          type="text/css"
-          href="style/css/color/lavender.css"
+          rel='stylesheet'
+          type='text/css'
+          href='style/revolution/css/navigation.css'
         />
-        <div className="content-wrapper">
-          <nav className="navbar center navbar-expand-lg">
-            <div className="container flex-lg-column">
-              <div className="navbar-header">
-                <div className="navbar-brand">
+        <link rel='stylesheet' type='text/css' href='style/type/icons.css' />
+        <link rel='stylesheet' type='text/css' href='style.css' />
+        <link
+          rel='stylesheet'
+          type='text/css'
+          href='style/css/color/lavender.css'
+        />
+        <div className='content-wrapper'>
+          <nav className='navbar center navbar-expand-lg'>
+            <div className='container flex-lg-column'>
+              <div className='navbar-header'>
+                <div className='navbar-brand'>
                   <img
-                    intrinsicsize="1268x512"
-                    src="#"
-                    srcSet="style/images/junoon-black.png 1x, style/images/junoon-black.png 3x"
-                    alt=""
+                    intrinsicsize='1268x512'
+                    src='#'
+                    srcSet='style/images/junoon-black.png 1x, style/images/junoon-black.png 3x'
+                    alt=''
                   />
                 </div>
-                <div className="navbar-hamburger ml-auto d-lg-none d-xl-none">
+                <div className='navbar-hamburger ml-auto d-lg-none d-xl-none'>
                   <button
-                    className="hamburger animate"
-                    data-toggle="collapse"
-                    data-target=".navbar-collapse"
+                    className='hamburger animate'
+                    data-toggle='collapse'
+                    data-target='.navbar-collapse'
                   >
                     <span />
                   </button>
                 </div>
               </div>
               {/* /.navbar-header */}
-              <div className="navbar-collapse collapse w-100 bg-light">
-                <ul className="navbar-nav nav-fill w-100">
-                  <li className="nav-item">
-                    <a className="nav-link hover-color-about" href="/">
+              <div className='navbar-collapse collapse w-100 bg-light'>
+                <ul className='navbar-nav nav-fill w-100'>
+                  <li className='nav-item'>
+                    <a className='nav-link hover-color-about' href='/'>
                       Home
                     </a>
 
                     {/*/.dropdown-menu */}
                   </li>
-                  <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="/insta">
+                  <li className='nav-item dropdown'>
+                    <a className='nav-link dropdown-toggle' href='/insta'>
                       Instagram
                     </a>
                   </li>
-                  <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="/collection">
+                  <li className='nav-item dropdown'>
+                    <a className='nav-link dropdown-toggle' href='/collection'>
                       Collections
                     </a>
                   </li>
-                  <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="/wallpaper">
+                  <li className='nav-item dropdown'>
+                    <a className='nav-link dropdown-toggle' href='/wallpaper'>
                       Wallpapers
                     </a>
                   </li>
-                  <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="/timeline">
+                  <li className='nav-item dropdown'>
+                    <a className='nav-link dropdown-toggle' href='/timeline'>
                       Timeline
                     </a>
                   </li>
-                  <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="/about">
+                  <li className='nav-item dropdown'>
+                    <a className='nav-link dropdown-toggle' href='/about'>
                       About
                     </a>
                   </li>
-                  <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="/contact_us">
+                  <li className='nav-item dropdown'>
+                    <a className='nav-link dropdown-toggle' href='/contact_us'>
                       Contact
                     </a>
                   </li>
@@ -256,28 +255,29 @@ const About = () => {
               </div>
             </div>
           </nav>
-          <div className="wrapper light-wrapper">
-            <div className="container inner pt-70">
-              <h2 className="section-title mb-40 text-center">Meet the Team</h2>
-              <div className="row boxed grid-view">
+          <div className='wrapper light-wrapper'>
+            <div className='container inner pt-70'>
+              <h1 className='heading text-center'>Meet the Team</h1>
+
+              <div className='row boxed grid-view'>
                 {/*/column */}
-                <div className="col-md-11" style={{ margin: "0 auto" }}>
-                  <div className="box bg-white shadow p-90">
-                    <div className="main-1">
+                <div className='col-md-11' style={{ margin: "0 auto" }}>
+                  <div className='box bg-white shadow p-90'>
+                    <div className='main-1'>
                       {Data.map((e) => {
                         return (
-                          <div className="teampic">
+                          <div className='teampic'>
                             <div
-                              className="about_teampic_header"
+                              className='about_teampic_header'
                               style={{ color: e.color }}
                             >
                               {e.head}
                             </div>
-                            <div className="about_teampic_member">
+                            <div className='about_teampic_member'>
                               {e.members.map((p) => {
                                 return (
                                   <span
-                                    className="about_teampic_member_each"
+                                    className='about_teampic_member_each'
                                     style={{ color: e.memcolor }}
                                   >
                                     {p}
@@ -289,16 +289,17 @@ const About = () => {
                         );
                       })}
                     </div>
-                    <h4 className="mb-5">JUNOON</h4>
-                    <div className="meta mb-10"></div>
+                    <h4 className='mb-5'>JUNOON</h4>
+                    <div className='meta mb-10'></div>
                     <p>Junoon The Photography club of NSUT</p>
-                    <ul className="social social-mute">
+                    <ul className='social social-mute'>
                       <li>
                         <a
-                          href="https://www.instagram.com/junoon.nsut/"
-                          target="_blank" rel="noopener noreferrer"
+                          href='https://www.instagram.com/junoon.nsut/'
+                          target='_blank'
+                          rel='noopener noreferrer'
                         >
-                          <i className="fa fa-instagram" />
+                          <i className='fa fa-instagram' />
                         </a>
                       </li>
                     </ul>
@@ -316,9 +317,9 @@ const About = () => {
             {/* /.container */}
           </div>
           {/* /.wrapper */}
-          <div className="wrapper gray-wrapper">
+          <div className='wrapper '>
             <div
-              className="container inner"
+              className='container inner'
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -328,7 +329,7 @@ const About = () => {
               }}
             >
               <Document
-                file="./reels.pdf"
+                file='./reels.pdf'
                 onLoadSuccess={onDocumentLoadSuccess}
               >
                 <Page pageNumber={pageNumber} />
@@ -351,16 +352,16 @@ const About = () => {
                   {numPages || "--"}
                 </p>
                 <button
-                  type="button"
-                  className="btn btn-outline-dark"
+                  type='button'
+                  className='btn btn-outline-dark'
                   disabled={pageNumber <= 1}
                   onClick={previousPage}
                 >
                   Previous
                 </button>
                 <button
-                  type="button"
-                  className="btn btn-outline-dark"
+                  type='button'
+                  className='btn btn-outline-dark'
                   disabled={pageNumber >= numPages}
                   onClick={nextPage}
                 >
@@ -376,11 +377,11 @@ const About = () => {
         >
           Next
         </button> */}
-                <a href="./reels.pdf" download="Reels-4.0.pdf" target="_blank">
+                <a href='./reels.pdf' download='Reels-4.0.pdf' target='_blank'>
                   <button
-                    type="button"
-                    className="btn btn-outline-dark download"
-                    style={{ width: "205.71px", "background-color": "#101" }}
+                    type='button'
+                    className='btn btn-outline-dark download'
+                    style={{ width: "205.71px", backgroundColor: "#101" }}
                   >
                     Download{" "}
                   </button>
@@ -388,19 +389,23 @@ const About = () => {
               </div>
 
               {/*/.row */}
-              <div className="space10" />
+              <div className='space10' />
             </div>
             {/* /.container */}
           </div>
 
-          <div className="wrapper gray-wrapper">
-            <div className="container inner">
-              <h1 className="heading text-center">Our Projects</h1>
-              <div className="row">
+          <h1 className='heading text-center'>Developers</h1>
+
+          <Developers />
+
+          <div className='wrapper '>
+            <div className='container inner'>
+              <h1 className='heading text-center'>Our Projects</h1>
+              <div className='row'>
                 {/*/column */}
-                <div className="col-md-6">
-                  <h4 className="mb-20">Storygram</h4>
-                  <p className="text-justify">
+                <div className='col-md-6'>
+                  <h4 className='mb-20'>Storygram</h4>
+                  <p className='text-justify'>
                     Every picture has a story behind it! The picture shows its
                     emotions through telling its unique story. A photographer is
                     the one who knows each and every chapter of the photograph
@@ -417,9 +422,9 @@ const About = () => {
                   </p>
                 </div>
                 {/* /column */}
-                <div className="col-md-6">
-                  <h4 className="mb-20">Project Perspective</h4>
-                  <p className="text-justify">
+                <div className='col-md-6'>
+                  <h4 className='mb-20'>Project Perspective</h4>
+                  <p className='text-justify'>
                     An eye of the photographer can see the weirdest things in an
                     impressive fashion! The cameraman is always in a search of
                     such moments. One of the amazing projects of Junoon is
@@ -435,9 +440,9 @@ const About = () => {
                     followed by their super skills in photography.
                   </p>
                 </div>
-                <div className="col-md-6" style={{ margin: "0 auto" }}>
-                  <h4 className="mb-20">Humans of NSUT</h4>
-                  <p className="text-justify">
+                <div className='col-md-6' style={{ margin: "0 auto" }}>
+                  <h4 className='mb-20'>Humans of NSUT</h4>
+                  <p className='text-justify'>
                     The world is a stage. We merely tell untold stories through
                     pictures and captions. We talk to different people who are a
                     part of the NSUT family. Be it the seniors who share
@@ -484,7 +489,7 @@ const About = () => {
                 {/* /column */}
               </div>
               {/*/.row */}
-              <div className="space10" />
+              <div className='space10' />
               {/* <div className='text-center'>
                 <a href='#' className='btn'>
                   Hire Us
@@ -494,14 +499,14 @@ const About = () => {
             {/* /.container */}
           </div>
 
-          <div className="wrapper gray-wrapper">
-            <div className="container inner">
-              <h1 className="heading text-center">Our Departments</h1>
-              <div className="row">
+          <div className='wrapper '>
+            <div className='container inner'>
+              <h1 className='heading text-center'>Our Departments</h1>
+              <div className='row'>
                 {/*/column */}
-                <div className="col-md-6">
-                  <h4 className="mb-20">Junoon Design</h4>
-                  <p className="text-justify">
+                <div className='col-md-6'>
+                  <h4 className='mb-20'>Junoon Design</h4>
+                  <p className='text-justify'>
                     Creativity is a speciality that is necessarily not possessed
                     by everyone, but a Graphic Designer is blessed with this
                     skill! Graphic designing is a way of interacting with people
@@ -521,9 +526,9 @@ const About = () => {
                     praise that image.
                   </p>
                 </div>
-                <div className="col-md-6">
-                  <h4 className="mb-20">VideoGraphy</h4>
-                  <p className="text-justify">
+                <div className='col-md-6'>
+                  <h4 className='mb-20'>VideoGraphy</h4>
+                  <p className='text-justify'>
                     Video means, just pick up the camera and move it all-around,
                     record and broadcast whatever that you want. Isn't it?
                     Fortunately, this is not true. "Videography" is a trend that
@@ -546,9 +551,9 @@ const About = () => {
                   </p>
                 </div>
 
-                <div className="col-md-6">
-                  <h4 className="mb-20">Content Writers</h4>
-                  <p className="text-justify">
+                <div className='col-md-6'>
+                  <h4 className='mb-20'>Content Writers</h4>
+                  <p className='text-justify'>
                     Every photograph ever clicked at Junoon has a story and we
                     are here to tell you those untold stories. We have many
                     stories of this 145 acres campus be it of utmost happiness
@@ -565,9 +570,9 @@ const About = () => {
                   </p>
                 </div>
 
-                <div className="col-md-6">
-                  <h4 className="mb-20">Tech-Department</h4>
-                  <p className="text-justify">
+                <div className='col-md-6'>
+                  <h4 className='mb-20'>Tech-Department</h4>
+                  <p className='text-justify'>
                     So we got pictures, we got videos and we got stories, but to
                     properly showcase this to the world, we needed a website.
                     This is where the tech department of Junoon comes in. This
@@ -616,7 +621,7 @@ const About = () => {
                 {/* /column */}
               </div>
               {/*/.row */}
-              <div className="space10" />
+              <div className='space10' />
               {/* <div className='text-center'>
                 <a href='#' className='btn'>
                   Hire Us
@@ -627,8 +632,8 @@ const About = () => {
           </div>
           {/* /.wrapper */}
           <div
-            className="wrapper image-wrapper bg-image inverse-text"
-            data-image-src="style/images/art/bg3.jpg"
+            className='wrapper image-wrapper bg-image inverse-text'
+            data-image-src='style/images/art/bg3.jpg'
           >
             {/* /.container */}
           </div>
@@ -782,38 +787,41 @@ const About = () => {
           {/* /.container */}
           {/* </div> */}
           {/* /.wrapper */}
-          <footer className="dark-wrapper inverse-text">
-            <div className="container inner">
-              <div className="row d-md-flex align-items-md-center">
-                <div className="col-md-4 text-center text-md-left">
-                  <p className="mb-0"></p>
+
+          <footer className='dark-wrapper inverse-text'>
+            <div className='container inner'>
+              <div className='row d-md-flex align-items-md-center'>
+                <div className='col-md-4 text-center text-md-left'>
+                  <p className='mb-0'></p>
                 </div>
                 {/*/column */}
-                <div className="col-md-4 text-center footy">
+                <div className='col-md-4 text-center footy'>
                   <img
-                    src="#"
-                    srcSet="style/images/junoon-white.png 1x, style/images/junoon-white.png 4x"
-                    alt=""
+                    src='#'
+                    srcSet='style/images/junoon-white.png 1x, style/images/junoon-white.png 4x'
+                    alt=''
                   />
                 </div>
                 {/*/column */}
-                <div className="col-md-4 text-center text-md-right">
-                  <ul className="social social-mute social-s mt-10">
+                <div className='col-md-4 text-center text-md-right'>
+                  <ul className='social social-mute social-s mt-10'>
                     <li>
                       <a
-                        href="https://www.facebook.com/junoon.nsut/"
-                        target="_blank" rel="noopener noreferrer"
+                        href='https://www.facebook.com/junoon.nsut/'
+                        target='_blank'
+                        rel='noopener noreferrer'
                       >
-                        <i className="fa fa-facebook-f" />
+                        <i className='fa fa-facebook-f' />
                       </a>
                     </li>
 
                     <li>
                       <a
-                        href="https://www.instagram.com/junoon.nsut/"
-                        target="_blank" rel="noopener noreferrer"
+                        href='https://www.instagram.com/junoon.nsut/'
+                        target='_blank'
+                        rel='noopener noreferrer'
                       >
-                        <i className="fa fa-instagram" />
+                        <i className='fa fa-instagram' />
                       </a>
                     </li>
                   </ul>
@@ -828,6 +836,7 @@ const About = () => {
         {/* /.content-wrapper */}
         {/* SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems! The following part can be removed on Server for On Demand Loading) */}
         {/*
+
 
 
 
