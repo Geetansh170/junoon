@@ -1,7 +1,5 @@
 import React from "react";
 import "./Developers.css";
-// import img1 from "./imgs/dev-team/Adarsh.jpg";
-import img1 from "./imgs/dev-team/Jatin.jpg";
 
 function DevCard(props) {
   let str2 = "./imgs/dev-team/" + props.name + ".jpg";

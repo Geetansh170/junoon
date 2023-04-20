@@ -7,7 +7,12 @@ export default function StorygramCard(props) {
     <Fragment>
       <div className='box bg-inverse sg-out d-inline-block m-3 rounded'>
         <figure className='main mb-30 overlay overlay1 rounded'>
-          <a href={props.href} target='_blank' className='img-box sg-imgBox'>
+          <a
+            href={props.href}
+            target='_blank'
+            rel='noreferrer noopener'
+            className='img-box sg-imgBox'
+          >
             {" "}
             <img
               src={require(str + "")}
@@ -21,14 +26,16 @@ export default function StorygramCard(props) {
         </figure>
 
         <h5 className='post-title text-white'>
-          <a href={props.href} target='_blank'>
+          <a href={props.href} target='_blank' rel='noreferrer noopener'>
             Storygram {props.title}
           </a>
         </h5>
         <div className='post-content'>
           <div className='sg-content'>
-            {props.postContent.split("\n").map((r) => (
-              <p className='m-0 small text-white'>{r}</p>
+            {props.postContent.split("\n").map((r, key) => (
+              <p key={key} className='m-0 small text-white'>
+                {r}
+              </p>
             ))}
           </div>
         </div>

@@ -17,7 +17,7 @@ function Wallpaper_images_for_phone({ link }) {
   };
 
   return (
-    <div className="image active">
+    <div className='image active'>
       <div
         style={{
           width: "100%",
@@ -27,10 +27,10 @@ function Wallpaper_images_for_phone({ link }) {
         }}
       >
         <RotatingLines
-          strokeColor="grey"
-          strokeWidth="5"
-          animationDuration="0.75"
-          width="96"
+          strokeColor='grey'
+          strokeWidth='5'
+          animationDuration='0.75'
+          width='96'
           visible={true}
         />
       </div>
@@ -42,15 +42,20 @@ function Wallpaper_images_for_phone({ link }) {
           display: loading ? "none" : "block",
         }}
         src={isDesk ? urlD[indexD] : url[indexP]}
-        className="image_d"
+        className='image_d'
         onLoad={handleLoading}
+        alt=''
       />
 
-      <div className="image_overlay">
-        <img src={logo} className="logo_junoon_forwallpaper_forphone" />
-        <div className="wallpaper-content wallpaper-content-for-phone">
-          <a href={isDesk ? urlD[indexD] : url[indexP]} target="_blank">
-            <button className="btn btn_wallpaper btn_wallpaper_for_phone">
+      <div className='image_overlay'>
+        <img src={logo} className='logo_junoon_forwallpaper_forphone' alt='' />
+        <div className='wallpaper-content wallpaper-content-for-phone'>
+          <a
+            href={isDesk ? urlD[indexD] : url[indexP]}
+            target='_blank'
+            rel='noreferrer noopener'
+          >
+            <button className='btn btn_wallpaper btn_wallpaper_for_phone'>
               <FaDownload />{" "}
             </button>
           </a>

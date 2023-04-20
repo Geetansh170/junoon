@@ -14,7 +14,6 @@ import Storygram from "./components/pages/Storygram/Storygram";
 import { WallPaperProvider } from "./context/WallPaperContext";
 
 import "./App.css";
-import Developers from "./components/pages/Developers";
 
 const App = () => {
   return (
