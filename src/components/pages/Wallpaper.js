@@ -15,7 +15,7 @@ const Wallpaper = () => {
   };
 
   useEffect(() => {
-    console.log(show);
+    // console.log(show);
   });
 
   return (
@@ -91,7 +91,7 @@ const Wallpaper = () => {
         </nav>
 
         <div className="drive_links">
-          <div className="dl_txt" style={{}}>
+          <div className="dl_txt" >
             <h3> WALLPAPERS</h3>
           </div>
 
@@ -121,7 +121,7 @@ const Wallpaper = () => {
           {showMockups ? (
             <div>
               {!show ? (
-                <div id="dev1" className="device-switch-div">
+                <div className="device-switch-div">
                   <h5>PHONE VIEW</h5>
                   <PhoneMockup />
                 </div>
@@ -145,8 +145,10 @@ const Wallpaper = () => {
             </div>
           )}
 
-          {/* /.wrapper */}
-          <footer className="dark-wrapper inverse-text">
+        </div>
+        
+        {/* /.wrapper */}
+        <footer className="dark-wrapper inverse-text">
             <div className="container inner">
               <div className="row d-md-flex align-items-md-center">
                 <div className="col-md-4 text-center text-md-left">
@@ -190,8 +192,7 @@ const Wallpaper = () => {
               {/*/.row */}
             </div>
             {/* /.container */}
-          </footer>
-        </div>
+        </footer>
         {/* /.content-wrapper */}
         {/* SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems! The following part can be removed on Server for On Demand Loading) */}
       </div>

@@ -9,7 +9,7 @@ function Wallpaper_images_for_phone({ link }) {
   useEffect(() => {
     // let isDesk = isDesk;
     // setLoading(true);
-    console.log(loading);
+    // console.log(loading);
   }, [isDesk, indexP]);
 
   const handleLoading = () => {
