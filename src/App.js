@@ -10,16 +10,15 @@ import LogHandler from "./Handler/LogHandler";
 import Timeline from "./components/pages/Timeline";
 import Wallpaper from "./components/pages/Wallpaper";
 import Storygram from "./components/pages/Storygram/Storygram";
-import {
-  WallPaperProvider,
-} from "./context/WallPaperContext";
+
+import { WallPaperProvider } from "./context/WallPaperContext";
 
 import "./App.css";
 
 const App = () => {
   return (
     <Router>
-      <div className="App">
+      <div className='App'>
         <div>
           {/* <h1>LETS MAKE THIS BRO</h1> */}
 

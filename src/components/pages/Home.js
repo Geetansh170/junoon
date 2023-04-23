@@ -154,7 +154,8 @@ const Home = () => {
                 <li>
                   <a
                     href='https://www.facebook.com/junoon.nsut/'
-                    target='_blank' rel="noopener noreferrer"
+                    target='_blank'
+                    rel='noopener noreferrer'
                   >
                     <i className='fa fa-facebook-f' />
                   </a>
@@ -163,7 +164,8 @@ const Home = () => {
                 <li>
                   <a
                     href='https://www.instagram.com/junoon.nsut/'
-                    target='_blank' rel="noopener noreferrer"
+                    target='_blank'
+                    rel='noopener noreferrer'
                   >
                     <i className='fa fa-instagram' />
                   </a>
@@ -181,7 +183,14 @@ const Home = () => {
           >
             <ul>
               <li data-transition='fade' data-thumb='style/images/cover9.jpg'>
-                <img src={(window.innerWidth > 768)?"style/images/cover9.jpg":"style/images/cover9_mobile.png" } alt='' />
+                <img
+                  src={
+                    window.innerWidth > 768
+                      ? "style/images/cover9.jpg"
+                      : "style/images/cover9_mobile.png"
+                  }
+                  alt=''
+                />
               </li>
               <li data-transition='fade' data-thumb='style/images/cover6.jpg'>
                 <img src='style/images/cover6.jpg' alt='' />
@@ -264,7 +273,9 @@ const Home = () => {
                 data-responsive='on'
                 data-responsive_offset='on'
                 style={{ width: "100%", zIndex: "9" }}
-                href='https://www.youtube.com/watch?v=-Zvyi7lo6Yk' target="_blank" rel="noopener noreferrer"
+                href='https://www.youtube.com/watch?v=-Zvyi7lo6Yk'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 Watch Now
               </a>
@@ -491,7 +502,9 @@ const Home = () => {
             {/* /.blog */}
             <br />
             <a href='/storygram'>
-              <button class='btn btn-trans btn-white hello'>View More</button>
+              <button className='btn btn-trans btn-white hello'>
+                View More
+              </button>
             </a>
           </div>
           {/* /.container */}
@@ -517,7 +530,8 @@ const Home = () => {
                   <li>
                     <a
                       href='https://www.facebook.com/junoon.nsut/'
-                      target='_blank' rel="noopener noreferrer"
+                      target='_blank'
+                      rel='noopener noreferrer'
                     >
                       <i className='fa fa-facebook-f' />
                     </a>
@@ -526,7 +540,8 @@ const Home = () => {
                   <li>
                     <a
                       href='https://www.instagram.com/junoon.nsut/'
-                      target='_blank' rel="noopener noreferrer"
+                      target='_blank'
+                      rel='noopener noreferrer'
                     >
                       <i className='fa fa-instagram' />
                     </a>

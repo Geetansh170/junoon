@@ -8,7 +8,7 @@ import React, { createContext, useState, useEffect } from "react";
 //   // listAll,
 //   // list,
 // } from "firebase-new/storage";
-import { storage } from "../firebase/wallpaper_firebase";
+// import { storage } from "../firebase/wallpaper_firebase";
 import axios from "axios";
 
 const WallPaperContext = createContext();
