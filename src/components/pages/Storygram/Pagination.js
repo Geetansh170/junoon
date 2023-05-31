@@ -1,4 +1,4 @@
-import "../home.css";
+import "../home/home.css";
 import "./Pagination.css";
 import React, { useState } from "react";
 import ReactPaginate from "react-paginate";
@@ -6,7 +6,7 @@ import StorygramCard from "./StorygramCard";
 import { StorygramData } from "./StorygramData";
 
 function Pagination() {
-  const users= StorygramData;
+  const users = StorygramData;
   const [pageNumber, setPageNumber] = useState(0);
 
   const usersPerPage = 6;
