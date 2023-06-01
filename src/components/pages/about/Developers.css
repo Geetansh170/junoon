@@ -164,7 +164,7 @@
 }
 
 .swiper {
-    padding: 0px 2.5rem;
+    padding: 0px 2rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -176,6 +176,34 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 452px) {
+    .swiper {
+        padding: 0 1.5rem !important;
+    }
+}
+
+@media screen and (max-width: 771px) {
+    .dev-card-image {
+        height: 130px !important;
+        width: 130px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .swiper-button-prev {
+        color: white !important;
+    }
+
+    .swiper-button-next {
+        color: white !important;
+    }
+
+    .swiper {
+        padding: 0 0rem !important;
+    }
+}
+
 
 /* .swiper-slide-active:hover {
     box-shadow: "0 16px 70px -12.125px rgba(0,0,0,0.3)"

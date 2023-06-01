@@ -15,7 +15,7 @@ export default function StorygramCard(props) {
           >
             {" "}
             <img
-              src={require(str + "")}
+              src={require(str + "").default}
               alt=''
               className='whiteBorder sg-img'
             />
@@ -43,13 +43,8 @@ export default function StorygramCard(props) {
         <hr className='sg-hr' />
         <div className='meta meta-footer d-flex justify-content-center mb-0 text-white'>
           <span className='date '>{props.date}</span>
-          {/* <span className='comments'>
-              <a>{props.comments}</a>
-            </span> */}
         </div>
       </div>
-      {/* /.box */}
-      {/* </div> */}
     </Fragment>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 import "./Developers.css";
 
 function DevCard(props) {
-  let str2 = "./imgs/dev-team/" + props.name + ".jpg";
+  let str2 = "./dev-team/" + props.name + ".jpg";
   return (
     <div>
       <div className='dev-card swiper-slide'>

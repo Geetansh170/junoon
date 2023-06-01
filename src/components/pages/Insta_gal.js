@@ -152,7 +152,6 @@ const Insta_gal = () => {
                     </button>
                   </div>
                 </div>
-                {/* /.navbar-header */}
                 <div className='navbar-collapse collapse w-100 bg-light'>
                   <ul className='navbar-nav nav-fill w-100'>
                     <li className='nav-item'>
@@ -635,6 +634,7 @@ const Insta_gal = () => {
               </div>
             </div>
           </nav>
+
           <div className='wrapper light-wrapper'>
             <div className='container inner pt-70'>
               <h1>

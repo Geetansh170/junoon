@@ -2,6 +2,9 @@ import React, { Fragment, useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
 import "./About.css";
 import Developers from "./Developers";
+import FooterBlack from "../FooterBlack";
+import OurProjects from "./OurProjects";
+import NavbarWhite from "../NavbarWhite";
 // import teamimg from "./imgs/sundarGroupPic.jpg";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 const Data = [
@@ -190,71 +193,8 @@ const About = () => {
           href='style/css/color/lavender.css'
         />
         <div className='content-wrapper'>
-          <nav className='navbar center navbar-expand-lg'>
-            <div className='container flex-lg-column'>
-              <div className='navbar-header'>
-                <div className='navbar-brand'>
-                  <img
-                    intrinsicsize='1268x512'
-                    src='#'
-                    srcSet='style/images/junoon-black.png 1x, style/images/junoon-black.png 3x'
-                    alt=''
-                  />
-                </div>
-                <div className='navbar-hamburger ml-auto d-lg-none d-xl-none'>
-                  <button
-                    className='hamburger animate'
-                    data-toggle='collapse'
-                    data-target='.navbar-collapse'
-                  >
-                    <span />
-                  </button>
-                </div>
-              </div>
-              {/* /.navbar-header */}
-              <div className='navbar-collapse collapse w-100 bg-light'>
-                <ul className='navbar-nav nav-fill w-100'>
-                  <li className='nav-item'>
-                    <a className='nav-link hover-color-about' href='/'>
-                      Home
-                    </a>
-
-                    {/*/.dropdown-menu */}
-                  </li>
-                  <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='/insta'>
-                      Instagram
-                    </a>
-                  </li>
-                  <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='/collection'>
-                      Collections
-                    </a>
-                  </li>
-                  <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='/wallpaper'>
-                      Wallpapers
-                    </a>
-                  </li>
-                  <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='/timeline'>
-                      Timeline
-                    </a>
-                  </li>
-                  <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='/about'>
-                      About
-                    </a>
-                  </li>
-                  <li className='nav-item dropdown'>
-                    <a className='nav-link dropdown-toggle' href='/contact_us'>
-                      Contact
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+          <NavbarWhite />
+          {/* Meet the team */}
           <div className='wrapper light-wrapper'>
             <div className='container inner pt-70'>
               <h1 className='heading text-center'>Meet the Team</h1>
@@ -264,9 +204,9 @@ const About = () => {
                 <div className='col-md-11' style={{ margin: "0 auto" }}>
                   <div className='box bg-white shadow p-90'>
                     <div className='main-1'>
-                      {Data.map((e) => {
+                      {Data.map((e, key) => {
                         return (
-                          <div className='teampic'>
+                          <div key={key} className='teampic'>
                             <div
                               className='about_teampic_header'
                               style={{ color: e.color }}
@@ -274,9 +214,10 @@ const About = () => {
                               {e.head}
                             </div>
                             <div className='about_teampic_member'>
-                              {e.members.map((p) => {
+                              {e.members.map((p, key) => {
                                 return (
                                   <span
+                                    key={key}
                                     className='about_teampic_member_each'
                                     style={{ color: e.memcolor }}
                                   >
@@ -393,101 +334,12 @@ const About = () => {
             </div>
             {/* /.container */}
           </div>
-
           <h1 className='heading text-center'>Developers</h1>
-
           <Developers />
-
           <div className='wrapper '>
             <div className='container inner'>
               <h1 className='heading text-center'>Our Projects</h1>
-              <div className='row'>
-                {/*/column */}
-                <div className='col-md-6'>
-                  <h4 className='mb-20'>Storygram</h4>
-                  <p className='text-justify'>
-                    Every picture has a story behind it! The picture shows its
-                    emotions through telling its unique story. A photographer is
-                    the one who knows each and every chapter of the photograph
-                    he takes. "Storygram" is a project of Junoon that admires
-                    clicking pictures that describe a story. It is just a random
-                    capturing of certain moments that are converted into a
-                    story. Different sceneries and sentiments in the surrounding
-                    are enough to encourage the cameraman to frame them. This
-                    project has helped the people to take photos suitable for a
-                    storygram. A kid, fruit-sellers, animals, roads, shelters,
-                    people, that means anything or anybody can contribute in the
-                    storygram. Storygram really makes the soul of a reader
-                    cherished by reading such heart-touching posts.
-                  </p>
-                </div>
-                {/* /column */}
-                <div className='col-md-6'>
-                  <h4 className='mb-20'>Project Perspective</h4>
-                  <p className='text-justify'>
-                    An eye of the photographer can see the weirdest things in an
-                    impressive fashion! The cameraman is always in a search of
-                    such moments. One of the amazing projects of Junoon is
-                    "Project Perspective" which is completely based on this
-                    theme. This gives you the freedom of clicking anything that
-                    may be real or illusionistic but it should blow the mind of
-                    the viewers by its creativity. You can find imaginativeness
-                    anywhere in this big sphere. To admire the scene in a
-                    different perspective all you need is to grope flora-fauna,
-                    architecture, monuments, people and many more things. This
-                    project has been going on for many years. People in Junoon
-                    have always come out with their unexpected innovativeness
-                    followed by their super skills in photography.
-                  </p>
-                </div>
-                <div className='col-md-6' style={{ margin: "0 auto" }}>
-                  <h4 className='mb-20'>Humans of NSUT</h4>
-                  <p className='text-justify'>
-                    The world is a stage. We merely tell untold stories through
-                    pictures and captions. We talk to different people who are a
-                    part of the NSUT family. Be it the seniors who share
-                    unfiltered experiences of their college life, the professors
-                    who taught us well, or the bhaiya at McCain famous for his
-                    Perri Perri fries! Inspired by the Humans of New York,
-                    Humans of NSUT is for all the people who contribute directly
-                    or indirectly to make these 145 acres in southwest Delhi
-                    exciting and fun. Cheers to all the humans out there! we owe
-                    it to you.
-                  </p>
-                </div>
-
-                {/* <div className='col-md-6'>
-                  <h4 className='mb-20'>Department 5</h4>
-                  <p>
-                    Duis mollis, est non commodo luctus, nisi porttitor ligula,
-                    eget lacinia odio sem nec elit. Aenean eu leo quam.
-                    Pellentesque ornare sem. Nullam id dolor id nibh ultricies
-                    vehicula ut id elit ullamcorper.
-                  </p>
-                  <ol>
-                    <li>Vivamus sagittis lacus vel augue laoreet.</li>
-                    <li>Cras mattis consectetur purus sit amet.</li>
-                    <li>Vestibulum id ligula porta felis euismod.</li>
-                    <li>Nulla vitae elit libero, a pharetra augue.</li>
-                  </ol>
-                </div> */}
-                {/* <div className='col-md-6'>
-                  <h4 className='mb-20'>Department 6</h4>
-                  <p>
-                    Duis mollis, est non commodo luctus, nisi porttitor ligula,
-                    eget lacinia odio sem nec elit. Aenean eu leo quam.
-                    Pellentesque ornare sem. Nullam id dolor id nibh ultricies
-                    vehicula ut id elit ullamcorper.
-                  </p>
-                  <ol>
-                    <li>Vivamus sagittis lacus vel augue laoreet.</li>
-                    <li>Cras mattis consectetur purus sit amet.</li>
-                    <li>Vestibulum id ligula porta felis euismod.</li>
-                    <li>Nulla vitae elit libero, a pharetra augue.</li>
-                  </ol>
-                </div> */}
-                {/* /column */}
-              </div>
+              <OurProjects />
               {/*/.row */}
               <div className='space10' />
               {/* <div className='text-center'>
@@ -498,7 +350,6 @@ const About = () => {
             </div>
             {/* /.container */}
           </div>
-
           <div className='wrapper '>
             <div className='container inner'>
               <h1 className='heading text-center'>Our Departments</h1>
@@ -637,8 +488,7 @@ const About = () => {
           >
             {/* /.container */}
           </div>
-
-          {/* /.wrapper */}
+          {/* Words of alumni */}
           {/* <div className='wrapper light-wrapper'>
             <div className='container inner'>
               <h2 className='section-title text-center'>Words of Alumuni</h2>
@@ -657,9 +507,8 @@ const About = () => {
                       </footer>
                     </blockquote>
                   </div>
-                 
                 </div>
-               
+
                 <div className='cbp-item'>
                   <div className='box bg-white shadow'>
                     <blockquote className='icon icon-left'>
@@ -674,9 +523,8 @@ const About = () => {
                       </footer>
                     </blockquote>
                   </div>
-                 
                 </div>
-                
+
                 <div className='cbp-item'>
                   <div className='box bg-white shadow'>
                     <blockquote className='icon icon-left'>
@@ -691,9 +539,8 @@ const About = () => {
                       </footer>
                     </blockquote>
                   </div>
-                
                 </div>
-               
+
                 <div className='cbp-item'>
                   <div className='box bg-white shadow'>
                     <blockquote className='icon icon-left'>
@@ -708,9 +555,8 @@ const About = () => {
                       </footer>
                     </blockquote>
                   </div>
-                 
                 </div>
-              
+
                 <div className='cbp-item'>
                   <div className='box bg-white shadow'>
                     <blockquote className='icon icon-left'>
@@ -725,9 +571,8 @@ const About = () => {
                       </footer>
                     </blockquote>
                   </div>
-                  
                 </div>
-               
+
                 <div className='cbp-item'>
                   <div className='box bg-white shadow'>
                     <blockquote className='icon icon-left'>
@@ -740,9 +585,8 @@ const About = () => {
                       <footer className='blockquote-footer'>Cory Zamora</footer>
                     </blockquote>
                   </div>
-                 
                 </div>
-              
+
                 <div className='cbp-item'>
                   <div className='box bg-white shadow'>
                     <blockquote className='icon icon-left'>
@@ -757,15 +601,12 @@ const About = () => {
                       </footer>
                     </blockquote>
                   </div>
-                  
                 </div>
-               
               </div>
-             
             </div>
-           
           </div> */}
-          {/* /.wrapper */}
+
+          {/* Best Insta Shots */}
           {/* <div className='wrapper gray-wrapper'>
             <div className='container inner'>
               <h2 className='section-title text-center'>Instagram Feed</h2>
@@ -775,76 +616,20 @@ const About = () => {
               <div className='space20' />
               <div className='tiles tiles-s'>
                 <div id='instafeed' className='items row' />
-              </div> */}
-          {/*/.tiles */}
-          {/* <div className='space40' />
+              </div>
+              <div className='space40' />
               <div className='text-center'>
                 <a href='#' className='btn'>
                   Instagram Page
                 </a>
               </div>
-            </div> */}
-          {/* /.container */}
-          {/* </div> */}
-          {/* /.wrapper */}
-
-          <footer className='dark-wrapper inverse-text'>
-            <div className='container inner'>
-              <div className='row d-md-flex align-items-md-center'>
-                <div className='col-md-4 text-center text-md-left'>
-                  <p className='mb-0'></p>
-                </div>
-                {/*/column */}
-                <div className='col-md-4 text-center footy'>
-                  <img
-                    src='#'
-                    srcSet='style/images/junoon-white.png 1x, style/images/junoon-white.png 4x'
-                    alt=''
-                  />
-                </div>
-                {/*/column */}
-                <div className='col-md-4 text-center text-md-right'>
-                  <ul className='social social-mute social-s mt-10'>
-                    <li>
-                      <a
-                        href='https://www.facebook.com/junoon.nsut/'
-                        target='_blank'
-                        rel='noopener noreferrer'
-                      >
-                        <i className='fa fa-facebook-f' />
-                      </a>
-                    </li>
-
-                    <li>
-                      <a
-                        href='https://www.instagram.com/junoon.nsut/'
-                        target='_blank'
-                        rel='noopener noreferrer'
-                      >
-                        <i className='fa fa-instagram' />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                {/*/column */}
-              </div>
-              {/*/.row */}
             </div>
-            {/* /.container */}
-          </footer>
+          </div> */}
+
+          {/* Footer */}
+          <FooterBlack />
         </div>
         {/* /.content-wrapper */}
-        {/* SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems! The following part can be removed on Server for On Demand Loading) */}
-        {/*
-
-
-
-
-
-
-
-
-*/}
       </div>
     </Fragment>
   );
