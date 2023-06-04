@@ -9,34 +9,35 @@ import NavbarWhite from "../NavbarWhite";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 const Data = [
   {
-    head: "Core Team (2022-2023)",
+    head: "Core Team (2023-2024)",
     members: ["Co-ordinator Incharge - Ms. Aastha Singh"],
     color: "white",
     memcolor: "whitesmoke",
   },
   {
     head: "Seniors",
-    members: [
-      "Deepak Verma - President Managerial",
-      "Aditya Singh - President Operations",
-      "Aasritha Lingam - Vice President",
-      "Aryan Verma - Vice President",
-      "Jaydeep Madhudiya - General Secretary",
-      "Ishkaran Kochar - Joint General Secretary",
-      "Divyanshu Kumar - Editor-In-Chief",
-      "Divyanshu Kumar - Head, Technical Dept.",
-      "Arunav Goel - Head, Event Management",
-      "Armaan Chauhan - Head, Design Dept",
-      "Parth Stark - Head, Creative Dept",
-      "Siddharth Gupta - Head, Public Relations",
-      "Shristi Agarwal - Head, External Affairs",
-      "Naman Gogia - Head, External Affairs",
-      "Sanjay Chowdhary - Head, Media Dept.",
-      "Naman Singh - Senior Executive Member",
-      "Unnat Mittal - Senior Executive Member",
-      "Raghav Garg - Senior Executive Member",
-      "Atharv Rustagi - Senior Executive Member",
-      "Vishal Vishwakarma - Senior Executive Member",
+    members: [      
+      "Prakash Choudhary - President Managerial",
+      "Sankalp Roy - President Operational",
+      "Aryan Maurya - Vice President",
+      "Bhavya Singh - Vice President",
+      "Rohan Singh - General Secretary",
+      "Kartikeya Chhikara - Joint General Secretary",
+      "Bhavya Mittal - Editor-In-Chief",
+      "Amrutanshu Tyagi - Head Technical Dept.",
+      "Jatin Rawat - Head Technical Dept.",
+      "Kartikeya Gupta - Head Event Management",
+      "Darsh Mittal - Head Design",
+      "Priyanka - Head External Affairs",
+      "Devanshi Sharma - Head Media Dept.",
+      "Ayush Kumar - Head Creative",
+      "Divy Kant - Head Public Relations",
+      "Pratap Ranjan - Senior Executive Members",
+      "Pranav Chauhan - Senior Executive Members",
+      "Adarsh Kumar - Senior Executive Members",
+      "Harsh Tomar - Senior Executive Members",
+      "Tanuj Vats - Senior Executive Members",
+      "Yashasvee Suri - Senior Executive Members",
     ],
     color: "white",
     memcolor: "whitesmoke",
@@ -44,29 +45,30 @@ const Data = [
   {
     head: "Juniors",
     members: [
-      "Adarsh Kumar",
-      // "Aditya Kumar",
-      "Amrutanshu Tyagi",
-      "Aryan Maurya",
-      // "Arsh Poddar",
-      "Ayush Kumar",
-      "Bhavya Mittal",
-      "Bhavya Singh",
-      "Darsh Mittal",
-      "Devanshi Sharma",
-      "Divy Kant",
-      "Harsh Tomar",
-      "Jatin Rawat",
-      "Kartikeya Chhikara",
-      "Kartikeya Gupta",
-      "Prakash Choudhary",
-      "Pranav Chauhan",
-      "Pratap Ranjan",
-      "Priyanka Kumari",
-      "Rohan Singh",
-      "Sankalp Roy",
-      "Tanuj Vats",
-      "Yashasvee Suri",
+      "Aayush Yadav",
+      "Abhigya Gupta",
+      "Akshana Prasad",
+      "Allen Singh",
+      "Amit Biswas",
+      "Ananya Mishra",
+      "Aniket Kumar",
+      "Ansh Saxena",
+      "Arpit Gupta",
+      "Arsh Poddar",
+      "Aryan Duhan",
+      "Ayush Sinha",
+      "Harshwardhan ",
+      "Hitesh Khati",
+      "Khushi Sharma ",
+      "Ojas",
+      "Priyanshu Khanda",
+      "Rahul Batra",
+      "Rishita Gupta",
+      "Kumar Samarendra",
+      "Sudhansh Chavan",
+      "Udit Pal",
+      "Utkarsh Shrivastava",
+      "Vasudha Gupta",
     ],
     color: "white",
     memcolor: "whitesmoke",
@@ -356,7 +358,42 @@ const About = () => {
               <div className='row'>
                 {/*/column */}
                 <div className='col-md-6'>
-                  <h4 className='mb-20'>Junoon Design</h4>
+                  <h4 className='mb-20'>Photography</h4>
+                  <p>
+                  At Junoon, the Photography Department is the heart and soul 
+                  of our esteemed photography club at NSUT. Our passion for 
+                  photography runs deep, and it is our primary focus. We are the 
+                  eyes that capture the essence of every event organized by the 
+                  admin, the exhilarating energy of college fests, and the memorable 
+                  moments shared during society events. When you think of photography, 
+                  you think of Junoon. With a team of highly skilled and talented 
+                  photographers, we pride ourselves on being the best in our college. We strive 
+                  to deliver exceptional visuals that preserve the spirit and significance 
+                  of each occasion. Through our lenses, we transform fleeting moments 
+                  into everlasting memories, encapsulating the true essence of Junoon.
+                  </p>
+                </div>
+                <div className='col-md-6'>
+                  <h4 className='mb-20'>Content Writers</h4>
+                  <p className='text-justify'>
+                    Every photograph ever clicked at Junoon has a story and we
+                    are here to tell you those untold stories. We have many
+                    stories of this 145 acres campus be it of utmost happiness
+                    to sadness, success to disappointments, extreme positives to
+                    negatives. We capture stories of various people including
+                    the curious fresher who still has not toured the entire
+                    campus, McCain uncle who is just having a usual busy day at
+                    work, the security guard who asks for ID card even if you
+                    are entering the college for the millionth time or maybe a
+                    random student getting late for his class. We write
+                    storygrams which give life to the photographs and make you
+                    believe that a single photograph is capable of telling a
+                    thousand stories.
+                  </p>
+                </div>
+
+                <div className='col-md-6'>
+                  <h4 className='mb-20'>Graphic Design</h4>
                   <p className='text-justify'>
                     Creativity is a speciality that is necessarily not possessed
                     by everyone, but a Graphic Designer is blessed with this
@@ -378,7 +415,7 @@ const About = () => {
                   </p>
                 </div>
                 <div className='col-md-6'>
-                  <h4 className='mb-20'>VideoGraphy</h4>
+                  <h4 className='mb-20'>Videography</h4>
                   <p className='text-justify'>
                     Video means, just pick up the camera and move it all-around,
                     record and broadcast whatever that you want. Isn't it?
@@ -395,32 +432,15 @@ const About = () => {
                     sound production and applying designs to it. Videographers
                     are plentiful creative which is a really important part of
                     their profession as through video one can offer a fantastic
-                    and engaging experience to the audience. A video can show
+                    and engaging experience to the audience. 
+                    {/* A video can show
                     the enthusiasm of a videographer around the globe and
                     establish an emotional relationship that compels the
-                    onlookers to cherish the efforts pushed in the video!
+                    onlookers to cherish the efforts pushed in the video! */}
                   </p>
                 </div>
 
-                <div className='col-md-6'>
-                  <h4 className='mb-20'>Content Writers</h4>
-                  <p className='text-justify'>
-                    Every photograph ever clicked at Junoon has a story and we
-                    are here to tell you those untold stories. We have many
-                    stories of this 145 acres campus be it of utmost happiness
-                    to sadness, success to disappointments, extreme positives to
-                    negatives. We capture stories of various people including
-                    the curious fresher who still has not toured the entire
-                    campus, McCain uncle who is just having a usual busy day at
-                    work, the security guard who asks for ID card even if you
-                    are entering the college for the millionth time or maybe a
-                    random student getting late for his class. We write
-                    storygrams which give life to the photographs and make you
-                    believe that a single photograph is capable of telling a
-                    thousand stories.
-                  </p>
-                </div>
-
+                
                 <div className='col-md-6'>
                   <h4 className='mb-20'>Tech-Department</h4>
                   <p className='text-justify'>
@@ -439,36 +459,26 @@ const About = () => {
                     interact and improve together.
                   </p>
                 </div>
-                {/* <div className='col-md-6'>
-                  <h4 className='mb-20'>Department 5</h4>
+                 <div className='col-md-6'>
+                  <h4 className='mb-20'>Social Media</h4>
                   <p>
-                    Duis mollis, est non commodo luctus, nisi porttitor ligula,
-                    eget lacinia odio sem nec elit. Aenean eu leo quam.
-                    Pellentesque ornare sem. Nullam id dolor id nibh ultricies
-                    vehicula ut id elit ullamcorper.
+                  The Social Media Department at Junoon is the vibrant and 
+                  interactive face of our photography society. 
+                  They take charge of our Instagram handle and Facebook page, 
+                  connecting with our followers and showcasing the essence of 
+                  Junoon. With a keen eye for creativity, they curate and 
+                  feature our finest photographs, captivating videos from the 
+                  Videography Department, and stunning posters designed by the 
+                  Graphic Design Department. Moreover, they actively engage with 
+                  our community through the hashtag #junoonnsut, where every 
+                  user who shares their exceptional photograph using the hashtag 
+                  has the chance to be featured on our page. Through their 
+                  dedication, the Social Media Department ensures that Junoon's 
+                  captivating visuals reach a wider audience, fostering a sense 
+                  of excitement and appreciation for the art of photography.
                   </p>
-                  <ol>
-                    <li>Vivamus sagittis lacus vel augue laoreet.</li>
-                    <li>Cras mattis consectetur purus sit amet.</li>
-                    <li>Vestibulum id ligula porta felis euismod.</li>
-                    <li>Nulla vitae elit libero, a pharetra augue.</li>
-                  </ol>
-                </div> */}
-                {/* <div className='col-md-6'>
-                  <h4 className='mb-20'>Department 6</h4>
-                  <p>
-                    Duis mollis, est non commodo luctus, nisi porttitor ligula,
-                    eget lacinia odio sem nec elit. Aenean eu leo quam.
-                    Pellentesque ornare sem. Nullam id dolor id nibh ultricies
-                    vehicula ut id elit ullamcorper.
-                  </p>
-                  <ol>
-                    <li>Vivamus sagittis lacus vel augue laoreet.</li>
-                    <li>Cras mattis consectetur purus sit amet.</li>
-                    <li>Vestibulum id ligula porta felis euismod.</li>
-                    <li>Nulla vitae elit libero, a pharetra augue.</li>
-                  </ol>
-                </div> */}
+                </div>
+                
                 {/* /column */}
               </div>
               {/*/.row */}

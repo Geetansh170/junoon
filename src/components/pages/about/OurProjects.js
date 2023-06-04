@@ -23,20 +23,20 @@ function OurProjects() {
       </div>
       {/* /column */}
       <div className='col-md-6'>
-        <h4 className='mb-20'>Project Perspective</h4>
+        <h4 className='mb-20'>PhotoWars</h4>
         <p className='text-justify'>
-          An eye of the photographer can see the weirdest things in an
-          impressive fashion! The cameraman is always in a search of such
-          moments. One of the amazing projects of Junoon is "Project
-          Perspective" which is completely based on this theme. This gives you
-          the freedom of clicking anything that may be real or illusionistic but
-          it should blow the mind of the viewers by its creativity. You can find
-          imaginativeness anywhere in this big sphere. To admire the scene in a
-          different perspective all you need is to grope flora-fauna,
-          architecture, monuments, people and many more things. This project has
-          been going on for many years. People in Junoon have always come out
-          with their unexpected innovativeness followed by their super skills in
-          photography.
+        PhotoWars, the ultimate battle of photography prowess! 
+        This thrilling project pits photographers against each other 
+        in a captivating war of images. Each edition of PhotoWars unveils 
+        a unique theme, fueling the creativity and passion of participants. 
+        Taking place exclusively on our official Instagram handle, this 
+        online polling-based event allows our followers to decide the 
+        victorious photograph. Since its beginning in 2021, PhotoWars 
+        has experienced remarkable success and garnered immense engagement 
+        across our social media platforms. Our Instagram stories become 
+        the battleground, showcasing a series of captivating images. As a 
+        project and competition combined, the top three winning photographs 
+        earn the prestigious honor of being featured on our social media handles.
         </p>
       </div>
       <div className='col-md-6' style={{ margin: "0 auto" }}>

@@ -1,0 +1,26 @@
+.imgtext div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+}
+.imgtext:hover{
+    cursor: pointer;
+}
+.imgtext:hover div{
+    width: 170px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+}
+.fsbox{
+    padding: 55px 30px 6px 30px !important;
+}
