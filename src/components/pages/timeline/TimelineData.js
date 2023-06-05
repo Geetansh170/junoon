@@ -1,5 +1,29 @@
 export const TimelineData = [
   {
+    season: "Beyond the lens ft. Paritosh Anand",
+    src: "style/images/timeline_imgs/btl.jpg",
+    info: `Junoon's latest event, "Beyond the Lens," held during Moksha-Innovision 2023, featured the esteemed speaker, Mr. Paritosh Anand. A renowned content creator, creative director, storyteller, and speaker, Mr. Paritosh captivated the audience with his insightful journey in the industry. The interactive speaker session provided a platform to delve beyond the surface of social media content and discover the untold stories and struggles. Having been featured on esteemed platforms like Forbes, Hindustan Times, and Times of India, Mr. Paritosh showcased his expertise. Junoon continues to inspire and connect through such enriching events.`,
+    year: "2022",
+  },
+  {
+    season: "PhotoGallery",
+    src: "style/images/timeline_imgs/DSC_5455.jpg",
+    info: `On January 17, 2023, Junoon hosted its inaugural PhotoGallery on the orientation day for the '26 batch. The event featured a captivating display of the finest photographs captured by our talented photographers. The exhibition drew a significant number of students who were eager to appreciate and learn more about the art of photography. The members of Junoon were present throughout the event, assisting individuals who were keen to understand the techniques and locations behind the showcased photographs, offering guidance on enhancing their photography skills, and encouraging them to join the society. The event triumphed as a resounding success.`,
+    year: "2023",
+  },
+  {
+    season: "Resonanz'22 Official Aftermovie ",
+    src: "style/images/timeline_imgs/cover9.jpg",
+    info: `Junoon made an aftermovie for Resonanz, the Intra-College Cultural Fest of NSUT. The newly formed Videography Department made diligent efforts, which were showcased brilliantly as they presented a captivating compilation of the events that were held during the three days of the fest. `,
+    year: "2022",
+  },
+  {
+    season: "Videography Department Formed",
+    src: "style/images/timeline_imgs/video.jpg",
+    info: `Introducing the Videography Department of Junoon. For the passion of capturing moments in motion, this department specializes in creating captivating reels, mesmerizing aftermovies, stunning cinematography, etc. From documenting events to crafting visual narratives, they bring stories to life through the lens. `,
+    year: "2022",
+  },
+  {
     season: "WE LOVE YOU SENIORS (BATCH OF NSIT'22)",
     src: "https://user-images.githubusercontent.com/71789479/163712270-e26fd67e-5c9c-4ecb-be43-9a985cc7ecb3.png",
     info: `Over these 2 topsy turvy years at NSUT, a crazy 3 day Moksha, HoNsut, burstful photo walks and tiring event coverings, we have found a family in college. Thanks to our seniors, who mentored and nurtured us, gave us treats, scolded us, even rejected our ideas, but no matter what they always had faith in us. 
@@ -11,7 +35,7 @@ Have a great journey ahead to your newest destinations.`,
   {
     season: "PHOTOWARS INTRODUCED",
     src: "https://user-images.githubusercontent.com/71789479/163713415-2f6db221-0a3d-427d-9c1f-85d64c2b1f1a.png",
-    info: `Junoon NSUT proudly presents it's new exhilarating project, PhotoWars, wherein we'll be uploading a series of pictures on the story section of our official Instagram handle.
+    info: `Junoon proudly presents it's new exhilarating project, PhotoWars, wherein we'll be uploading a series of pictures on the story section of our official Instagram handle.
 Follow us on our official handles and stay tuned for further updates since we will be releasing the theme for this competition-cum-project pretty soon.`,
     year: "2021",
   },
@@ -36,12 +60,12 @@ Follow us on our official handles and stay tuned for further updates since we wi
   {
     season: "FIRST PHOTOWALK",
     src: "https://user-images.githubusercontent.com/71789479/163713302-b29ec9d2-fa70-44bb-890a-c0bbe2eb5653.png",
-    info: "Our first photo-walk was conducted in 2014. The location was Quran Minar. Everyone had a great time interacting with each other. Since then we have not stopped and have conducted 20+ photowalks. We have convered locations like Rashtrapaty Bhavan, Chandani Chowk, Humayu Tomb, Sundar Nursery etc.",
+    info: "Our first photo-walk was conducted in 2014. The location was Quran Minar. Everyone had a great time interacting with each other. Since then we have not stopped and have conducted 120+ photowalks. We have convered locations like Rashtrapaty Bhavan, Chandani Chowk, Humayu Tomb, Sundar Nursery etc.",
     year: "2014",
   },
   {
     season: "PROJECT REELS INTRODUCED",
-    src: "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-12.png",
+    src: "style/images/timeline_imgs/reelscover.png",
     info: "Project reels was introduced in 2014 by one of the most creative batch of NSIT's Junoon.",
     year: "2014",
   },

@@ -1,5 +1,6 @@
 import React from "react";
 import FeaturedShotItem from "./FeaturedShotItem";
+import "./featuredshots.css";
 
 function FeaturedShots() {
   let itemList = [];

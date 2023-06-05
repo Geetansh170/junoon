@@ -7,7 +7,7 @@ function NavbarWhite() {
         <div className='navbar-header'>
           <div className='navbar-brand'>
             <img
-              intrinsicsize='1268x512'
+              intrinsicsize='922x512'
               src='#'
               srcSet='style/images/junoon-black.png 1x, style/images/junoon-black.png 3x'
               alt=''

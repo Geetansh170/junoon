@@ -9,7 +9,7 @@ function RevSliderWrapper() {
         data-version='5.4.7'
       >
         <ul>
-          <li data-transition='fade' data-thumb='style/images/cover9.jpg'>
+          {/* <li data-transition='fade' data-thumb='style/images/cover9.jpg'>
             <img
               src={
                 window.innerWidth > 768
@@ -18,18 +18,22 @@ function RevSliderWrapper() {
               }
               alt=''
             />
+          </li> */}
+          <li data-transition='fade' data-thumb='style/images/cover6_.jpg'>
+            <img src='style/images/cover6_.jpg' alt='' />
           </li>
-          <li data-transition='fade' data-thumb='style/images/cover6.jpg'>
-            <img src='style/images/cover6.jpg' alt='' />
+          <li data-transition='fade' data-thumb='style/images/cover8_.jpg'>
+            <img src='style/images/cover8_.jpg' alt='' />
           </li>
-          <li data-transition='fade' data-thumb='style/images/cover5.jpeg'>
-            <img src='style/images/cover5.jpeg' alt='' />
+          <li data-transition='fade' data-thumb='style/images/cover4_.jpeg'>
+            <img src='style/images/cover4_.jpeg' alt='' />
           </li>
+          <li data-transition='fade' data-thumb='style/images/cover7_.jpeg'>
+            <img src='style/images/cover7_.jpeg' alt='' />
+          </li>
+          
           <li data-transition='fade' data-thumb='style/images/cover7.jpeg'>
             <img src='style/images/cover7.jpeg' alt='' />
-          </li>
-          <li data-transition='fade' data-thumb='style/images/cover4.jpeg'>
-            <img src='style/images/cover4.jpeg' alt='' />
           </li>
         </ul>
         <div className='tp-static-layers'>

@@ -64,9 +64,9 @@ const Home = () => {
             }, step);
         }
         if (isElementInViewport(document.getElementById("count1"))) {
-          counter("count1", 0, 124, 1000);
-          counter("count2", 0, 45, 1000);
-          counter("count3", 0, 57, 1000);
+          counter("count1", 0, 142, 1000);
+          counter("count2", 0, 63, 1000);
+          counter("count3", 0, 74, 1000);
         } else {
           counter("count1", 0, 1, 1);
           counter("count2", 0, 1, 1);
@@ -95,7 +95,7 @@ const Home = () => {
             <div className='row d-flex align-items-center'>
               <div className='col-lg-6 pr-35 pr-sm-15'>
                 <figure className='rounded'>
-                  <img src='style/images/junoon-logo-only.png' alt='' />
+                  <img src='style/images/junoon-logo-onlywithname.png' alt='' />
                 </figure>
               </div>
               {/* /column */}
@@ -104,12 +104,12 @@ const Home = () => {
                 <p style={{ textAlign: "left" }} className='lead'>
                   Founded in 2010, Junoon is a platform for photography and
                   videography enthusiasts of NSUT where they can showcase and
-                  nurture their talents . Our members excel not just in
+                  nurture their talents. Our members excel not just in
                   different genres of photography but also in film making, photo
                   editing and storytelling through pictures. We bring out our
                   flair for photography through three of our main projects:
-                  Project Perspective, Storygram and Humans Of NSUT. Two more
-                  new projects, Poll it Out and Project Reels, have been
+                  PhotoWars, Storygram and Humans Of NSUT. One more
+                  new project, Project Reels, has been
                   incorporated adding to the rich history of the society. Junoon
                   also organizes the Ethnic Day every year wherein the students
                   and the faculty come together to celebrate and display our
@@ -118,11 +118,12 @@ const Home = () => {
                   exhibit talent through their pictures that we feature on our
                   social media handles. We conduct photowalks around Delhi,
                   hence providing a captivating experience for everyone who
-                  wants to learn and grow in this field. Additionally, our team
+                  wants to learn and grow in this field. We also organise collaborative 
+                  photowalks with photography societies from other colleges. Additionally, our team
                   holds technical workshops for enhanced learning and organizes
                   time to time photography competitions. Junoon also indulges in
                   collborations with other societies to exhibit the best of
-                  happenings in NSUT.
+                  happenings in NSUT. 
                 </p>
               </div>
               {/* /column */}
