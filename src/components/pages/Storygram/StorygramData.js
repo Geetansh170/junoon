@@ -7,6 +7,115 @@
 
 export const StorygramData = [
   {
+    href: "https://www.facebook.com/photo/?fbid=634348642048590&set=a.463201325829990",
+    postContent: `In the bustling streets of Mumbai, Ahmed, a devoted father, worked as a vegetable transporter, with his son Ali faithfully accompanying him on their daily deliveries. The air carried a scent of spices and despair. Together, they maneuvered down narrow alleyways and vibrant marketplaces, their lives intricately woven into the fabric of their daily journeys. With unwavering determination, Ahmed bore the weight of sacks filled with fresh produce on his stooped back. This day held a special significance for both father and son, marking a new chapter that would deviate from their usual path.
+      As they cycled through the neighborhoods, passing luxurious high-rises where laughter echoed from balconies adorned with flowing curtains. Ali gazed at the streets and passersby. His innocent eyes held dreams and longing as he asked, "Abbu, will we ever have enough money for new clothes?" Ahmed's heart ached, his grip tightening on the handlebars. With a voice heavy with hope and sorrow, he replied, "Soon, my son," he assured him, his voice trembling with emotion. Glistening with unshed tears, Ahmed's eyes carried the weight of their unfulfilled dreams, a testament to the hardships they had endured. "One day," he promised, his voice filled with a resolute determination and a glimmer of hope, "we will have a home where laughter replaces tears, where our hearts find solace." Unbeknownst to Ali, their path would soon be altered, as he would accompany his father on a small yet significant journey—to school.
+      Perched on a worn-out sack of garlic, Ali clung tightly to his father's back. Ahmed smiled, his eyes reflecting pride and joy. "Today, my son, I will fulfill a promise I made to you long ago. I am enrolling you in a school."
+      "Remember, my son, education is the key that unlocks doors to many opportunities," he continued, conviction lacing his voice. "Never let anyone tell you that your dreams are out of reach. While we may lack the luxuries of a big house or new clothes, education is a beacon of hope, a chance to break free from the chains of poverty. Your dreams, my son, carry the weight of our hearts."`,
+    date: "28 MAY 2023",
+  },
+  {
+    href: "https://www.facebook.com/photo/?fbid=626382979511823&set=a.463201325829990",
+    postContent: `The bustling marketplace was alive with the sounds and smells of commerce. The vendors called out their wares, enticing customers with their colorful display of fruits and vegetables, clothes and shoes. In the midst of it all, a man could be seen making his way down a narrow alley, his arms laden with six heavy containers of drinking water. As it has been rightly said, “the status of the job doesn’t determine its worth; the effort you put into it does“, this man has tried to live by those words his entire life.
+
+      The man's name was Sunil, and he was a water seller. He made his living by delivering water to the vendors and shopkeepers of the market for their daily use during the working hours. It was hard work, but Sunil took pride in his job and the essential service he provided to the community.
+      
+      As he made his way down the alley, Sunil's muscles strained under the weight of the containers. He was careful not to bump into the vendors and their carts, navigating the crowded space with practiced ease. He knew that a spill could mean contracted profits and angry customers.
+      
+      Despite the heat and physical exertion, he remained focused on his task. He knew that his family depended on him to provide for them, and he took that responsibility seriously. He also took pride in the fact that his work helped to keep the market running smoothly, ensuring that everyone had access to clean drinking water.
+      
+      Finally, after what seemed like an eternity, Sunil reached his destination. He carefully set down the containers, wiping the sweat from his brow with the back of his hand. As he looked out over the crowded marketplace, he felt a sense of satisfaction wash over him. He knew that he had done his part to keep the community healthy and thriving, and that was all that mattered.`,
+    date: "14 MAY 2023",
+  },
+  {
+    href: "https://www.facebook.com/photo/?fbid=622311329918988&set=a.463201325829990",
+    postContent: `"Rohan! Get a passport-size photo clicked, today is the last date to paste it in the diary" Rohan's mom screamed from the window as he rushed towards his dad, who was waiting for him. He just gave his father a guilty smile, and his dad sighed, revving the engines of his 'Bajaj Chetak'.
+      "Nawab sahib, hold on tight, anyways today again I will be late for office because of you." With that, he held on to his father, leaving light creases on his ironed shirt.
+      
+      Rohan recalled fond memories of
+      his childhood at Gopi Kaka’s studio while waiting for his passport-size photos. Almost a decade has gone by since he has known this place, and nothing has changed. Old cameras still decorated the windows, and his tools were spread all over his workspace. But there was one very old, rather captivating photo that caught his attention.
+      
+      "Kaka whose photo is that?"
+      
+      “Oh, that! That’s a photo of my childhood vacation from Haridwar. My father took me there considering my love for travelling. That’s why I love cameras so much. Ye chhota sa dabba bina kisi saadhan ke kaahin bhi hone ka ehsaas dila deta hai."
+      
+      On his way back home, Rohan couldn't help but remember Rick Riordan's quote, "It's funny how humans can wrap their minds around things and fit them into their version of reality." Gopi Kaka wanted to travel the world, but the shackles of financial responsibility didn't allow him to. He then manipulated his perception of his family business and accepted it as an outlet for his dreams to grow. Life might have made him a character in its treacherous joke, in which a lifeless object got to travel more than a human waiting for his turn, but he outsmarted life and made inner peace with it. Maybe it is what we all are doing with ourselves, creating our own image irrespective of the shapes and sizes of the puzzle pieces.
+      `,
+    date: "7 MAY 2023",
+  },
+  {
+    href: "https://www.facebook.com/photo/?fbid=613774510772670&set=a.463201325829990",
+    postContent: `When Kahlil Gibran wrote “Your children are not your children, they are the sons and daughters of Life’s longing for itself; They come through you but not from you, and though they are with you yet they belong not to you”, what he meant was not just that a parent can’t force their thoughts and opinions on their children, but also the fact that children like birds, can't, and must not, be caged in. Else they either develop a bitter resentment or partake in rebellions-often without a cause-against their parents, resulting in a turbulent childhood.
+
+    Sheetal’s husband passed away from liver cirrhosis when her children were nine. He was a drunkard, not interested in his family or children. His death left the family broken and bereft. She then decided that her children will not inherit their father’s fate.
+    
+    Thereon, she practiced uninterrupted control over her children in all forms. From what they wore to what degree they pursued, from who they became friends with to monitoring their every move. Her intentions, although presumably righteous, slowly and surely distanced her children from her. Sheetal being unaware of her toxicity, blinded by an urge to build a bright future for her children, forgot to give her kids the space and liberty to experience life from their own lens. Not surprisingly, both her children moved out as soon as they graduated college and got decent jobs, keeping only minimal contact with her.
+    
+    So now Sheetal sits alone in the bright sunlight of her home, hoping to drain out the darkness in her life, waiting and waiting for the postman to bring the money her children seldom send home. Was she really so erroneous for wanting the best for her kids? When did she become so ignorant of everything that was happening right in front of her eyes? The guilt is consuming, the remorse is incessant.
+    But every now and then there is a soft voice, a knock on the door of her rusted heart telling her she tried her best. She keeps on living for the voice, but that too will drain out gradually. With age, she knows everything that’s right and everything that was wrong.`,
+    date: "23 APR 2023",
+  },
+  {
+    href: "https://www.facebook.com/photo/?fbid=597231619093626&set=a.463201325829990",
+    postContent: `Death doesn’t sympathize. It takes whatever it wants or rather whoever it wants. One day, if it feels like throwing a feast, it takes away the president of a country, the other day an auto driver or two when it wants to have a chill day. Innocent people, the poor, the commoners suffer the most when death decides to have an easy day. On days like these, it takes away way more than just the breadwinner of a family. It takes away the family itself. Happiness, belongingness, hope.
+
+      So one day it happened, Mohan was taken away by death in his sleep leaving his wife and two little children with nothing but a jar of meager savings and an auto he used to drive to make ends meet. As it happens, the responsibility of fulfilling the needs of her two little kids now fell on Shraddha's shoulders. Raising two traumatized kids by herself in a slum in Mumbai at first felt impossible but impossibility is futility when it comes to motherhood. Shraddha cleaned houses, worked as a chef in a nearby dhaba, and made sure her children’s education didn’t suffer. After all, the world is capitalist and there is no time to grieve.
+      
+      As one day she was helping her elder son, Aryan, revise for his science exam while cooking dinner, the lights went off and the whole street was just one dark abyss with complaining voices getting louder. Aryan felt underprepared and anxious and couldn’t wait for the power supply to be back to resume his revision. At that moment, Shraddha was determined to help him and so an idea struck her.
+      
+      She took three servings of dinner on a plate and asked her sons to follow. She turned on the ignition of Mohan's auto and there sat the three of them. In a well-lit auto, eating dinner and Aryan revising his notes, not anxious anymore. And in the amber coloured lights of Mumbai city that night, this family felt complete once again. Whole and complacent.`,
+    date: "25 MAR 2023",
+  },
+  {
+    href: "https://www.facebook.com/photo/?fbid=589229153227206&set=a.463201325829990",
+    postContent: `In a country like India, law and order is necessary at various levels.
+      Kuldhara, known to many as the oldest village in Jaisalmer, Rajasthan, was famous for being led by one of the finest five men you could come across. 
+      The men would typically be found in their office, toiling day and night for the village’s welfare. The panchayat used to have weekly meetings under the common Khejri tree, where they worked together with the villagers to resolve their grievances. It was their dedication that got them re-elected the previous year.
+      That day, the Sarpanch and his men had come to the market with a mission. They were seeking justice for poor villagers who were scammed by a shopkeeper. They had heard that a fraud in the market was selling people fake products at a price more than the original. After a lot of complaints, they decided to take the matter into their own hands.
+      The men, all wearing turbans and white kurtas, walked through the market with their eyes scanning every shop. The narrow streets lined up with stalls of everything, people bargaining over the prices of goods and the wind carrying scents of sweets and fast food. As they walked, people stepped aside, almost fearful, sensing the tension on their faces. One of the men pointed to a small shop in the corner. The group quickened their pace and the shopkeeper saw them coming. He tried to run, but it was too late.
+      The men surrounded him, grabbed him by his collar and confronted him for his actions. The shopkeeper stammered trying to defend himself but the men were not interested in his excuses. They walked him to the police chowki, determined to take legal action and make up for the loss incurred by many innocent customers. 
+      As the crowd dispersed and the market returned to its usual hustle and bustle, the memory of those  five men dressed in turbans and kurtas walking through the streets lingered on in the minds of those who witnessed it.`,
+    date: "12 MAR 2023",
+  },
+  {
+    href: "https://www.facebook.com/photo/?fbid=580421510774637&set=a.463201325829990",
+    postContent: `There was a hungover dew of triumph in the town’s atmosphere. If one was to take a deep breath at any corner of Dehradun that morning, they could feel the sharp coolness of victory pierce through them and make them regard the town’s local FC’s victory as their own, even if they had a minimal or any engagement with football erstwhile. The much-regarded Dehradun city FC had managed to win the Football nationals, breaking the ten-year-old running curse of failure. The town’s bars were full of people, chatting and watching highlights of the match from the previous day. Young boys with the club’s jersey still on, fervently mimicked the winning goal celebration.
+      And then there was Manoj. The town’s disgrace. The loner, the unsuitable former captain of Dehradun city FC, who looked way older than he was. Regret, when left to marinate in one’s heart, does things unexplainable. Manoj grew up playing football, beating record after record. He was the most beloved footballer of his time. Back in the day, the wind seemed to blow in the direction he wanted it to. For a talent like him, he could get married to the prettiest woman in town, having fame and admiration only a handful had. But with great fame, came lurching its arch-nemesis- drugs, conceit, addiction, and disruptive indecision. 
+      Fifteen years ago Manoj failed to pass the doping control test right before the finals. The team was set for failure without its captain. In a moment of spontaneous aggression, he had a fistfight with a federation official. And his leg wasn’t the only thing that got irreversibly damaged in that fight. Down went his reputation and his career. Permanently barred from the federation, his dream of playing for his country was taken away, more like self-sabotaged by his free will of substance abuse, which wasn’t very easy to let go of.
+      So today as the town celebrated, Manoj sat with his fifteen-year-old loneliness and a walking stick he couldn't do without. He stared and stared at the forest of his mistakes, alone, self-repenting, between two worlds, none fully belonging, neither welcoming of him.`,
+    date: "26 FEB 2023",
+  },
+  {
+    href: "https://www.facebook.com/photo/?fbid=575416264608495&set=a.463201325829990",
+    postContent: `Every father desires to sive his son the bast possible life.Aarav was a young boy whose father used to sell momos on the streets of Manali. This had been their family business for generations, but his father had aspirations to study. Unfortunately, due to financial constraints, he was unable to do so and had to work at the stall from a young age. Knowing how painful it was to give up his dreams, he wanted his son to have the opportunity to study and choose his own path in life.
+        Aarav was a bright and joyful kid who always looked forward to going to school. However, after a reshuffling of students in his class, he began to come home from school looking sad. At first, his father thought he might be having trouble fitting in with his new classmates and decided to give him some time. But with time his joyful smile disappeared.
+        One day, Aarav didn't return home on time.
+        Worried about his whereabouts, his family started looking for him. After hours of searching, someone found him sitting at the family's stall. His father rushed there and saw him sitting there crying alone. In those chaotic market streets, everything went silent and he took a sigh of relief as his son was safe. He picked him up and hugged him tightly trying to comfort him.
+        Holding back his tears, Aarav asked his father, "Is it wrong to sell momos?"
+        •
+        "No", his father said in a very calm voice. He was carefully studying his son's teary brown eyes.
+        "Then why do people tease me for it?"
+        His father knew just what to say.
+        He sat his son down and explained,
+        "Your grandfather and even his grandfather, we have been doing this for a long time. The books you read, the toys you play with, the food you eat and everything else comes from these momos only. Instead of being ashamed of your roots, be proud of everyone's hard work and sacrifices."
+        Aarav understood the importance of his heritage and started to view his family's business in a different way after that day. He no longer felt ashamed or sad, instead, he bore it with dignity.
+        `,
+    date: "19 FEB 2023",
+  },
+  {
+    href: "https://www.facebook.com/photo/?fbid=571137795036342&set=a.463201325829990",
+    postContent: `Memory|स्मृति|याद
+
+    I love visiting my family in Delhi whenever I fly back to India. It’s mostly for work but this time it was because of dad. Upon being informed of his demise, I flew back to Delhi for his last rites. We didn’t have the best father-son relationship, but I loved him and I knew he loved me too. Being the only child of parents who were both brought up in Old Delhi, I grew up listening to ghazals and stories about Delhi which I have only now come to appreciate. My dad used to sing out loud this one quote while showing me around
+    
+    "इक रोज़ अपनी रूह से पूछा, कि दिल्ली क्या है, तो यूं जवाब में कह गए, ये दुनिया मानो जिस्म है और दिल्ली उसकी जान।"
+    
+    This city meant more to him than the megacities I have worked in as an IFS officer. He insisted on not moving abroad with me even on my multiple requests. He did agree to settle in a posh area where I bought him and mum a house. What meant even more to him than Delhi was his scooter, the scooter we went grocery shopping on, the scooter he bought right after I was born, from his years of savings. The very scooter I have slept on the backseat of as he dropped me off to school every morning, the scooter I have ridden as dad took me from Jama Masjid to Red Fort to Chandni Chowk, narrating stories I will never know were hypothetical or not.
+    
+    A tempest of childhood memories came gushing in as I arrived at our old house the morning I was set to fly back. The scooter was carefully parked right outside our house. I felt an ice cube roll through my food pipe into my stomach. My chest tightened, as I handed over a duplicate key of the scooter I had earlier found in my dad’s things to Pankaj chacha, our long-time neighbor. “Dhyaan Rakhna”, I looked back and left, then looked back again and continued till I couldn’t anymore, till the street disappeared into an eerie morning fog of regret and selfishness, with the number 9388 etched to my heart as my fingers used to etch to dad’s shirt on that very scooter.`,
+    date: "13 FEB 2023",
+  },
+  {
     href: "https://www.facebook.com/photo/?fbid=560140342802754&set=a.463201325829990",
     postContent: `Life isn't all about the hustle and bustle. Sometimes taking a break can make you feel more alive than anything else. It's only when we slow down that we truly appreciate the people and things around us. You realise the value of those who stand by your side once you have lost them. Wealth, power, fame, a man can attain it all but in those moments of your life when you feel empty and lonely, nothing can fill up that void. 
     I am afraid of being alone. Not like I fear ghosts or that I am weak but I am afraid of myself. I am afraid of what my demons might do if I lose my control even for a minute. My fear binds me, it restricts me. But I guess fear binds us all. Afterall, the only thing restricting us to our limits is fear, right? Like, imagine if you didn't have to fear about food or money or love then would you be doing what you are doing? If you didn't fear death or the aftermath of your death would you be alive right now? If you didn't care what's going to happen tomorrow I guess we would start to live in the moment itself and yes this moment is exactly what makes me feel like that. Questioning everything about life, looking at my mistakes, and finally accepting who I am. I'm at the ghat amidst this chaos of birds, yet there is tranquillity and order in that too. All these chaotic thoughts that have been in my mind, I don't care about them anymore. 
