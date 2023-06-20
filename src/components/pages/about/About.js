@@ -16,7 +16,7 @@ const Data = [
   },
   {
     head: "Seniors",
-    members: [      
+    members: [
       "Prakash Choudhary - President Managerial",
       "Sankalp Roy - President Operational",
       "Aryan Maurya - Vice President",
@@ -42,37 +42,37 @@ const Data = [
     color: "white",
     memcolor: "whitesmoke",
   },
-  {
-    head: "Juniors",
-    members: [
-      "Aayush Yadav",
-      "Abhigya Gupta",
-      "Akshana Prasad",
-      "Allen Singh",
-      "Amit Biswas",
-      "Ananya Mishra",
-      "Aniket Kumar",
-      "Ansh Saxena",
-      "Arpit Gupta",
-      "Arsh Poddar",
-      "Aryan Duhan",
-      "Ayush Sinha",
-      "Harshwardhan ",
-      "Hitesh Khati",
-      "Khushi Sharma ",
-      "Ojas",
-      "Priyanshu Khanda",
-      "Rahul Batra",
-      "Rishita Gupta",
-      "Kumar Samarendra",
-      "Sudhansh Chavan",
-      "Udit Pal",
-      "Utkarsh Shrivastava",
-      "Vasudha Gupta",
-    ],
-    color: "white",
-    memcolor: "whitesmoke",
-  },
+  // {
+  //   head: "Juniors",
+  //   members: [
+  //     "Aayush Yadav",
+  //     "Abhigya Gupta",
+  //     "Akshana Prasad",
+  //     "Allen Singh",
+  //     "Amit Biswas",
+  //     "Ananya Mishra",
+  //     "Aniket Kumar",
+  //     "Ansh Saxena",
+  //     "Arpit Gupta",
+  //     "Arsh Poddar",
+  //     "Aryan Duhan",
+  //     "Ayush Sinha",
+  //     "Harshwardhan ",
+  //     "Hitesh Khati",
+  //     "Khushi Sharma ",
+  //     "Ojas",
+  //     "Priyanshu Khanda",
+  //     "Rahul Batra",
+  //     "Rishita Gupta",
+  //     "Kumar Samarendra",
+  //     "Sudhansh Chavan",
+  //     "Udit Pal",
+  //     "Utkarsh Shrivastava",
+  //     "Vasudha Gupta",
+  //   ],
+  //   color: "white",
+  //   memcolor: "whitesmoke",
+  // },
   {
     // head: "Sophomores",
     members: [
@@ -360,17 +360,19 @@ const About = () => {
                 <div className='col-md-6'>
                   <h4 className='mb-20'>Photography</h4>
                   <p>
-                  At Junoon, the Photography Department is the heart and soul 
-                  of our esteemed photography club at NSUT. Our passion for 
-                  photography runs deep, and it is our primary focus. We are the 
-                  eyes that capture the essence of every event organized by the 
-                  admin, the exhilarating energy of college fests, and the memorable 
-                  moments shared during society events. When you think of photography, 
-                  you think of Junoon. With a team of highly skilled and talented 
-                  photographers, we pride ourselves on being the best in our college. We strive 
-                  to deliver exceptional visuals that preserve the spirit and significance 
-                  of each occasion. Through our lenses, we transform fleeting moments 
-                  into everlasting memories, encapsulating the true essence of Junoon.
+                    At Junoon, the Photography Department is the heart and soul
+                    of our esteemed photography club at NSUT. Our passion for
+                    photography runs deep, and it is our primary focus. We are
+                    the eyes that capture the essence of every event organized
+                    by the admin, the exhilarating energy of college fests, and
+                    the memorable moments shared during society events. When you
+                    think of photography, you think of Junoon. With a team of
+                    highly skilled and talented photographers, we pride
+                    ourselves on being the best in our college. We strive to
+                    deliver exceptional visuals that preserve the spirit and
+                    significance of each occasion. Through our lenses, we
+                    transform fleeting moments into everlasting memories,
+                    encapsulating the true essence of Junoon.
                   </p>
                 </div>
                 <div className='col-md-6'>
@@ -432,7 +434,7 @@ const About = () => {
                     sound production and applying designs to it. Videographers
                     are plentiful creative which is a really important part of
                     their profession as through video one can offer a fantastic
-                    and engaging experience to the audience. 
+                    and engaging experience to the audience.
                     {/* A video can show
                     the enthusiasm of a videographer around the globe and
                     establish an emotional relationship that compels the
@@ -440,7 +442,6 @@ const About = () => {
                   </p>
                 </div>
 
-                
                 <div className='col-md-6'>
                   <h4 className='mb-20'>Tech-Department</h4>
                   <p className='text-justify'>
@@ -459,26 +460,27 @@ const About = () => {
                     interact and improve together.
                   </p>
                 </div>
-                 <div className='col-md-6'>
+                <div className='col-md-6'>
                   <h4 className='mb-20'>Social Media</h4>
                   <p>
-                  The Social Media Department at Junoon is the vibrant and 
-                  interactive face of our photography society. 
-                  They take charge of our Instagram handle and Facebook page, 
-                  connecting with our followers and showcasing the essence of 
-                  Junoon. With a keen eye for creativity, they curate and 
-                  feature our finest photographs, captivating videos from the 
-                  Videography Department, and stunning posters designed by the 
-                  Graphic Design Department. Moreover, they actively engage with 
-                  our community through the hashtag #junoonnsut, where every 
-                  user who shares their exceptional photograph using the hashtag 
-                  has the chance to be featured on our page. Through their 
-                  dedication, the Social Media Department ensures that Junoon's 
-                  captivating visuals reach a wider audience, fostering a sense 
-                  of excitement and appreciation for the art of photography.
+                    The Social Media Department at Junoon is the vibrant and
+                    interactive face of our photography society. They take
+                    charge of our Instagram handle and Facebook page, connecting
+                    with our followers and showcasing the essence of Junoon.
+                    With a keen eye for creativity, they curate and feature our
+                    finest photographs, captivating videos from the Videography
+                    Department, and stunning posters designed by the Graphic
+                    Design Department. Moreover, they actively engage with our
+                    community through the hashtag #junoonnsut, where every user
+                    who shares their exceptional photograph using the hashtag
+                    has the chance to be featured on our page. Through their
+                    dedication, the Social Media Department ensures that
+                    Junoon's captivating visuals reach a wider audience,
+                    fostering a sense of excitement and appreciation for the art
+                    of photography.
                   </p>
                 </div>
-                
+
                 {/* /column */}
               </div>
               {/*/.row */}
