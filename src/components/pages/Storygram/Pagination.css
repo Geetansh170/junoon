@@ -53,6 +53,10 @@
         padding: 4px;
         margin: 4px;
     }
+
+    .footy img {
+        max-width: 250px;
+    }
 }
 
 */ .paginationBttns a:hover {
