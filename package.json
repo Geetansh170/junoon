@@ -19,7 +19,7 @@
     "react-google-login": "^5.2.2",
     "react-icons": "^4.4.0",
     "react-loader-spinner": "^5.3.4",
-    "react-paginate": "^8.1.4",
+    "react-paginate": "github:AdeleD/react-paginate#master",
     "react-pdf": "^5.1.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.1",

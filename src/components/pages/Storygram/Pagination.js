@@ -9,7 +9,7 @@ function Pagination() {
   const users = StorygramData;
   const [pageNumber, setPageNumber] = useState(0);
 
-  const usersPerPage = 6;
+  const usersPerPage = 9;
   const pagesVisited = pageNumber * usersPerPage;
 
   var length = StorygramData.length;
