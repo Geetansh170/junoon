@@ -40,10 +40,13 @@ function Pagination() {
   };
 
   return (
-    <div className='container-fluid px-5'>
+    <div className='container-fluid pg-padding'>
       <ReactPaginate
         previousLabel={"<"}
         nextLabel={">"}
+        pageRangeDisplayed={4}
+        marginPagesDisplayed={2}
+        hrefAllControls
         pageCount={pageCount}
         onPageChange={changePage}
         containerClassName={"paginationBttns"}
