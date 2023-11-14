@@ -12,6 +12,23 @@
     -webkit-box-orient: vertical;
 }
 
+@media (max-width: 480px) {
+    .box {
+        padding: 30px 30px 20px !important;
+    }
+}
+@media (max-width: 480px) {
+    .box {
+        padding: 30px 30px 20px !important;
+    }
+}
+
+
+.sg-heading {
+    margin-top: 0px !important;
+    padding-top: 150px;
+}
+
 .sg-out {
     width: 30%;
     /* box-sizing: content-box; */
@@ -45,9 +62,10 @@
     .sg-img {
         height: auto;
     }
+
     .sg-out {
         width: 70%;
-        
+
     }
 
 }

@@ -21,14 +21,45 @@
 .paginationBttns a {
     padding: 10px;
     margin: 8px;
-    border-radius: 10px;
+    border-radius: 7px;
     border: 1px solid white;
     color: white;
     cursor: pointer;
-
 }
 
-.paginationBttns a:hover {
+@media (max-width: 720px) {
+    .paginationBttns a {
+        padding: 9px;
+        margin: 7px;
+    }
+}
+
+@media (max-width: 555px) {
+    .paginationBttns a {
+        padding: 6px;
+        margin: 6px;
+    }
+}
+
+@media (max-width: 385px) {
+    .paginationBttns a {
+        padding: 6px;
+        margin: 4px;
+    }
+}
+
+@media (max-width: 320px) {
+    .paginationBttns a {
+        padding: 4px;
+        margin: 4px;
+    }
+
+    .footy img {
+        max-width: 250px;
+    }
+}
+
+*/ .paginationBttns a:hover {
     color: black;
     background-color: white;
 }
@@ -48,4 +79,11 @@
 .btn-trans:hover {
     color: white !important;
     background-color: transparent !important;
+}
+
+@media (min-width : 1250px) {
+    .pg-padding {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
 }
