@@ -9,31 +9,21 @@ function RevSliderWrapper() {
         data-version='5.4.7'
       >
         <ul>
-          {/* <li data-transition='fade' data-thumb='style/images/cover9.jpg'>
-            <img
-              src={
-                window.innerWidth > 768
-                  ? "style/images/cover9.jpg"
-                  : "style/images/cover9_mobile.png"
-              }
-              alt=''
-            />
-          </li> */}
-          <li data-transition='fade' data-thumb='style/images/cover6_.jpg'>
-            <img src='style/images/cover6_.jpg' alt='' />
+          <li data-transition='fade' data-thumb='style/images/cover-1.webp'>
+            <img src='style/images/cover-1.webp' alt='' />
           </li>
-          <li data-transition='fade' data-thumb='style/images/cover8_.jpg'>
-            <img src='style/images/cover8_.jpg' alt='' />
+          <li data-transition='fade' data-thumb='style/images/cover-2.webp'>
+            <img src='style/images/cover-2.webp' alt='' loading="lazy" />
           </li>
-          <li data-transition='fade' data-thumb='style/images/cover4_.jpeg'>
-            <img src='style/images/cover4_.jpeg' alt='' />
+          <li data-transition='fade' data-thumb='style/images/cover-3.webp'>
+            <img src='style/images/cover-3.webp' alt='' loading="lazy" />
           </li>
-          <li data-transition='fade' data-thumb='style/images/cover7_.jpeg'>
-            <img src='style/images/cover7_.jpeg' alt='' />
+          <li data-transition='fade' data-thumb='style/images/cover-4.webp'>
+            <img src='style/images/cover-4.webp' alt='' loading="lazy" />
           </li>
-          
-          <li data-transition='fade' data-thumb='style/images/cover7.jpeg'>
-            <img src='style/images/cover7.jpeg' alt='' />
+
+          <li data-transition='fade' data-thumb='style/images/cover-5.webp'>
+            <img src='style/images/cover-5.webp' alt='' loading="lazy" />
           </li>
         </ul>
         <div className='tp-static-layers'>
@@ -70,7 +60,7 @@ function RevSliderWrapper() {
             data-responsive_offset='on'
             style={{ zIndex: 9 }}
           >
-            JUNOON
+            Ethnic Day 2023
           </div>
           <div
             className='tp-caption tp-static-layer font-weight-200 color-white text-center'
@@ -89,7 +79,7 @@ function RevSliderWrapper() {
             data-responsive_offset='on'
             style={{ zIndex: 9, letterSpacing: "1px" }}
           >
-            The Photography Club Of NSUT
+            Get your photos now!
           </div>
           <a
             className='tp-caption tp-static-layer btn btn-l btn-white scroll'
@@ -104,11 +94,11 @@ function RevSliderWrapper() {
             data-responsive='on'
             data-responsive_offset='on'
             style={{ width: "100%", zIndex: "9" }}
-            href='https://www.youtube.com/watch?v=-Zvyi7lo6Yk'
+            href='https://drive.google.com/drive/folders/1-DceZlxks4exmhjr9jw5On0giWGNiH2L'
             target='_blank'
             rel='noopener noreferrer'
           >
-            Watch Now
+            Google Drive
           </a>
         </div>
         <div className='tp-bannertimer tp-bottom' />
